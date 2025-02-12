@@ -1,0 +1,220 @@
+{
+  "categories": {
+    "heating-equipment": {
+      "title": "Heating Equipment",
+      "products": [
+        {
+        "id": 1,
+        "name": "Oil Heater Royal Clima ROR-PR5-1000M",
+        "specifications": "Heating power: 1000 W, Recommended heating area: 10–15 m², Number of sections: 5, Number of heating modes: 3 (soft/medium/intensive), Control: mechanical, Thermostat: mechanical, Overheat protection: yes, Automatic temperature maintenance: yes, Safe operation system: Security Project, Power supply: 220 V, Dimensions (W×H×D): 250×630×240 mm, Weight: 5.3 kg, Color: white/black, Power cord length: 1.5 m.",
+        "description":"Description",
+        "additionalInfo": "Some additional information about the product.",
+        "price": 42.10,
+        "image": [
+        "./image/heating_equipment/Royal Clima ROR-PR5-1000M/oil_heater_1.PNG",
+        "./image/heating_equipment/Royal Clima ROR-PR5-1000M/oil_heater_2.PNG",
+        "./image/heating_equipment/Royal Clima ROR-PR5-1000M/oil_heater_3.PNG"
+        ]
+        },
+        {
+        "id": 2,
+        "name": "Oil Heater Timberk TOR 21.1507 SLX",
+        "specifications": "Heating power: 1500 W, Recommended heating area: 15–20 m², Number of sections: 7, Number of heating modes: 3, Control: mechanical, Thermostat: built-in adjustable, Overheat protection: yes, STEEL SAFETY technology: prevents oil leakage, Power supply: 220 V, Dimensions (W×H×D): 310×620×235 mm, Weight: 5.9 kg, Color: milk-white.",
+        "description":"Description",
+        "additionalInfo": "Some additional information about the product.",
+        "price": 31.27,
+        "image": [
+        "./image/heating_equipment/Timberk TOR 21.1507 SLX/oil_heater_1_1.PNG"
+        ]
+        },
+        {
+        "id": 3,
+        "name": "Smart Heater Xiaomi Smart Heater ZNNFJ07ZM",
+        "specifications": "Power: 2000 W, Heating area: up to 20 m², Type of heating element: ceramic PTC, Rotation angle: 90°, Control: remote (via Mi Home app), Voice assistant support: yes, Overheat protection: yes, Timer: yes, Dimensions: 184×184×612 mm, Weight: 4 kg, Color: white",
+        "description":"Description",
+        "additionalInfo": "Some additional information about the product.",
+        "price": 64.50,
+        "image": [
+        "./image/heating_equipment/Xiaomi Smart Heater ZNNFJ07ZM/3.jfif",
+        "./image/heating_equipment/Xiaomi Smart Heater ZNNFJ07ZM/smart heater smartmi.PNG",
+        "./image/heating_equipment/Xiaomi Smart Heater ZNNFJ07ZM/smart heater smartmi_2.PNG"
+        ]
+        },
+        {
+        "id": 4,
+        "name": "Smart Convectors MIJIA Smart Heater E TJXDNQ01ZM",
+        "specifications": "Maximum power: 2200 W, Number of power levels: 2, Power stages: 900 W / 2200 W, Power level adjustment: yes, Heating area: up to 20 m², Display: yes, Power regulation: yes, Wi-Fi connection: yes",
+        "description":"Description",
+        "additionalInfo": "Some additional information about the product.",
+        "price": 99.99,
+        "image": [
+        "./image/heating_equipment/MIJIA Smart Heater E TJXDNQ01ZM/1.webp",
+        "./image/heating_equipment/MIJIA Smart Heater E TJXDNQ01ZM/2.webp",
+        "./image/heating_equipment/MIJIA Smart Heater E TJXDNQ01ZM/3.webp",
+        "./image/heating_equipment/MIJIA Smart Heater E TJXDNQ01ZM/4.webp",
+        "./image/heating_equipment/MIJIA Smart Heater E TJXDNQ01ZM/5.webp",
+        "./image/heating_equipment/MIJIA Smart Heater E TJXDNQ01ZM/6.webp"
+        ]
+        },
+        {
+        "id": 5,
+        "name": "Smart Convectors SLS WIFI",
+        "specifications": "Power: 2000 W, Maximum heating area: up to 30 m², Heater type: convection, Installation: floor-standing, Control type: via smartphone, Wi-Fi: yes, Electronic thermostat: yes, Timer: up to 9 hours, Maximum heating temperature: up to 35°C",
+        "description":"Description",
+        "additionalInfo": "Some additional information about the product.",
+        "price": 70.85,
+        "image": [
+        "./image/heating_equipment/SLS WIFI/1.jpg",
+        "./image/heating_equipment/SLS WIFI/2.jfif",
+        "./image/heating_equipment/SLS WIFI/3.jfif",
+        "./image/heating_equipment/SLS WIFI/4.jfif"
+        ]
+        },
+        {
+        "id": 6,
+        "name": "Electric Convector Monlan ML-10",
+        "specifications": "Power: 1000 W, Type of heating element: stitch-element, Control: mechanical, Mode regulator: yes, Thermostat: mechanical",
+        "description":"Description",
+        "additionalInfo": "Some additional information about the product.",
+        "price": 19.00,
+        "image": [
+        "./image/heating_equipment/Monlan ML-10/convector.PNG"
+        ]
+        },
+        {
+        "id": 7,
+        "name": "Electric Convector Ballu Solo Turbo BEC/SMT-1000",
+        "specifications": "Power: 1000 W, Heating area: up to 15 m², Type of heating element: monolithic X-shaped, Control: mechanical, Thermostat type: mechanical, Temperature regulation: yes, Temperature setting accuracy: 1.0 °C, Number of heating modes: 1, Power-on indication: yes, Overheat protection: yes, Emergency shutdown on tilt or overturn: yes, Dust and moisture protection class: IP24, Installation type (mounting): floor-standing, Maximum power consumption: 1 kW, Power supply voltage: 220 - 240 V, Power cable: yes (with plug), Cable length: 1.2 m, Floor installation kit: yes, Wall mounting kit: additional option, Set of fasteners included: yes",
+        "description":"Description",
+        "additionalInfo": "Some additional information about the product.",
+        "price": 34.90,
+        "image": [
+        "./image/heating_equipment/Ballu Solo Turbo BECSMT-1000/2.png",
+        "./image/heating_equipment/Ballu Solo Turbo BECSMT-1000/3.png"
+        ]
+        },
+        {
+        "id": 8,
+        "name": "Electric Convector Ballu Camino Eco Turbo BEC/EMT-2500",
+        "specifications": "Power: 2500 W, Effective for rooms up to 30 m², Type of heating element: monolithic X-shaped, Control: mechanical, Thermostat type: mechanical, Temperature regulation: yes, Temperature setting accuracy: 1.0 °C, Number of heating modes: 1, Power-on indication: yes, Overheat protection: yes, Emergency shutdown on tilt or overturn: yes, Dust and moisture protection class: IP24, Installation type (mounting): floor-standing, Maximum power consumption: 2.5 kW, Power supply voltage: 220 - 240 V, Power cable: yes (with plug), Cable length: 1.2 m, Floor installation kit: yes, Wall mounting kit: additional option, Set of fasteners included: yes, Weight: 5 kg, Dimensions (HxWxD): 40x83x8.9 cm",
+        "description":"Description",
+        "additionalInfo": "Some additional information about the product.",
+        "price": 62.90,
+        "image": [
+        "./image/heating_equipment/Ballu Camino Eco Turbo BECEMT/2.png",
+        "./image/heating_equipment/Ballu Camino Eco Turbo BECEMT/Ballu_1000.PNG",
+        "./image/heating_equipment/Ballu Camino Eco Turbo BECEMT/Ballu_2000.PNG"
+        ]
+        },
+        {
+        "id": 9,
+        "name": "Thermal Fan Timberk T-FH1500-H11MC",
+        "specifications": "Power: 1500 W, Type of heating element: ceramic, Control: mechanical, Thermostat: mechanical, Cable length: 1.6 m, Purpose: floor-standing, Legs included: no, Color: white, Product type: fan heater, Main material: ABS-plastic, Dimensions (HxWxD): 23x17x13 cm",
+        "description":"Description",
+        "additionalInfo": "Some additional information about the product.",
+        "price": 17.99,
+        "image": [
+        "./image/heating_equipment/Timberk T-FH1500-H11MC/1.PNG"
+        ]
+        },
+        {
+        "id": 10,
+        "name": "Thermal Fan Ballu BFH-S-33",
+        "specifications": "Heating power: 0.75/1.5 kW, Recommended heating area (at ceiling height 2.6 m): up to 20 m², Number of operating modes: 3, Number of temperature modes: 2, Fast heating: Yes, Maximum noise level: 55 dB, Display: none, Remote control type: none, Heating element: ceramic, Grille: metal, Carry handle: Yes, Housing material: plastic, Protection rating: IP20",
+        "description":"Description",
+        "additionalInfo": "Some additional information about the product.",
+        "price": 19.99,
+        "image": [
+        "./image/heating_equipment/Ballu BFHС-33/Ballu_termo_fen.PNG",
+        "./image/heating_equipment/Ballu BFHС-33/Ballu_termo_fen_2.PNG",
+        "./image/heating_equipment/Ballu BFHС-33/Ballu_termo_fen_3.PNG",
+        "./image/heating_equipment/Ballu BFHС-33/Ballu_termo_fen_4.PNG"
+        ]
+        },
+        {
+        "id": 11,
+        "name": "Electric infrared heater Ballu BIH-T-3.0",
+        "specifications": "Power: 3000 W, Type of heating element: infrared, Installation: ceiling or wall-mounted, Possibility of angled mounting: yes, Effectiveness at negative temperatures and in wind: yes, Digital display: no, Voltage: 380 V, Recommended heating area: 30 m², Wavelength: 3.14 µm, Dimensions without packaging: 935х305х60 mm, Net weight: 4.6 kg, Gas-powered: no, Protection rating: IP20",
+        "description":"Description",
+        "additionalInfo": "Some additional information about the product.",
+        "price": 73.52,
+        "image": [
+        "./image/heating_equipment/Ballu BIH-T-3.0/1.webp",
+        "./image/heating_equipment/Ballu BIH-T-3.0/2.webp",
+        "./image/heating_equipment/Ballu BIH-T-3.0/3.webp",
+        "./image/heating_equipment/Ballu BIH-T-3.0/4.webp",
+        "./image/heating_equipment/Ballu BIH-T-3.0/5.webp"
+        ]
+        },
+        {
+        "id": 12,
+        "name": "Infrared heater Ballu BIH-APL-2.0-M НС-1454430",
+        "specifications": "Power: 2000 W, Type of heating element: monolithic infrared, Installation: ceiling or wall-mounted, Recommended heating area: 20 m², Wavelength: 5.9 µm, Mounting height: 4.5 m, Minimum mounting height: 2.5 m, Number of heating modes: 1, Thermostat type: mechanical, Tripod mounting: no, Protective grille: no, Remote control: no, Dimensions without packaging: 1200х260х45 mm, Net weight: 4.6 kg, Gas-powered: no, Protection rating: IP20",
+        "description":"Description",
+        "additionalInfo": "Some additional information about the product.",
+        "price": 59.39,
+        "image": [
+        "./image/heating_equipment/Ballu BIH-APL-2.0-M НС-1454430/1.webp",
+        "./image/heating_equipment/Ballu BIH-APL-2.0-M НС-1454430/2.webp",
+        "./image/heating_equipment/Ballu BIH-APL-2.0-M НС-1454430/3.webp",
+        "./image/heating_equipment/Ballu BIH-APL-2.0-M НС-1454430/4.webp",
+        "./image/heating_equipment/Ballu BIH-APL-2.0-M НС-1454430/5.webp",
+        "./image/heating_equipment/Ballu BIH-APL-2.0-M НС-1454430/6.webp"
+        ]
+        }
+      ]
+    },
+    "sensors": {
+      "title": "Sensors",
+      "products": [
+        {
+        "id": 13,
+        "name": "Micromechanical temperature & pressure sensor M1",
+        "specifications": "Dimensions: 31.3 х 31.3 х 38.5 mm, Measuring range: 0.01..10 MPa, Accuracy (for pressure, at 25°C): ±0.05…±0.50% FS, Temperature range: -40..+125°C, Accuracy (for temperature): ±1°C (type) / ±3°C (max), Ingress Protection: IP65, Power consumption: 0.3 W, Output signal: SPI",
+        "price": 50.00,
+        "description":"Description",
+        "additionalInfo": "The sensor has built-in temperature compensation.",
+        "image": [
+        "./image/Sensors/MMDD_M1/1.png",
+        "./image/Sensors/MMDD_M1/2.png",
+        "./image/Sensors/MMDD_M1/3.png"
+        ]
+        },
+        {
+        "id": 14,
+        "name": "Micromechanical temperature & pressure sensor Y1",
+        "specifications": "Dimensions: 40 х 40 х 99 mm, Measuring range (pressure): 0.01..100 MPa, Accuracy (for pressure, at 25°C): ±0.01…±0.39% FS, Temperature range: -40..+125°C, Accuracy (for temperature): ±1°C (type) / ±3°C (max), Ingress Protection: IP68, Power consumption: 0.5 W, Output signal: SPI",
+        "price": 50.00,
+        "description":"The high-tech micromechanical sensor MMDD-Y1 is designed to measure excess pressure of a gaseous medium and temperature. It has high accuracy, low consumption and built-in temperature compensation. The unified threaded connection allows the sensor to be installed directly into the route. The precise electronic interface ensures detection and data transmission in digital form via the SPI interface.",
+        "additionalInfo": "The sensor has built-in temperature compensation.",
+        "image": [
+        "./image/Sensors/MMDD_Y1/1.png",
+        "./image/Sensors/MMDD_Y1/2.png",
+        "./image/Sensors/MMDD_Y1/3.png"
+        ]
+        }
+      ]
+    },
+    "electronic-modules": {
+      "title": "Electronic Modules",
+      "products": [
+        {
+        "id": 15,
+        "name": "Pressure Sensor Interface and Signal Conditioning IC AMPS-01A",
+        "specifications": "6-bit programable gain for instrumented amplifier, 7-bit programable gain for capacitance to voltage converter, 2 operational modes of temperature sensing, Supply voltage 3.3V, 12-bit bridge offset compensation and capacitance trimming, Output signal: SPI, Operation temperature -40 ~ +85 ᴼC",
+        "price": 50.00,
+        "description":"The AMPS-01A is a highly integrated, low  power IC for capacitive and resistive  Wheatstone bridge pressure sensors, which  features  an  configurated  analog  instrument  programmable  amplifier,  programmable voltage to capacitance  converter, a low pass filter, a digital to analog  12-bit ∑∆-ADC, a digital temperature  calibration DSP and a SPI output interface. The  AMPS-01A can provide an on-chip resistive  bridge offset cancelation and capacitance  offset trimming. The AMPS-01A can provide  temperature compensation with external  temperature sensor",
+        "additionalInfo": [
+          "• Direct sensor interface for high accuracy",
+          "• Low power signal processing",
+          "• Internal diagnostics"
+          ],
+        "image": [
+          "./image/IC/1.jpg",
+          "./image/IC/2.jpg"
+        ]
+        }
+      ]
+    }
+  }
+}
