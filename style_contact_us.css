@@ -1,31 +1,36 @@
+/* Основные стили для всей страницы */
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f8f9fa;
-}
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Шрифт для всего текста на странице */
+    margin: 0; /* Убираем внешние отступы */
+    padding: 0; /* Убираем внутренние отступы */
+    background-color: #f8f9fa; /* Цвет фона страницы */
+  }
 
+
+/* Верхняя черная панель */
+/* Верхняя черная панель */
 header {
-    position: fixed;
-    top: 20px;
-    left: 50%;
+    position: fixed; /* Закрепляем панель сверху */
+    top: 20px; /* Отступ от верхней части экрана */
+    left: 50%; /* Центруем панель */
     transform: translateX(-50%);
-    width: 90%;
-    max-width: 1200px;
-    background-color: black;
+    width: 90%; /* Ширина панели */
+    max-width: 1200px; /* Максимальная ширина */
+    background-color: black; /* Непрозрачный черный фон */
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
-    height: 50px;
-    border-radius: 15px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
-    z-index: 1000;
+    padding: 10px 20px; /* отступы сверху (снизу) и слева (справа)*/
+    height: 5vh; /* Установите желаемую высоту панели */
+    border-radius: 15px; /* Закругленные углы */
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.3); /* Тень для визуального эффекта */
+    font-family: Arial, sans-serif;
+    z-index: 1000; /* Поверх всего остального */
 }
 
 header .logo {
-    font-size: 20px;
+    font-size: 130%;
     font-weight: bold;
 }
 
@@ -37,6 +42,7 @@ header nav ul {
 
 header nav ul li {
     cursor: pointer;
+    font-size: 100%; /* Шрифт текста вкладок панели */
 }
 
 header .header-buttons {
@@ -49,6 +55,7 @@ header .header-buttons button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 100%; /* Шрифт текста внутри кнопок */
 }
 
 header .header-buttons .buy {
@@ -61,64 +68,114 @@ header .header-buttons button:hover {
 }
 
 .nav-link {
-    text-decoration: none;
-    color: inherit;
-    cursor: pointer;
+    text-decoration: none; /* Убираем подчеркивание */
+    color: inherit; /* Наследуем цвет текста от родителя */
+    cursor: pointer; /* Меняем курсор на указатель */
 }
 
 .nav-link:hover {
-    color: #c3c3c3;
+    color: #c3c3c3; /* Цвет при наведении */
 }
 
+/* Стили для выпадающего списка под Products */
 nav ul {
     list-style: none;
     display: flex;
     gap: 20px;
-}
-
-nav ul li {
+  }
+  nav ul li {
     position: relative;
     cursor: pointer;
-}
-
-.dropdown-menu {
+  }
+  
+  /* Скрытый выпадающий список */
+  .dropdown-menu {
     display: none;
     position: absolute;
-    top: 100%;
+    top: 100%; /* Располагаем список ниже родительского элемента */
     left: 0;
-    background-color: white;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white; /* Фон выпадающего списка */
+    border: 1px solid #ddd; /* Граница */
+    border-radius: 5px; /* Закругленные края */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень */
     padding: 10px 0;
     z-index: 10;
-    min-width: 200px;
-}
-
-.dropdown-menu li {
+    min-width: 200px; /* Минимальная ширина */
+  }
+  
+  .dropdown-menu li {
     padding: 10px 20px;
-}
-
-.dropdown-menu li a {
+  }
+  
+  .dropdown-menu li a {
     text-decoration: none;
     color: black;
     font-size: 16px;
     display: block;
-}
-
-.dropdown-menu li a:hover {
-    background-color: #f0f0f0;
-}
-
-.dropdown:hover .dropdown-menu {
+  }
+  
+  .dropdown-menu li a:hover {
+    background-color: #f0f0f0; /* Изменение фона при наведении */
+  }
+  
+  /* Показ выпадающего списка при наведении на Products */
+  .dropdown:hover .dropdown-menu {
     display: block;
-}
+  }
 
+  /* Language Selector */
+.lang-dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .lang-btn {
+    padding: 8px 20px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .lang-menu {
+    display: none;
+    position: absolute;
+    right: 0;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 0;
+    margin-top: 5px;
+    min-width: 80px;
+    z-index: 1000;
+    list-style: none; /* Убираем маркеры списка */
+  }
+  
+  .lang-menu.show {
+    display: block;
+  }
+  
+  .lang-menu li {
+    padding: 10px;
+    color: #333;
+    cursor: pointer;
+    transition: background 0.2s;
+    text-align: center;
+  }
+  
+  .lang-menu li:hover {
+    background: #f5f5f5;
+  }
+/* -----------------------------------------------------------------------------*/
+/* Панель для отправки сообщения*/
 .container {
     max-width: 1200px;
+    width: 70%;
     margin: 0 auto;
     background: #ffffff;
-    padding: 20px 40px;
+    padding: 20px 40px; /* 20px сверху/снизу, 40px слева/справа */
     border-radius: 15px;
     box-shadow: 0 4px 20px rgba(0,0,0,0.08);
     border: 1px solid #e0e0e0;
@@ -129,7 +186,23 @@ nav ul li {
 .contact-info {
     margin-bottom: 20px;
     text-align: left;
-    margin-top: -20px;
+    margin-top: -20px; /* Компенсирует часть отступа */
+}
+
+.contact-info h1 {
+    margin-top: 3vh; /* Отступ заголовка "Contact Us" над верхом контейнера*/
+    margin-bottom: 1vh; /* Отступ текста под заголовком*/
+    color: #2E7D32;
+    font-size: 400%;
+    padding-left: 12px; /* Согласовано с padding полей ввода */
+}
+
+.contact-info p {
+    color: #616161;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    padding-left: 12px; /* Согласовано с padding полей ввода */
+    font-size: 120%;
 }
 
 .contact-form {
@@ -137,39 +210,27 @@ nav ul li {
     justify-content: space-between;
     gap: 50px;
     max-width: 1200px;
-    margin-top: 10px;
+    margin-top: 10px; /* Дополнительный отступ для формы */
 }
 
 .form-wrapper, .contact-details {
     flex: 1;
 }
 
-h1 {
-    color: #2E7D32;
-    font-size: 80px;
-    padding-left: 12px;
-}
-
-p {
-    color: #616161;
-    margin-bottom: 30px;
-    line-height: 1.6;
-    padding-left: 12px;
-    font-size: 20px;
-}
-
 .form-group {
     margin-bottom: 25px;
 }
 
+/* Заголовок ячейки*/
 label {
     display: block;
     margin-bottom: 8px;
     color: #424242;
     font-weight: 500;
-    font-size: 17px;
+    font-size: 90%;
 }
 
+/* обозначение для обязательнных полей*/
 label[for="name"]::after,
 label[for="email"]::after,
 label[for="message"]::after {
@@ -177,6 +238,8 @@ label[for="message"]::after {
     color: #e74c3c;
 }
 
+
+/* Вводимы текст внутри ячейки*/
 input, textarea {
     width: 100%;
     padding: 12px;
@@ -226,15 +289,40 @@ button.submit-btn:hover {
     border: 2px solid #e0e0e0;
 }
 
+.detail-item h1 {
+    color: #2E7D32;
+    /*margin-bottom: 15px;*/
+    font-size: 80px;
+    padding-left: 12px; /* Согласовано с padding полей ввода */
+}
+
+.detail-item p {
+    color: #616161;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    padding-left: 12px; /* Согласовано с padding полей ввода */
+    font-size: 20px;
+}
+
 .detail-item {
     margin-bottom: 25px;
     display: flex;
-    align-items: center;
+    align-items: center; /* Уже есть */
     padding: 15px;
     background: #ffffff;
     border-radius: 8px;
     border: 1px solid #e0e0e0;
     transition: transform 0.3s;
+
+    min-height: 80px; /* Фиксированная высота для всех плиток */
+    box-sizing: border-box; /* Учитываем padding в общей высоте */
+}
+
+.detail-item > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Вертикальное центрирование контента */
+    height: 100%; /* Занимает всю высоту родителя */
 }
 
 .detail-item:hover {
@@ -252,12 +340,14 @@ button.submit-btn:hover {
 .detail-item h3 {
     color: #2E7D32;
     margin-bottom: 5px;
+    margin-top: 0; /* Убираем верхний отступ у заголовка */
 }
 
 .detail-item p {
     color: #616161;
     margin: 0;
     line-height: 1.4;
+    font-size: 18px;
 }
 
 @media (max-width: 768px) {
@@ -286,9 +376,11 @@ button.submit-btn:hover {
 }
 
 input:invalid, textarea:invalid {
-    box-shadow: none;
+    box-shadow: none; /* Remove default browser validation */
 }
 
+/* -----------------------------------------------------------------------------*/
+/* Нижняя панель с контактами*/
 footer {
     background-color: #222;
     color: white;
@@ -296,31 +388,26 @@ footer {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-}
 
+}
 footer .footer-section {
     flex: 1;
     margin: 10px;
 }
-
 footer h4 {
     margin-bottom: 20px;
 }
-
 footer ul {
     list-style: none;
     padding: 0;
 }
-
 footer ul li {
     margin: 10px 0;
 }
-
 footer ul li a {
     color: white;
     text-decoration: none;
 }
-
 footer p, footer ul li {
     color: white;
 }

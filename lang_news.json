@@ -1,0 +1,102 @@
+{
+    "en": {
+      "page.title": "News",
+      "header.logo": "Green Energy",
+      "header.nav.main": "Main",
+      "header.nav.news": "News",
+      "header.nav.review": "Why us?",
+      "header.nav.products": "Products",
+      "header.nav.calculator": "Calculator",
+      "header.nav.about": "About Us",
+      "header.contact": "Contact Us",
+      "products.heating": "Heating Equipment",
+      "products.sensors": "Sensors",
+      "products.modules": "Electronic Modules",
+      
+      "news.title": "NEWS",
+      "news.tasks": "Tasks of the stage:",
+      "news.status": "Status:",
+      "news.completed": "Completed",
+      "news.in_proccess": "In the process",
+      "news.date": "Date:",
+      
+      "news.item1.title": "Technical Solution Analysis",
+      "news.item1.description": "At this stage, a detailed analysis of architectural solutions for the development of temperature and pressure sensors is conducted, including an assessment of various types of sensing elements. Options for building a system model of the sensor are studied, including mechanical and electrical parts. The possibilities of using digital algorithms for correcting nonlinearity and temperature dependence of characteristics are evaluated. Approaches to implementing energy-efficient operating modes of devices are also considered. The analysis results will help determine the key parameters of future solutions.",
+      
+      "news.item2.title": "Development of Technical Solutions",
+      "news.item2.description": "At this stage, sensing element models are developed and the architecture of analog and digital chip blocks is created. A comparative analysis of the proposed solutions is carried out. Methods for improving measurement accuracy by optimizing the parameters of sensing elements and integrated circuits are being developed. Correction algorithms that take into account the influence of external factors are developed.. The results obtained will be used to create a prototype device.",
+      
+      "news.item3.title": "Verification and Testing",
+      "news.item3.description": "At this stage, optimization and detailed verification of all system components for compliance with technical and manufacturing requirements is carried out. Models undergo testing in various conditions and operating modes to identify possible problems.",
+      
+      "news.item4.title": "Production of test samples",
+      "news.item4.description": "At this stage, all materials have been transferred to the factory for the production of the first test samples.",
+      
+      "news.item5.title": "Testing of First Samples",
+      "news.item5.description": "Manufacturing of the first test samples of sensors has been completed, then they were transferred to the testing stage to check their functionality and reliability. Measurement accuracy, stability characteristics and noise immunity level are being evaluated. Data analysis is performed to identify possible deviations from expected parameters. The test results will be used to refine the design before launching into mass production.",
+      
+      "news.item6.title": "Design Refinement",
+      "news.item6.description": "Based on the test results, the design of the sensing element is being refined to compensate for the identified technological errors. Optimization of integrated circuit blocks is performed to improve operational stability and eliminate parasitic parameters. Changes are made to defense mechanisms to reduce the impact of external influences. After the completion of refinements, a final check for compliance with technical requirements is performed.",
+      
+      "footer.contact": "Contact Us",
+      "footer.email": "Email: fbsebb@gmail.com",
+      "footer.phone": "Телефон: +123456789",
+      "footer.address": "Адрес: 9999, England",
+      "footer.links": "Quick Links",
+      "footer.social": "Follow Us",
+      "footer.facebook": "Facebook",
+      "footer.twitter": "Twitter",
+      "footer.linkedin": "LinkedIn",
+      "footer.instagram": "Instagram"
+    },
+    "ru": {
+      "page.title": "Новости",
+      "header.logo": "Зеленая Энергия",
+      "header.nav.main": "Главная",
+      "header.nav.news": "Новости",
+      "header.nav.review": "Почему мы?",
+      "header.nav.products": "Продукты",
+      "header.nav.calculator": "Калькулятор",
+      "header.nav.about": "О нас",
+      "header.contact": "Связаться с нами",
+      "products.heating": "Отопительное оборудование",
+      "products.sensors": "Датчики",
+      "products.modules": "Электронные модули",
+      
+      "news.title": "НОВОСТИ",
+      "news.tasks": "Задачи этапа:",
+      "news.status": "Статус:",
+      "news.completed": "Завершено",
+      "news.in_proccess": "В процессе",
+      "news.date": "Дата:",
+      
+      "news.item1.title": "Анализ технических решений",
+      "news.item1.description": "На данном этапе проводится детальный анализ архитектурных решений по разработке датчиков температуры и давления, включая оценку различных типов чувствительных элементов. Изучаются варианты построения системной модели датчика, включающей механическую и электрическую части. Оцениваются возможности использования цифровых алгоритмов для коррекции нелинейности и температурной зависимости характеристик. Также рассматриваются подходы к реализации энергоэффективных режимов работы приборов. Результаты анализа помогут определить ключевые параметры будущих решений.",
+      
+      "news.item2.title": "Разработка технических решений",
+      "news.item2.description": "На данном этапе разрабатываются модели чувствительных элементов и создается архитектура аналоговых и цифровых блоков микросхем. Проводится сравнительный анализ предложенных решений. Разрабатываются методы повышения точности измерений путем оптимизации параметров чувствительных элементов и интегральной схемы. Разрабатываются алгоритмы коррекции, учитывающие влияние внешних факторов. Полученные результаты будут использованы для создания прототипа прибора.",
+      
+      "news.item3.title": "Верификация и тестирование",
+      "news.item3.description": "На данном этапе проводится оптимизация и детальная проверка всех компонентов системы на соответствие техническим требованиям и требованиям по изготовлению. Модели проходят тестирование в различных условиях и режимах работы для выявления возможных проблем.",
+      
+      "news.item4.title": "Изготовление тестовых образцов",
+      "news.item4.description": "На данном этапе все материалы переданы на фабрику для изготовления первых тестовых образцов.",
+      
+      "news.item5.title": "Тестирование первых образцов",
+      "news.item5.description": "Завершено изготовление первых тестовых образцов датчиков, далее они были переданы на этап испытаний для проверки их функциональности и надежности. Проводится оценка точности измерений, стабильности характеристик и уровня помехозащищенности. Выполняется анализ данных для выявления возможных отклонений от ожидаемых параметров. Результаты тестирования будут использованы для доработки конструкции перед запуском в серийное производство.",
+      
+      "news.item6.title": "Доработка конструкции",
+      "news.item6.description": "По результатам тестирования проводится доработка конструкции чувствительного элемента для компенсации выявленных технологических погрешностей. Выполняется оптимизация блоков интегральной схемы для повышения стабильности работы и устранения паразитных параметров. Вносятся изменения в защитные механизмы для снижения влияния внешних воздействий. После завершения доработок выполняется финальная проверка соответствия техническим требованиям.",
+      
+      "footer.contact": "Контакты",
+      "footer.email": "Email: fbsebb@gmail.com",
+      "footer.phone": "Телефон: +123456789",
+      "footer.address": "Адрес: 9999, England",
+      "footer.links": "Быстрые ссылки",
+      "footer.social": "Следите за нами",
+      "footer.facebook": "Facebook",
+      "footer.twitter": "Twitter",
+      "footer.linkedin": "LinkedIn",
+      "footer.instagram": "Instagram"
+    }
+  }

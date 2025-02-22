@@ -3,96 +3,110 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Heating Power Calculator</title>
+  <title data-lang-key="page.title">Heating Power Calculator</title>
   <link rel="stylesheet" href="style_calc.css">
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+  <!-- Верхняя панель -->
   <header>
-    <div class="logo">Green Energy</div>
+    <div class="logo" data-lang-key="header.logo">Green Energy</div>
     <nav>
         <ul>
-            <li><a href="main.html" class="nav-link">Main</a></li>
-            <li><a href="review.html" class="nav-link">Review</a></li>
+            <li><a href="main.html" class="nav-link" data-lang-key="header.nav.main">Main</a></li>
+            <li><a href="news.html" class="nav-link" data-lang-key="header.nav.news">News</a></li>
+            <li><a href="review.html" class="nav-link" data-lang-key="header.nav.review">Why us?</a></li>
             <li class="dropdown">
-                Products
+                <span data-lang-key="header.nav.products">Products</span>
                 <ul class="dropdown-menu">
-                    <li><a href="products.html?category=heating-equipment">Heating Equipment</a></li>
-                    <li><a href="products.html?category=sensors">Sensors</a></li>
-                    <li><a href="products.html?category=electronic-modules">Electronic Modules</a></li>
+                    <li><a href="products.html?category=heating-equipment" data-lang-key="products.heating">Heating Equipment</a></li>
+                    <li><a href="products.html?category=sensors" data-lang-key="products.sensors">Sensors</a></li>
+                    <li><a href="products.html?category=electronic-modules" data-lang-key="products.modules">Electronic Modules</a></li>
                 </ul>
             </li>
-            <li><a href="calculation.html" class="nav-link">Calculator</a></li>
-            <li><a href="about_us.html" class="nav-link">About us</a></li>
+            <li><a href="calculation.html" class="nav-link" data-lang-key="header.nav.calculator">Calculator</a></li>
+            <li><a href="about_us.html" class="nav-link" data-lang-key="header.nav.about">About Us</a></li>
         </ul>
     </nav>
     <div class="header-buttons">
-        <a href="contact.html" class="button-link"><button>Contact us</button></a>
-        <a href="buy.html" class="button-link"><button class="buy">Buy</button></a>
+        <a href="contact.html" class="button-link"><button data-lang-key="header.contact">Contact us</button></a>
+        <div class="lang-dropdown">
+            <button class="lang-btn">EN</button>
+            <ul class="lang-menu">
+                <li data-lang="en">EN</li>
+                <li data-lang="ru">RU</li>
+            </ul>
+        </div>
     </div>
-  </header>
+</header>
   
+  <!-- верхнее изображение -->
   <div class="banner-image"></div>
 
+  <!-- Шапка над калькулятором с текстом -->
   <div class="head_content_calc">
-    <h1 class="head_content_calc_h1">Heating Power Calculator</h1>
-    <p class="head_content_calc_p">Optimize your heating costs with our easy-to-use calculator! By analyzing your room’s specifics, we help you find the ideal equipment power without unnecessary expenses. Get your tailored result in seconds!</p>
+    <h1 class="head_content_calc_h1" data-lang-key="calculator.title">Heating Power Calculator</h1>
+    <p class="head_content_calc_p" data-lang-key="calculator.description">Optimize your heating costs with our easy-to-use calculator! By analyzing your room's specifics, we help you find the ideal equipment power without unnecessary expenses. Get your tailored result in seconds!</p>
     <div class="head_content_calc_line"></div>
   </div>
 
+  <!-- Calculator -->
   <div class="calculator-container">
     <div class="container">
       <form id="calculatorForm">
         <div class="columns">
+          <!-- First column -->
           <div class="column">
-            <h2>Room Dimensions</h2>
+            <h2 data-lang-key="calculator.dimensions.title">Room Dimensions</h2>
             <div class="form-group">
-              <label for="area">Room Area (m²):</label>
-              <input type="number" id="area" placeholder="Enter area">
+              <label for="area" data-lang-key="calculator.dimensions.area">Room Area (m²):</label>
+              <input type="number" id="area" data-lang-key="calculator.dimensions.area.placeholder" placeholder="Enter area">
             </div>
             <div class="form-group">
-              <label for="height">Room Height (m):</label>
-              <input type="number" id="height" placeholder="Enter height">
+              <label for="height" data-lang-key="calculator.dimensions.height">Room Height (m):</label>
+              <input type="number" id="height" data-lang-key="calculator.dimensions.height.placeholder" placeholder="Enter height">
             </div>
             <div class="form-group">
-              <label for="windowArea">Glazing Area (m²):</label>
-              <input type="number" id="windowArea" placeholder="Enter window area">
+              <label for="windowArea" data-lang-key="calculator.dimensions.windowArea">Glazing Area (m²):</label>
+              <input type="number" id="windowArea" data-lang-key="calculator.dimensions.windowArea.placeholder" placeholder="Enter window area">
             </div>
           </div>
+          <!-- Second column -->
           <div class="column">
-            <h2>Temperature Parameters</h2>
+            <h2 data-lang-key="calculator.temperature.title">Temperature Parameters</h2>
             <div class="form-group">
-              <label for="outsideTemp">Outside Temperature (°C):</label>
-              <input type="number" id="outsideTemp" placeholder="Enter temperature">
+              <label for="outsideTemp" data-lang-key="calculator.temperature.outside">Outside Temperature (°C):</label>
+              <input type="number" id="outsideTemp" data-lang-key="calculator.temperature.outside.placeholder" placeholder="Enter temperature">
             </div>
             <div class="form-group">
-              <label for="insideTemp">Required Inside Temperature (°C):</label>
-              <input type="number" id="insideTemp" placeholder="Enter temperature">
+              <label for="insideTemp" data-lang-key="calculator.temperature.inside">Required Inside Temperature (°C):</label>
+              <input type="number" id="insideTemp" data-lang-key="calculator.temperature.inside.placeholder" placeholder="Enter temperature">
             </div>
           </div>
+          <!-- Third column -->
           <div class="column">
-            <h2>Additional Parameters</h2>
+            <h2 data-lang-key="calculator.additional.title">Additional Parameters</h2>
             <div class="form-group">
-              <label for="windowLayers">Number of Window Panes:</label>
+              <label for="windowLayers" data-lang-key="calculator.additional.windowLayers">Number of Window Panes:</label>
               <select id="windowLayers">
-                <option value="1">Single Glazing</option>
-                <option value="2">Double Glazing</option>
-                <option value="3">Triple Glazing</option>
+                <option value="1" data-lang-key="calculator.additional.windowLayers.single">Single Glazing</option>
+                <option value="2" data-lang-key="calculator.additional.windowLayers.double">Double Glazing</option>
+                <option value="3" data-lang-key="calculator.additional.windowLayers.triple">Triple Glazing</option>
               </select>
             </div>
             <div class="form-group">
-              <label for="wallType">Wall Type:</label>
+              <label for="wallType" data-lang-key="calculator.additional.wallType">Wall Type:</label>
               <select id="wallType">
-                <option value="brickWall1800">Brick (1800 kg/m³)</option>
-                <option value="brickWall1600">Brick (1600 kg/m³)</option>
-                <option value="brickWall1200">Brick (1200 kg/m³)</option>
-                <option value="reinforcedConcrete">Reinforced Concrete</option>
-                <option value="lightweightConcrete1800">Ceramsite Concrete (1800 kg/m³)</option>
-                <option value="lightweightConcrete500">Ceramsite Concrete (500 kg/m³)</option>
+                <option value="brickWall1800" data-lang-key="calculator.additional.wallType.brick1800">Brick (1800 kg/m³)</option>
+                <option value="brickWall1600" data-lang-key="calculator.additional.wallType.brick1600">Brick (1600 kg/m³)</option>
+                <option value="brickWall1200" data-lang-key="calculator.additional.wallType.brick1200">Brick (1200 kg/m³)</option>
+                <option value="reinforcedConcrete" data-lang-key="calculator.additional.wallType.concrete">Reinforced Concrete</option>
+                <option value="lightweightConcrete1800" data-lang-key="calculator.additional.wallType.ceramsite1800">Ceramsite Concrete (1800 kg/m³)</option>
+                <option value="lightweightConcrete500" data-lang-key="calculator.additional.wallType.ceramsite500">Ceramsite Concrete (500 kg/m³)</option>
               </select>
             </div>
             <div class="form-group">
-              <label for="wallsCount">Number of Exterior Walls:</label>
+              <label for="wallsCount" data-lang-key="calculator.additional.wallsCount">Number of Exterior Walls:</label>
               <select id="wallsCount">
                   <option value="1">1</option>
                   <option value="2">2</option>
@@ -101,49 +115,52 @@
               </select>
           </div>
             <div class="form-group">
-              <label for="floorType">Floor Type:</label>
+              <label for="floorType" data-lang-key="calculator.additional.floorType">Floor Type:</label>
               <select id="floorType">
-                <option value="concreteFloor">Concrete Floor</option>
-                <option value="woodenFloorPine">Wooden Floor (Pine)</option>
-                <option value="woodenFloorOak">Wooden Floor (Oak)</option>
-                <option value="insulatedConcreteFloor">Insulated Concrete Floor</option>
+                <option value="concreteFloor" data-lang-key="calculator.additional.floorType.concrete">Concrete Floor</option>
+                <option value="woodenFloorPine" data-lang-key="calculator.additional.floorType.pine">Wooden Floor (Pine)</option>
+                <option value="woodenFloorOak" data-lang-key="calculator.additional.floorType.oak">Wooden Floor (Oak)</option>
+                <option value="insulatedConcreteFloor" data-lang-key="calculator.additional.floorType.insulated">Insulated Concrete Floor</option>
               </select>
             </div>
           </div>
         </div>
+        <!-- "Calculate" button -->
         <div class="form-group button-wrapper">
-          <button type="button" id="calculateButton" class="calculate-button">Calculate</button>
+          <button type="button" id="calculateButton" class="calculate-button" data-lang-key="calculator.button">Calculate</button>
         </div>
+        <!-- Result -->
         <div id="result" class="result">
-          <p>Required Power: <span id="powerOutput">—</span> W</p>
+          <p><span data-lang-key="calculator.result.label">Required Power:</span> <span id="powerOutput">—</span> <span data-lang-key="calculator.result.unit">W</span></p>
         </div>
       </form>
     </div>
   </div>
   
+  <!-- Нижняя панель с контактами -->
   <footer>
     <div class="footer-section">
-        <h4>Contact Us</h4>
-        <p>Email: contact@greenenergy.com</p>
-        <p>Phone: +1 234 567 890</p>
-        <p>Address: 123 Green Street, Eco City, Earth</p>
+        <h4 data-lang-key="footer.contact.title">Contact Us</h4>
+        <p data-lang-key="footer.contact.email">Email: hnffhnfn@gmail.com</p>
+        <p data-lang-key="footer.contact.phone">Phone: +12345678</p>
+        <p data-lang-key="footer.contact.address">Address: 9999, England London</p>
     </div>
     <div class="footer-section">
-        <h4>Quick Links</h4>
+        <h4 data-lang-key="footer.links.title">Quick Links</h4>
         <ul>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">Sustainability</a></li>
-            <li><a href="#">Contact</a></li>
+          <li><a href="main.html" data-lang-key="footer.links.main">Main</a></li>
+          <li><a href="products.html?category=sensors" data-lang-key="footer.links.products">Products</a></li>
+          <li><a href="about_us.html" data-lang-key="footer.links.about">About Us</a></li>
+          <li><a href="contact.html" data-lang-key="footer.links.contact">Contact Us</a></li>
         </ul>
     </div>
     <div class="footer-section">
-        <h4>Follow Us</h4>
+        <h4 data-lang-key="footer.social.title">Follow Us</h4>
         <ul>
-            <li><a href="#">Facebook</a></li>
-            <li><a href="#">Twitter</a></li>
-            <li><a href="#">LinkedIn</a></li>
-            <li><a href="#">Instagram</a></li>
+            <li><a href="#" data-lang-key="footer.social.facebook">Facebook</a></li>
+            <li><a href="#" data-lang-key="footer.social.twitter">Twitter</a></li>
+            <li><a href="#" data-lang-key="footer.social.linkedin">LinkedIn</a></li>
+            <li><a href="#" data-lang-key="footer.social.instagram">Instagram</a></li>
         </ul>
     </div>
   </footer>

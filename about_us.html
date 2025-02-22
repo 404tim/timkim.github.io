@@ -3,102 +3,119 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Green Energy</title>
+    <title data-lang-key="about.title">About Us</title>
     <link rel="stylesheet" href="style_about_us.css">
     <link href="https://fonts.googleapis.com/css2?family=Faustina:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Верхняя панель -->
     <header>
-        <div class="logo">Green Energy</div>
+        <div class="logo" data-lang-key="header.logo">Green Energy</div>
         <nav>
             <ul>
-                <li><a href="main.html" class="nav-link">Main</a></li>
-                <li><a href="review.html" class="nav-link">Review</a></li>
+                <li><a href="main.html" class="nav-link" data-lang-key="header.nav.main">Main</a></li>
+                <li><a href="news.html" class="nav-link" data-lang-key="header.nav.news">News</a></li>
+                <li><a href="review.html" class="nav-link" data-lang-key="header.nav.review">Why us?</a></li>
                 <li class="dropdown">
-                    Products
+                    <span data-lang-key="header.nav.products">Products</span>
                     <ul class="dropdown-menu">
-                        <li><a href="products.html?category=heating-equipment">Heating Equipment</a></li>
-                        <li><a href="products.html?category=sensors">Sensors</a></li>
-                        <li><a href="products.html?category=electronic-modules">Electronic Modules</a></li>
+                        <li><a href="products.html?category=heating-equipment" data-lang-key="products.heating">Heating Equipment</a></li>
+                        <li><a href="products.html?category=sensors" data-lang-key="products.sensors">Sensors</a></li>
+                        <li><a href="products.html?category=electronic-modules" data-lang-key="products.modules">Electronic Modules</a></li>
                     </ul>
                 </li>
-                <li><a href="calculation.html" class="nav-link">Calculator</a></li>
-                <li><a href="about_us.html" class="nav-link">About us</a></li>
+                <li><a href="calculation.html" class="nav-link" data-lang-key="header.nav.calculator">Calculator</a></li>
+                <li><a href="about_us.html" class="nav-link" data-lang-key="header.nav.about">About Us</a></li>
             </ul>
         </nav>
         <div class="header-buttons">
-            <a href="contact.html" class="button-link"><button>Contact us</button></a>
-            <a href="buy.html" class="button-link"><button class="buy">Buy</button></a>
+            <a href="contact.html" class="button-link"><button data-lang-key="header.contact">Contact us</button></a>
+            <div class="lang-dropdown">
+                <button class="lang-btn">EN</button>
+                <ul class="lang-menu">
+                    <li data-lang="en">EN</li>
+                    <li data-lang="ru">RU</li>
+                </ul>
+            </div>
         </div>
     </header>
 
+
+    <!--Баннер с изображением и надписью-->
     <div class="banner-container">
-        <img src="./image/about_us/head.png" alt="Banner" class="banner-image">
+        <img src="./image/about_us2.png" alt="Banner" class="banner-image">
     </div>
 
-    <section class="container">
+    <!-- Чередование картинок и текста -->
+    <div class="container">
+        <!-- Первая секция -->
         <div class="section">
             <div class="text-content">
-                <p>[Company name] is a dynamic startup at the intersection of technology and innovation. Founded by a team of enthusiasts, our company aims to 
+                <p data-lang-key="about.who_we_are.text">ALSTROEMERIA is a dynamic startup at the intersection of technology and innovation. Founded by a team of enthusiasts, our company aims to 
                     solve pressing problems of excessive energy consumption. Our team combines expertise in electronics, verification software development, and physics, allowing us to 
                     approach problems from multiple angles. As a startup, we value agility, creativity, and a hands-on approach to solving complex issues.</p>
             </div>
             <div class="image-content">
                 <div class="image-overlay"></div>
-                <img src="./image/about_us/Who_we_are.png" alt="Who_we_are">
-                <div class="image_text_overlay">Who we are</div>
+                <img src=".\image\who_we_are1.png" alt="Who_we_are">
+                <div class="image_text_overlay" data-lang-key="about.who_we_are.heading">Who we are</div>
             </div>
         </div>
+        <!-- Вторая секция -->
         <div class="section">
             <div class="text-content">
-                <p>On average, 30-40% of all energy consumed in the world is spent on heating various premises and residential buildings. At the same time, about 40% is wasted due 
+                <p data-lang-key="about.statistics.text">On average, 30-40% of all energy consumed in the world is spent on heating various premises and residential buildings. At the same time, about 40% is wasted due 
                     to ineffective control and automation systems. This not only has a significant impact on the environment, but also increases the costs of consumers themselves</p>
             </div>
             <div class="image-content">
                 <div class="image-overlay"></div>
-                <img src="./image//about_us/stat2.png" alt="stats">
-                <div class="image_text_overlay">Statistics</div>
+                <img src=".\image\stat2.png" alt="what_we_do">
+                <div class="image_text_overlay" data-lang-key="about.statistics.heading">Statistics</div>
             </div>
         </div>
+        <!-- Третья секция -->
         <div class="section">
             <div class="text-content">
-                <p>Our focus is on creating advanced sensors and high-tech electronic modules that monitor temperature and pressure in real time. These solutions are 
+                <p data-lang-key="about.what_we_do.text">Our focus is on creating advanced sensors and high-tech electronic modules that monitor temperature and pressure in real time. These solutions are 
                     tailored to reduce excessive energy consumption in heated environments, ensuring systems operate efficiently and sustainably. This way you will not only 
                     help nature, but also save your own money.</p>
             </div>
             <div class="image-content">
                 <div class="image-overlay"></div>
-                <img src="./image/about_us/what_we_do.png" alt="what_we_do">
-                <div class="image_text_overlay">What we do</div>
+                <img src=".\image\what_we_do1.png" alt="what_we_do">
+                <div class="image_text_overlay" data-lang-key="about.what_we_do.heading">What we do</div>
             </div>
         </div>
-    </section>
+    </div>
 
+    <!-- Нижняя панель с контактами-->
     <footer>
         <div class="footer-section">
-            <h4>Contact Us</h4>
-            <p>Email: contact@greenenergy.com</p>
-            <p>Phone: +1 234 567 890</p>
-            <p>Address: 123 Green Street, Eco City, Earth</p>
+            <h4 data-lang-key="footer.contact.title">Contact Us</h4>
+            <p data-lang-key="footer.contact.email">Email: bbbbdbd@gmail.com</p>
+            <p data-lang-key="footer.contact.phone">Phone: +12345467</p>
+            <p data-lang-key="footer.contact.address">Address: 999, England</p>
         </div>
         <div class="footer-section">
-            <h4>Quick Links</h4>
+            <h4 data-lang-key="footer.quick_links.title">Quick Links</h4>
             <ul>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">Sustainability</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="main.html" data-lang-key="footer.quick_links.main">Main</a></li>
+                <li><a href="products.html?category=sensors" data-lang-key="footer.quick_links.products">Products</a></li>
+                <li><a href="about_us.html" data-lang-key="footer.quick_links.about">About Us</a></li>
+                <li><a href="contact.html" data-lang-key="footer.quick_links.contact">Contact Us</a></li>
             </ul>
         </div>
         <div class="footer-section">
-            <h4>Follow Us</h4>
+            <h4 data-lang-key="footer.social.title">Follow Us</h4>
             <ul>
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">LinkedIn</a></li>
-                <li><a href="#">Instagram</a></li>
+                <li><a href="#" data-lang-key="footer.social.facebook">Facebook</a></li>
+                <li><a href="#" data-lang-key="footer.social.twitter">Twitter</a></li>
+                <li><a href="#" data-lang-key="footer.social.linkedin">LinkedIn</a></li>
+                <li><a href="#" data-lang-key="footer.social.instagram">Instagram</a></li>
             </ul>
         </div>
     </footer>
+
+    <script src="script_about_us.js"></script>
 </body>
 </html>

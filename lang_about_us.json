@@ -1,0 +1,82 @@
+{
+    "en": {
+      "about.title": "About Us",
+      "header.logo": "Green Energy",
+      "header.nav.main": "Main",
+      "header.nav.news": "News",
+      "header.nav.review": "Why us?",
+      "header.nav.products": "Products",
+      "header.nav.calculator": "Calculator",
+      "header.nav.about": "About Us",
+      "header.contact": "Contact us",
+      "products.heating": "Heating Equipment",
+      "products.sensors": "Sensors",
+      "products.modules": "Electronic Modules",
+      
+      "about.who_we_are.heading": "Who we are",
+      "about.who_we_are.text": "ALSTROEMERIA is a dynamic startup at the intersection of technology and innovation. Founded by a team of enthusiasts, our company aims to solve pressing problems of excessive energy consumption. Our team combines expertise in electronics, verification software development, and physics, allowing us to approach problems from multiple angles. As a startup, we value agility, creativity, and a hands-on approach to solving complex issues.",
+      
+      "about.statistics.heading": "Statistics",
+      "about.statistics.text": "On average, 30-40% of all energy consumed in the world is spent on heating various premises and residential buildings. At the same time, about 40% is wasted due to ineffective control and automation systems. This not only has a significant impact on the environment, but also increases the costs of consumers themselves",
+      
+      "about.what_we_do.heading": "What we do",
+      "about.what_we_do.text": "Our focus is on creating advanced sensors and high-tech electronic modules that monitor temperature and pressure in real time. These solutions are tailored to reduce excessive energy consumption in heated environments, ensuring systems operate efficiently and sustainably. This way you will not only help nature, but also save your own money.",
+      
+      "footer.contact.title": "Contact Us",
+      "footer.contact.email": "Email: eivheiopvbh@gmail.com",
+      "footer.contact.phone": "Телефон: +123456789",
+      "footer.contact.address": "Адрес: 9999, England",
+      
+      "footer.quick_links.title": "Quick Links",
+      "footer.quick_links.main": "Main",
+      "footer.quick_links.products": "Products",
+      "footer.quick_links.about": "About Us",
+      "footer.quick_links.contact": "Contact Us",
+      
+      "footer.social.title": "Follow Us",
+      "footer.social.facebook": "Facebook",
+      "footer.social.twitter": "Twitter",
+      "footer.social.linkedin": "LinkedIn",
+      "footer.social.instagram": "Instagram"
+    },
+    "ru": {
+      "about.title": "О нас",
+      "header.logo": "Зеленая Энергия",
+      "header.nav.main": "Главная",
+      "header.nav.news": "Новости",
+      "header.nav.review": "Почему мы?",
+      "header.nav.products": "Продукты",
+      "header.nav.calculator": "Калькулятор",
+      "header.nav.about": "О нас",
+      "header.contact": "Связаться с нами",
+      "products.heating": "Отопительное оборудование",
+      "products.sensors": "Датчики",
+      "products.modules": "Электронные модули",
+      
+      "about.who_we_are.heading": "Кто мы",
+      "about.who_we_are.text": "ALSTROEMERIA - это динамичный стартап на перекрестке технологий и инноваций. Основанная командой энтузиастов, наша компания стремится решать насущные проблемы чрезмерного потребления энергии. Наша команда объединяет опыт в электронике, разработке программного обеспечения верификации и физике, что позволяет нам подходить к проблемам с разных сторон. Как стартап, мы ценим гибкость, креативность и практический подход к решению сложных задач.",
+      
+      "about.statistics.heading": "Статистика",
+      "about.statistics.text": "В среднем 30-40% всей потребляемой в мире энергии тратится на отопление различных помещений и жилых зданий. При этом около 40% расходуется впустую из-за неэффективных систем контроля и автоматизации. Это не только оказывает значительное влияние на окружающую среду, но и увеличивает расходы самих потребителей.",
+      
+      "about.what_we_do.heading": "Что мы делаем",
+      "about.what_we_do.text": "Мы сосредоточены на создании передовых датчиков и высокотехнологичных электронных модулей, которые контролируют температуру и давление в режиме реального времени. Эти решения разработаны для сокращения чрезмерного потребления энергии в отапливаемых помещениях, обеспечивая эффективную и устойчивую работу систем. Таким образом, вы не только поможете природе, но и сэкономите собственные деньги.",
+      
+      "footer.contact.title": "Контактная информация",
+      "footer.contact.email": "Email: eivheiopvbh@gmail.com",
+      "footer.contact.phone": "Телефон: +123456789",
+      "footer.contact.address": "Адрес: 9999, England",
+      
+      "footer.quick_links.title": "Быстрые ссылки",
+      "footer.quick_links.main": "Главная",
+      "footer.quick_links.products": "Продукты",
+      "footer.quick_links.about": "О нас",
+      "footer.quick_links.contact": "Связаться с нами",
+      
+      "footer.social.title": "Мы в соцсетях",
+      "footer.social.facebook": "Facebook",
+      "footer.social.twitter": "Twitter",
+      "footer.social.linkedin": "LinkedIn",
+      "footer.social.instagram": "Instagram"
+    }
+  }

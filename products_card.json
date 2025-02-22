@@ -1,218 +1,401 @@
 {
   "categories": {
     "heating-equipment": {
-      "title": "Heating Equipment",
+      "title": {
+        "en": "Heating Equipment",
+        "ru": "Отопительное оборудование"
+      },
       "products": [
         {
-        "id": 1,
-        "name": "Oil Heater Royal Clima ROR-PR5-1000M",
-        "specifications": "Heating power: 1000 W, Recommended heating area: 10–15 m², Number of sections: 5, Number of heating modes: 3 (soft/medium/intensive), Control: mechanical, Thermostat: mechanical, Overheat protection: yes, Automatic temperature maintenance: yes, Safe operation system: Security Project, Power supply: 220 V, Dimensions (W×H×D): 250×630×240 mm, Weight: 5.3 kg, Color: white/black, Power cord length: 1.5 m.",
-        "description":"Description",
-        "additionalInfo": "Some additional information about the product.",
-        "price": 42.10,
-        "image": [
-        "./image/heating_equipment/Royal Clima ROR-PR5-1000M/oil_heater_1.PNG",
-        "./image/heating_equipment/Royal Clima ROR-PR5-1000M/oil_heater_2.PNG",
-        "./image/heating_equipment/Royal Clima ROR-PR5-1000M/oil_heater_3.PNG"
-        ]
+          "id": 1,
+          "name": {
+            "en": "Oil Heater Royal Clima ROR-PR5-1000M",
+            "ru": "Масляный радиатор Royal Clima ROR-PR5-1000M"
+          },
+          "specifications": {
+            "en": "Heating power: 1000 W, Recommended heating area: 10–15 m², Number of sections: 5, Number of heating modes: 3 (soft/medium/intensive), Control: mechanical, Thermostat: mechanical, Overheat protection: yes, Automatic temperature maintenance: yes, Safe operation system: Security Project, Power supply: 220 V, Dimensions (W×H×D): 250×630×240 mm, Weight: 5.3 kg, Color: white/black, Power cord length: 1.5 m",
+            "ru": "Мощность обогрева: 1000 Вт, Рекомендуемая площадь обогрева: 10–15 м², Количество секций: 5, Количество режимов обогрева: 3 (мягкий/средний/интенсивный), Управление: механическое, Термостат: механический, Защита от перегрева: да, Автоматическое поддержание температуры: да, Система безопасной эксплуатации: Security Project, Питание: 220 В, Размеры (Ш×В×Г): 250×630×240 мм, Вес: 5.3 кг, Цвет: белый/черный, Длина шнура питания: 1.5 м"
+          },
+          "description": {
+            "en": "The Royal Clima PARMA ROR-PR5-1000M oil radiator is a stylish and safe solution for home heating. The heater is equipped with three air heating modes (soft, medium and intensive) – the consumer can choose the most suitable one based on their preferences and requirements. The radiator uses environmentally friendly oil that undergoes a multi-stage purification system according to the HD 300 standard, which allows the radiator to operate without noise and odor. Moving the radiator is easy with the wheels and ergonomic handle at the top of the device.",
+            "ru": "Масляный радиатор Royal Clima PARMA ROR-PR5-1000M - это стильное и безопасное решение для обогрева дома. Обогреватель оснащен тремя режимами нагрева воздуха (мягкий, средний и интенсивный) – потребитель может выбрать наиболее подходящий для него, исходя из собственных предпочтений и требований. При производстве радиатора применяется экологически чистое масло, которое проходит многоступенчатую систему очистки по стандарту HD 300, что позволяет работать радиатору без шума и запаха. Переместить радиатор легко с помощью колесиков и эргономической ручки в верхней части прибора."
+          },
+          "additionalInfo": {
+            "en": "Additional information: automatic temperature maintenance, special power cord storage compartment.",
+            "ru": "Дополнительная информация: автоматическое поддержание температуры, специальный отсек для хранения шнура питания."
+          },
+          "price": 42.10,
+          "image": [
+            "./image/heating_equipment/Royal Clima ROR-PR5-1000M/oil_heater_1.PNG",
+            "./image/heating_equipment/Royal Clima ROR-PR5-1000M/oil_heater_2.PNG",
+            "./image/heating_equipment/Royal Clima ROR-PR5-1000M/oil_heater_3.PNG"
+          ]
         },
         {
-        "id": 2,
-        "name": "Oil Heater Timberk TOR 21.1507 SLX",
-        "specifications": "Heating power: 1500 W, Recommended heating area: 15–20 m², Number of sections: 7, Number of heating modes: 3, Control: mechanical, Thermostat: built-in adjustable, Overheat protection: yes, STEEL SAFETY technology: prevents oil leakage, Power supply: 220 V, Dimensions (W×H×D): 310×620×235 mm, Weight: 5.9 kg, Color: milk-white.",
-        "description":"Description",
-        "additionalInfo": "Some additional information about the product.",
-        "price": 31.27,
-        "image": [
-        "./image/heating_equipment/Timberk TOR 21.1507 SLX/oil_heater_1_1.PNG"
-        ]
+          "id": 2,
+          "name": {
+            "en": "Oil Heater Timberk TOR 21.1507 SLX",
+            "ru": "Масляный обогреватель Timberk TOR 21.1507 SLX"
+          },
+          "specifications": {
+            "en": "Heating power: 1500 W, Recommended heating area: 15–20 m², Number of sections: 7, Number of heating modes: 3, Control: mechanical, Thermostat: built-in adjustable, Overheat protection: yes, Steel Safety technology: prevents oil leakage, Power supply: 220 V, Dimensions (W×H×D): 310×620×235 mm, Weight: 5.9 kg, Color: milk-white",
+            "ru": "Мощность обогрева: 1500 Вт, Рекомендуемая площадь обогрева: 15–20 м², Количество секций: 7, Количество режимов обогрева: 3, Управление: механическое, Термостат: встроенный регулируемый, Защита от перегрева: да, Технология Steel Safety: предотвращает утечку масла, Электропитание: 220 В, Размеры (Ш×В×Г): 310×620×235 мм, Вес: 5.9 кг, Цвет: молочно-белый"
+          },
+          "description": {
+            "en": "The Timberk TOR 21.1507 SLX oil heater is designed to heat a small area room. This device is equipped with roller wheels that make it easier to move the heater around the room. For convenient storage, there is a power cord winding device.",
+            "ru": "Масляный обогреватель Timberk TOR 21.1507 SLX рассчитан на обогрев небольшого по площади помещения. Данный прибор оснащен роликовыми колесами, которые упрощают перемещение обогревателя по комнате. Для удобства хранения предусмотрено устройство для намотки шнура питания."
+          },
+          "additionalInfo": {
+            "en": "",
+            "ru": ""
+          },
+          "price": 31.27,
+          "image": [
+            "./image/heating_equipment/Timberk TOR 21.1507 SLX/oil_heater_1_1.PNG"
+          ]
         },
         {
-        "id": 3,
-        "name": "Smart Heater Xiaomi Smart Heater ZNNFJ07ZM",
-        "specifications": "Power: 2000 W, Heating area: up to 20 m², Type of heating element: ceramic PTC, Rotation angle: 90°, Control: remote (via Mi Home app), Voice assistant support: yes, Overheat protection: yes, Timer: yes, Dimensions: 184×184×612 mm, Weight: 4 kg, Color: white",
-        "description":"Description",
-        "additionalInfo": "Some additional information about the product.",
-        "price": 64.50,
-        "image": [
-        "./image/heating_equipment/Xiaomi Smart Heater ZNNFJ07ZM/3.jfif",
-        "./image/heating_equipment/Xiaomi Smart Heater ZNNFJ07ZM/smart heater smartmi.PNG",
-        "./image/heating_equipment/Xiaomi Smart Heater ZNNFJ07ZM/smart heater smartmi_2.PNG"
-        ]
+          "id": 3,
+          "name": {
+            "en": "Smart Heater Xiaomi Smart Heater ZNNFJ07ZM",
+            "ru": "Умный обогреватель Xiaomi Smart Heater ZNNFJ07ZM"
+          },
+          "specifications": {
+            "en": "Power: 2000 W, Heating area: up to 20 m², Type of heating element: ceramic PTC, Rotation angle: 90°, Control: remote (via Mi Home app), Voice assistant support: yes, Overheat protection: yes, Timer: yes, Dimensions: 184×184×612 mm, Weight: 4 kg, Color: white",
+            "ru": "Мощность: 2000 Вт, Площадь обогрева: до 20 м², Тип нагревательного элемента: керамический PTC, Угол поворота: 90°, Управление: дистанционное (через приложение Mi Home), Поддержка голосового помощника: да, Защита от перегрева: да, Таймер: да, Размеры: 184×184×612 мм, Вес: 4 кг, Цвет: белый"
+          },
+          "description": {
+            "en": "The Smartmi Fan Heater ZNNFJ07ZM heats up in 3 seconds and distributes heat up to 1.5 m away. Supports switching from hot air to warm. It has high heat resistance, which significantly increases its operational safety. It also has a low noise level of only 35.6 dB. The heater housing is made of PC and ABS plastic.",
+            "ru": "Умный тепловентилятор Smartmi Fan Heater ZNNFJ07ZM нагревается за 3 секунды и распространяет тепло на расстояние до 1,5 м. Поддерживается переключение горячего воздуха на теплый. Обладает высокой термостойкостью, что значительно повышает безопасность его эксплуатации. Кроме того он обладет низким уровнем шума - всего 35,6 дБ. Корпус обогревателя выполнен из ПК и АБС-пластика."
+          },
+          "additionalInfo": {
+            "en": "",
+            "ru": ""
+          },
+          "price": 64.50,
+          "image": [
+            "./image/heating_equipment/Xiaomi Smart Heater ZNNFJ07ZM/1.jfif",
+            "./image/heating_equipment/Xiaomi Smart Heater ZNNFJ07ZM/2.PNG",
+            "./image/heating_equipment/Xiaomi Smart Heater ZNNFJ07ZM/3.PNG"
+          ]
         },
         {
-        "id": 4,
-        "name": "Smart Convectors MIJIA Smart Heater E TJXDNQ01ZM",
-        "specifications": "Maximum power: 2200 W, Number of power levels: 2, Power stages: 900 W / 2200 W, Power level adjustment: yes, Heating area: up to 20 m², Display: yes, Power regulation: yes, Wi-Fi connection: yes",
-        "description":"Description",
-        "additionalInfo": "Some additional information about the product.",
-        "price": 99.99,
-        "image": [
-        "./image/heating_equipment/MIJIA Smart Heater E TJXDNQ01ZM/1.webp",
-        "./image/heating_equipment/MIJIA Smart Heater E TJXDNQ01ZM/2.webp",
-        "./image/heating_equipment/MIJIA Smart Heater E TJXDNQ01ZM/3.webp",
-        "./image/heating_equipment/MIJIA Smart Heater E TJXDNQ01ZM/4.webp",
-        "./image/heating_equipment/MIJIA Smart Heater E TJXDNQ01ZM/5.webp",
-        "./image/heating_equipment/MIJIA Smart Heater E TJXDNQ01ZM/6.webp"
-        ]
+          "id": 4,
+          "name": {
+            "en": "Smart Convector MIJIA Smart Heater E TJXDNQ01ZM",
+            "ru": "Умный конвектор MIJIA Smart Heater E TJXDNQ01ZM"
+          },
+          "specifications": {
+            "en": "Maximum power: 2200 W, Number of power levels: 2, Power stages: 900 W / 2200 W, Power level adjustment: yes, Heating area: up to 20 m², Display: yes, Power regulation: yes, Wi-Fi connection: yes",
+            "ru": "Максимальная мощность: 2200 Вт, Количество уровней мощности: 2, Ступени мощности: 900 Вт / 2200 Вт, Регулировка уровня мощности: да, Площадь обогрева: до 20 м², Дисплей: да, Регулировка мощности: да, Wi-Fi подключение: да"
+          },
+          "description": {
+            "en": "The MIJIA Smart Heater E TJXDNQ01ZM convector features a button control panel. It allows you to choose between 2 power levels and select the temperature. The performance is designed for servicing an area of up to 20 m². The convector is equipped with a display that notifies about the set parameters. The programmable timer stops the device after a time interval specified by the user. Protective technology turns off the assistant, preventing overheating and breakdown. The IPX4 standard protected housing is resistant to negative moisture effects.",
+            "ru": "Конвектор MIJIA Smart Heater E TJXDNQ01ZM обладает кнопочной панелью управления. Она позволяет определиться с подходящей среди 2 ступеней мощности и выбрать температуру. Производительность рассчитана на обслуживание площади до 20 m². Конвектор оснащен дисплеем, уведомляющим о заданных параметрах. Программируемый таймер приостанавливает работу устройства по истечении обозначенного пользователем временного интервала. Защитная технология выключает ассистента, предупреждая перегрев и поломку. Защищенный по стандарту IPX4 корпус устойчив к негативному воздействию влаги."
+          },
+          "additionalInfo": {
+            "en": "To start using, simply connect the 1.2-meter cord to the network.",
+            "ru": "Для начала использования достаточно подключить 1.2-метровый шнур к сети."
+          },
+          "price": 99.99,
+          "image": [
+            "./image/heating_equipment/MIJIA Smart Heater E TJXDNQ01ZM/1.webp",
+            "./image/heating_equipment/MIJIA Smart Heater E TJXDNQ01ZM/2.jpg",
+            "./image/heating_equipment/MIJIA Smart Heater E TJXDNQ01ZM/3.jpg",
+            "./image/heating_equipment/MIJIA Smart Heater E TJXDNQ01ZM/4.jpg",
+            "./image/heating_equipment/MIJIA Smart Heater E TJXDNQ01ZM/5.jpg"
+          ]
         },
         {
-        "id": 5,
-        "name": "Smart Convectors SLS WIFI",
-        "specifications": "Power: 2000 W, Maximum heating area: up to 30 m², Heater type: convection, Installation: floor-standing, Control type: via smartphone, Wi-Fi: yes, Electronic thermostat: yes, Timer: up to 9 hours, Maximum heating temperature: up to 35°C",
-        "description":"Description",
-        "additionalInfo": "Some additional information about the product.",
-        "price": 70.85,
-        "image": [
-        "./image/heating_equipment/SLS WIFI/1.jpg",
-        "./image/heating_equipment/SLS WIFI/2.jfif",
-        "./image/heating_equipment/SLS WIFI/3.jfif",
-        "./image/heating_equipment/SLS WIFI/4.jfif"
-        ]
+          "id": 5,
+          "name": {
+            "en": "Smart Convectors SLS WIFI",
+            "ru": "Умные конвекторы SLS WIFI"
+          },
+          "specifications": {
+            "en": "Power: 2000 W, Maximum heating area: up to 30 m², Heater type: convection, Installation: floor-standing, Control type: via smartphone, Wi-Fi: yes, Electronic thermostat: yes, Timer: up to 9 hours, Maximum heating temperature: up to 35°C",
+            "ru": "Мощность: 2000 Вт, Максимальная площадь обогрева: до 30 м², Тип обогревателя: конвекционный, Установка: напольная, Тип управления: через смартфон, Wi-Fi: да, Электронный термостат: да, Таймер: до 9 часов, Максимальная температура нагрева: до 35°C"
+          },
+          "description": {
+            "en": "The SLS HEAT2 convection electric heater is made of durable, high-quality metal. Inside it is an X-shaped aluminum heating element with Antifrost function for winter heating. The heater provides natural convection of air flows and room heating up to 30 sq.m, as well as 3 additional preset modes with different heating intensities throughout the day. The heater can be mounted on the wall or used on the floor (legs included). The device is equipped with overheating and tipping sensors, and in case of an unforeseen situation, it will turn off.",
+            "ru": "Конвекторный электрический обогреватель SLS HEAT2 выполнен из прочного и высококачественного металла. Внутри него находится алюминиевый нагревательный элемент X-образной формы с функцией Антифрост, для зимнего обогрева. Обогреватель обеспечивает процесс естественной конвекции воздушных потоков и обогрева помещения, до 30 кв.м, а также 3 дополнительных предустановленных режима с различной интенсивностью обогрева в течение суток. Обогреватель можно крепить на стену или использовать на полу (ножки в комплекте). Устройство оснащено датчиком перегрева и опрокидывания, и в случае непредвиденной ситуации выключится."
+          },
+          "additionalInfo": {
+            "en": "Temperature regulation is carried out in two ways: remotely through the SLS application, which can be downloaded from Google Play or Apple Store, or using the digital control panel. Also, using the SLS application, you can turn the heater on/off remotely and set the operating timer.",
+            "ru": "Регулировка температуры осуществляется двумя способами, удаленно через приложение SLS, которое можно скачать в Google Play или Apple Store, или же с помощью цифровой панели управления. Также с помощью приложения SLS вы можете включать/выключать обогреватель удаленно, задавать таймер работы."
+          },
+          "price": 70.85,
+          "image": [
+            "./image/heating_equipment/SLS WIFI/1.webp",
+            "./image/heating_equipment/SLS WIFI/2.webp",
+            "./image/heating_equipment/SLS WIFI/3.webp"
+          ]
         },
         {
-        "id": 6,
-        "name": "Electric Convector Monlan ML-10",
-        "specifications": "Power: 1000 W, Type of heating element: stitch-element, Control: mechanical, Mode regulator: yes, Thermostat: mechanical",
-        "description":"Description",
-        "additionalInfo": "Some additional information about the product.",
-        "price": 19.00,
-        "image": [
-        "./image/heating_equipment/Monlan ML-10/convector.PNG"
-        ]
+          "id": 6,
+          "name": {
+            "en": "Electric Convector Monlan ML-10",
+            "ru": "Электрический конвектор Monlan ML-10"
+          },
+          "specifications": {
+            "en": "Power: 1000 W, Type of heating element: stitch-element, Control: mechanical, Mode regulator: yes, Thermostat: mechanical",
+            "ru": "Мощность: 1000 Вт, Тип нагревательного элемента: стич-элемент, Управление: механическое, Регулятор режимов: да, Термостат: механический"
+          },
+          "description": {
+            "en": "The Monlan ML-10 strip convector is a highly efficient electrical appliance designed to heat rooms using a stitch heating element. The built-in mode regulator and convenient thermostat help quickly heat a room or an entire house through natural convection. The included roller wheels make the device mobile, and with mounting elements, the Monlan convector can be mounted on the wall, saving useful space.",
+            "ru": "Ленточный конвектор Monlan ML-10 – это высокоэффективный электроприбор, предназначенный для обогрева помещений при помощи нагревательного стич-элемента. Встроенные регулятор режимов работы и удобный термостат помогают быстро прогреть комнату или целый дом за счёт естественной конвекции. Идущие в комплекте роликовые колёса делают прибор мобильным, а с помощью крепёжных элементов конвектор Monlan можно смонтировать на стену, сэкономив полезное место."
+          },
+          "additionalInfo": {
+            "en": "",
+            "ru": ""
+          },
+          "price": 19.00,
+          "image": [
+            "./image/heating_equipment/Monlan ML-10/convector.PNG"
+          ]
         },
         {
-        "id": 7,
-        "name": "Electric Convector Ballu Solo Turbo BEC/SMT-1000",
-        "specifications": "Power: 1000 W, Heating area: up to 15 m², Type of heating element: monolithic X-shaped, Control: mechanical, Thermostat type: mechanical, Temperature regulation: yes, Temperature setting accuracy: 1.0 °C, Number of heating modes: 1, Power-on indication: yes, Overheat protection: yes, Emergency shutdown on tilt or overturn: yes, Dust and moisture protection class: IP24, Installation type (mounting): floor-standing, Maximum power consumption: 1 kW, Power supply voltage: 220 - 240 V, Power cable: yes (with plug), Cable length: 1.2 m, Floor installation kit: yes, Wall mounting kit: additional option, Set of fasteners included: yes",
-        "description":"Description",
-        "additionalInfo": "Some additional information about the product.",
-        "price": 34.90,
-        "image": [
-        "./image/heating_equipment/Ballu Solo Turbo BECSMT-1000/2.png",
-        "./image/heating_equipment/Ballu Solo Turbo BECSMT-1000/3.png"
-        ]
+          "id": 7,
+          "name": {
+            "en": "Electric Convector Ballu Camino Eco Turbo BECEMT-1000",
+            "ru": "Электрический конвектор Ballu Camino Eco Turbo BECEMT-1000"
+          },
+          "specifications": {
+            "en": "Power: 1000 W, Heating area: up to 15 m², Type of heating element: monolithic X-shaped, Control: mechanical, Thermostat type: mechanical, Temperature regulation: yes, Temperature setting accuracy: 1.0 °C, Number of heating modes: 1, Power-on indication: yes, Overheat protection: yes, Emergency shutdown on tilt or overturn: yes, Dust and moisture protection class: IP24, Installation type (mounting): floor-standing, Maximum power consumption: 1 kW, Power supply voltage: 220 - 240 V, Power cable: yes (with plug), Cable length: 1.2 m, Floor installation kit: yes, Wall mounting kit: additional option, Set of fasteners included: yes",
+            "ru": "Мощность: 1000 Вт, Площадь обогрева: до 15 м², Тип нагревательного элемента: монолитный X-образный, Управление: механическое, Тип термостата: механический, Регулировка температуры: да, Точность установки температуры: 1.0 °C, Количество режимов обогрева: 1, Индикация включения: да, Защита от перегрева: да, Аварийное отключение при наклоне или опрокидывании: да, Класс пылевлагозащиты: IP24, Тип установки (монтажа): напольный, Максимальная потребляемая мощность: 1 кВт, Напряжение питания: 220 - 240 В, Кабель питания: да (с вилкой), Длина кабеля: 1.2 м, Комплект напольной установки: да, Комплект настенного монтажа: дополнительная опция, Комплект крепежей в комплекте: да"
+          },
+          "description": {
+            "en": "The convectors use a silent monolithic heating element manufactured using patented Hedgehog technology. Due to the 20% increased heat transfer area of the heating element, the heating time becomes 20% faster. Thanks to the unique shape of the heating element, increased power is achieved in a compact size.",
+            "ru": "В конвекторах используется бесшумный монолитный нагревательный элемент, произведенный по запатентованной технологии Hedgehog. За счёт увеличенной на 20% площади теплопередачи нагревательного элемента, время разогрева становится на 20% быстрее. Благодаря уникальной форме нагревательного элемента достигается повышенная мощность в компактном размере."
+          },
+          "additionalInfo": {
+            "en": "",
+            "ru": ""
+          },
+          "price": 34.90,
+          "image": [
+            "./image/heating_equipment/Ballu Camino Eco Turbo BECEMT 1000/1.webp",
+            "./image/heating_equipment/Ballu Camino Eco Turbo BECEMT 1000/2.webp",
+            "./image/heating_equipment/Ballu Camino Eco Turbo BECEMT 1000/3.webp",
+            "./image/heating_equipment/Ballu Camino Eco Turbo BECEMT 1000/4.webp"
+          ]
         },
         {
-        "id": 8,
-        "name": "Electric Convector Ballu Camino Eco Turbo BEC/EMT-2500",
-        "specifications": "Power: 2500 W, Effective for rooms up to 30 m², Type of heating element: monolithic X-shaped, Control: mechanical, Thermostat type: mechanical, Temperature regulation: yes, Temperature setting accuracy: 1.0 °C, Number of heating modes: 1, Power-on indication: yes, Overheat protection: yes, Emergency shutdown on tilt or overturn: yes, Dust and moisture protection class: IP24, Installation type (mounting): floor-standing, Maximum power consumption: 2.5 kW, Power supply voltage: 220 - 240 V, Power cable: yes (with plug), Cable length: 1.2 m, Floor installation kit: yes, Wall mounting kit: additional option, Set of fasteners included: yes, Weight: 5 kg, Dimensions (HxWxD): 40x83x8.9 cm",
-        "description":"Description",
-        "additionalInfo": "Some additional information about the product.",
-        "price": 62.90,
-        "image": [
-        "./image/heating_equipment/Ballu Camino Eco Turbo BECEMT/2.png",
-        "./image/heating_equipment/Ballu Camino Eco Turbo BECEMT/Ballu_1000.PNG",
-        "./image/heating_equipment/Ballu Camino Eco Turbo BECEMT/Ballu_2000.PNG"
-        ]
+          "id": 8,
+          "name": {
+            "en": "Electric Convector Ballu Camino Eco Turbo BEC/EMT-2500",
+            "ru": "Электрический конвектор Ballu Camino Eco Turbo BEC/EMT-2500"
+          },
+          "specifications": {
+            "en": "Power: 2500 W, Effective for rooms up to 30 m², Type of heating element: monolithic X-shaped, Control: mechanical, Thermostat type: mechanical, Temperature regulation: yes, Temperature setting accuracy: 1.0 °C, Number of heating modes: 1, Power-on indication: yes, Overheat protection: yes, Emergency shutdown on tilt or overturn: yes, Dust and moisture protection class: IP24, Installation type (mounting): floor-standing, Maximum power consumption: 2.5 kW, Power supply voltage: 220 - 240 V, Power cable: yes (with plug), Cable length: 1.2 m, Floor installation kit: yes, Wall mounting kit: additional option, Set of fasteners included: yes, Weight: 5 kg, Dimensions (HxWxD): 40x83x8.9 cm",
+            "ru": "Мощность: 2500 Вт, Эффективен для помещений до 30 м², Тип нагревательного элемента: монолитный X-образный, Управление: механическое, Тип термостата: механический, Регулировка температуры: да, Точность установки температуры: 1.0 °C, Количество режимов обогрева: 1, Индикация включения: да, Защита от перегрева: да, Аварийное отключение при наклоне или опрокидывании: да, Класс пылевлагозащиты: IP24, Тип установки (монтажа): напольный, Максимальная потребляемая мощность: 2.5 кВт, Напряжение питания: 220 - 240 В, Кабель питания: да (с вилкой), Длина кабеля: 1.2 м, Комплект напольной установки: да, Комплект настенного монтажа: дополнительная опция, Комплект крепежей в комплекте: да, Вес: 5 кг, Размеры (ВхШхГ): 40x83x8.9 см"
+          },
+          "description": {
+            "en": "The convectors use a monolithic heating element manufactured using patented Hedgehog technology. Thanks to the unique shape of the heating element, increased power is achieved in a compact size: the convector size is reduced without compromising power. Absolutely silent heating is achieved thanks to the special improved alloy of the heating element. Effective for rooms up to 30 sq.m.",
+            "ru": "В конвекторах используется монолитный нагревательный элемент, произведенный по запатентованной технологии Hedgehog. Благодаря уникальной форме нагревательного элемента достигается повышенная мощность в компактном размере: размер конвектора уменьшен без ущерба для мощности. Абсолютно бесшумный обогрев достигается благодаря специальному улучшенному сплаву нагревательного элемента. Эффективен для помещений, площадью до 30 кв.м."
+          },
+          "additionalInfo": {
+            "en": "The product is installed on the floor using the legs that come with the kit.",
+            "ru": "Изделие устанавливается на пол при помощи ножек, которые идут в комплекте."
+          },
+          "price": 62.90,
+          "image": [
+            "./image/heating_equipment/Ballu Camino Eco Turbo BECEMT 2500/1.webp",
+            "./image/heating_equipment/Ballu Camino Eco Turbo BECEMT 2500/2.webp",
+            "./image/heating_equipment/Ballu Camino Eco Turbo BECEMT 2500/3.webp",
+            "./image/heating_equipment/Ballu Camino Eco Turbo BECEMT 2500/4.webp",
+            "./image/heating_equipment/Ballu Camino Eco Turbo BECEMT 2500/5.webp",
+            "./image/heating_equipment/Ballu Camino Eco Turbo BECEMT 2500/6.webp"
+          ]
         },
         {
-        "id": 9,
-        "name": "Thermal Fan Timberk T-FH1500-H11MC",
-        "specifications": "Power: 1500 W, Type of heating element: ceramic, Control: mechanical, Thermostat: mechanical, Cable length: 1.6 m, Purpose: floor-standing, Legs included: no, Color: white, Product type: fan heater, Main material: ABS-plastic, Dimensions (HxWxD): 23x17x13 cm",
-        "description":"Description",
-        "additionalInfo": "Some additional information about the product.",
-        "price": 17.99,
-        "image": [
-        "./image/heating_equipment/Timberk T-FH1500-H11MC/1.PNG"
-        ]
+          "id": 9,
+          "description": {
+            "en": "The Timberk T-FH1500-H11MC fan heater is convenient and easy to install, economical to use due to minimal electricity losses, increased heat transfer and efficient air flow distribution. With Oxygen Safe technology, the device's operation will not affect oxygen levels and air quality, and the tip-over sensor and overheating protection ensure worry-free safety.",
+            "ru": "Тепловентилятор Timberk T-FH1500-H11MC удобен и прост в установке, экономичен в использовании в связи с минимальными потерями электроэнергии, повышенной теплоотдачей и эффективным распределением воздушного потока. С технологией Oxygen Safe работа прибора не повлияет на уровень кислорода и качество воздуха, а датчик падения и защита от перегрева позволят не беспокоиться о безопасности."
+          },
+          "additionalInfo": {
+            "en": "The fan heater must be installed in a vertical position on a rigid base.",
+            "ru": "Тепловентилятор должен быть установлен в вертикальном положении на жесткой основе."
+          },
+          "price": 17.99,
+          "image": [
+            "./image/heating_equipment/Timberk T-FH1500-H11MC/1.PNG",
+            "./image/heating_equipment/Timberk T-FH1500-H11MC/2.webp",
+            "./image/heating_equipment/Timberk T-FH1500-H11MC/3.webp",
+            "./image/heating_equipment/Timberk T-FH1500-H11MC/4.webp",
+            "./image/heating_equipment/Timberk T-FH1500-H11MC/5.webp",
+            "./image/heating_equipment/Timberk T-FH1500-H11MC/6.webp"
+          ]
         },
         {
-        "id": 10,
-        "name": "Thermal Fan Ballu BFH-S-33",
-        "specifications": "Heating power: 0.75/1.5 kW, Recommended heating area (at ceiling height 2.6 m): up to 20 m², Number of operating modes: 3, Number of temperature modes: 2, Fast heating: Yes, Maximum noise level: 55 dB, Display: none, Remote control type: none, Heating element: ceramic, Grille: metal, Carry handle: Yes, Housing material: plastic, Protection rating: IP20",
-        "description":"Description",
-        "additionalInfo": "Some additional information about the product.",
-        "price": 19.99,
-        "image": [
-        "./image/heating_equipment/Ballu BFHС-33/Ballu_termo_fen.PNG",
-        "./image/heating_equipment/Ballu BFHС-33/Ballu_termo_fen_2.PNG",
-        "./image/heating_equipment/Ballu BFHС-33/Ballu_termo_fen_3.PNG",
-        "./image/heating_equipment/Ballu BFHС-33/Ballu_termo_fen_4.PNG"
-        ]
+          "id": 10,
+          "name": {
+            "en": "Thermal Fan Ballu BFH-S-33",
+            "ru": "Тепловентилятор Ballu BFH-S-33"
+          },
+          "specifications": {
+            "en": "Heating power: 0.75/1.5 kW, Recommended heating area (at ceiling height 2.6 m): up to 20 m², Number of operating modes: 3, Number of temperature modes: 2, Fast heating: Yes, Maximum noise level: 55 dB, Display: none, Remote control type: none, Heating element: ceramic, Grille: metal, Carry handle: Yes, Housing material: plastic, Protection rating: IP20",
+            "ru": "Мощность обогрева: 0.75/1.5 кВт, Рекомендуемая площадь обогрева (при высоте потолков 2.6 м): до 20 м², Количество режимов работы: 3, Количество температурных режимов: 2, Быстрый нагрев: Да, Максимальный уровень шума: 55 дБ, Дисплей: нет, Тип пульта: нет, Нагревательный элемент: керамический, Решетка: металлическая, Ручка для переноски: Да, Материал корпуса: пластик, Степень защиты: IP20"
+          },
+          "description": {
+            "en": "The BALLU BFH/S-33 fan heater is designed in an innovative SLIM design and equipped with a high-efficiency ceramic heating element with a power of 1500 W. The fan heater has two heating modes and one ventilation mode without air heating. A mode indicator is provided. The fan heater is equipped with built-in overheating protection. The adjustable thermostat ensures automatic maintenance of the set heating temperature.",
+            "ru": "Тепловентилятор BALLU BFH/С-33 выполнен в инновационном SLIM дизайне и оснащен высокоэффективным керамическим нагревательным элементом мощностью 1500 Вт. Тепловентилятор имеет два режима обогрева и один режим вентиляции без нагрева воздуха. Предусмотрен индикатор режима работы. Тепловентилятор оснащен встроенной защитой от перегрева. Регулируемый термостат обеспечивает автоматическое поддержание заданной температуры обогрева."
+          },
+          "additionalInfo": {
+            "en": "",
+            "ru": ""
+          },
+          "price": 19.99,
+          "image": [
+            "./image/heating_equipment/Ballu BFHС-33/Ballu_termo_fen.PNG",
+            "./image/heating_equipment/Ballu BFHС-33/Ballu_termo_fen_2.PNG",
+            "./image/heating_equipment/Ballu BFHС-33/Ballu_termo_fen_3.PNG",
+            "./image/heating_equipment/Ballu BFHС-33/Ballu_termo_fen_4.PNG"
+          ]
         },
         {
-        "id": 11,
-        "name": "Electric infrared heater Ballu BIH-T-3.0",
-        "specifications": "Power: 3000 W, Type of heating element: infrared, Installation: ceiling or wall-mounted, Possibility of angled mounting: yes, Effectiveness at negative temperatures and in wind: yes, Digital display: no, Voltage: 380 V, Recommended heating area: 30 m², Wavelength: 3.14 µm, Dimensions without packaging: 935х305х60 mm, Net weight: 4.6 kg, Gas-powered: no, Protection rating: IP20",
-        "description":"Description",
-        "additionalInfo": "Some additional information about the product.",
-        "price": 73.52,
-        "image": [
-        "./image/heating_equipment/Ballu BIH-T-3.0/1.webp",
-        "./image/heating_equipment/Ballu BIH-T-3.0/2.webp",
-        "./image/heating_equipment/Ballu BIH-T-3.0/3.webp",
-        "./image/heating_equipment/Ballu BIH-T-3.0/4.webp",
-        "./image/heating_equipment/Ballu BIH-T-3.0/5.webp"
-        ]
+          "id": 11,
+          "name": {
+            "en": "Electric infrared heater Ballu BIH-T-3.0",
+            "ru": "Электрический инфракрасный обогреватель Ballu BIH-T-3.0"
+          },
+          "specifications": {
+            "en": "Power: 3000 W, Type of heating element: infrared, Installation: ceiling or wall-mounted, Possibility of angled mounting: yes, Effectiveness at negative temperatures and in wind: yes, Digital display: no, Voltage: 380 V, Recommended heating area: 30 m², Wavelength: 3.14 µm, Dimensions without packaging: 935х305х60 mm, Net weight: 4.6 kg, Gas-powered: no, Protection rating: IP20",
+            "ru": "Мощность: 3000 Вт, Тип нагревательного элемента: инфракрасный, Установка: потолочная или настенная, Возможность углового монтажа: да, Эффективность при отрицательных температурах и на ветру: да, Цифровой дисплей: нет, Напряжение: 380 В, Рекомендуемая площадь обогрева: 30 м², Длина волны: 3.14 мкм, Размеры без упаковки: 935х305х60 мм, Вес нетто: 4.6 кг, Газовый: нет, Степень защиты: IP20"
+          },
+          "description": {
+            "en": "Powerful Ballu BIH-T-3.0 infrared heaters for directional heating in any conditions. This model is suitable for heating industrial and warehouse premises, workshops, hangars, garages, sports halls, construction sites, rooms with high ceilings and poor thermal insulation. The reflector made of heat-resistant mirror stainless steel does not darken over time and maintains maximum efficiency throughout its service life!",
+            "ru": "Мощные инфракрасные обогреватели Ballu BIH-T-3.0 для направленного обогрева в любых условиях. Данная модель подойдет для обогрева промышленных и складских помещений, цехов, ангаров, гаражей, спортивных залов, строительных объектов, помещений с высокими потолками и плохой теплоизоляцией. Отражатель из жаростойкой зеркальной нержавеющей стали не темнеет со временем и сохраняет максимальную эффективность на протяжении всего срока службы!"
+          },
+          "additionalInfo": {
+            "en": "Additional information: powerful directional heating in any conditions, high efficiency is maintained even in wind and at negative temperatures, ceiling installation preserves freedom of the working area and eliminates the possibility of burns",
+            "ru": "Дополнительная информация: мощный направленный обогрев в любых условиях, сохраняется высокая эффективность даже на ветру и при отрицательных температурах, установка на потолке сохраняет свободу рабочей зоны и исключает возможность ожога"
+          },
+          "price": 73.52,
+          "image": [
+            "./image/heating_equipment/Ballu BIH-T-3.0/1.webp",
+            "./image/heating_equipment/Ballu BIH-T-3.0/2.webp",
+            "./image/heating_equipment/Ballu BIH-T-3.0/3.webp",
+            "./image/heating_equipment/Ballu BIH-T-3.0/4.webp",
+            "./image/heating_equipment/Ballu BIH-T-3.0/5.webp"
+          ]
         },
         {
-        "id": 12,
-        "name": "Infrared heater Ballu BIH-APL-2.0-M НС-1454430",
-        "specifications": "Power: 2000 W, Type of heating element: monolithic infrared, Installation: ceiling or wall-mounted, Recommended heating area: 20 m², Wavelength: 5.9 µm, Mounting height: 4.5 m, Minimum mounting height: 2.5 m, Number of heating modes: 1, Thermostat type: mechanical, Tripod mounting: no, Protective grille: no, Remote control: no, Dimensions without packaging: 1200х260х45 mm, Net weight: 4.6 kg, Gas-powered: no, Protection rating: IP20",
-        "description":"Description",
-        "additionalInfo": "Some additional information about the product.",
-        "price": 59.39,
-        "image": [
-        "./image/heating_equipment/Ballu BIH-APL-2.0-M НС-1454430/1.webp",
-        "./image/heating_equipment/Ballu BIH-APL-2.0-M НС-1454430/2.webp",
-        "./image/heating_equipment/Ballu BIH-APL-2.0-M НС-1454430/3.webp",
-        "./image/heating_equipment/Ballu BIH-APL-2.0-M НС-1454430/4.webp",
-        "./image/heating_equipment/Ballu BIH-APL-2.0-M НС-1454430/5.webp",
-        "./image/heating_equipment/Ballu BIH-APL-2.0-M НС-1454430/6.webp"
-        ]
+          "id": 12,
+          "name": {
+            "en": "Infrared heater Ballu BIH-APL-2.0-M НС-1454430",
+            "ru": "Инфракрасный обогреватель Ballu BIH-APL-2.0-M НС-1454430"
+          },
+          "specifications": {
+            "en": "Power: 2000 W, Type of heating element: monolithic infrared, Installation: ceiling or wall-mounted, Recommended heating area: 20 m², Wavelength: 5.9 µm, Mounting height: 4.5 m, Minimum mounting height: 2.5 m, Number of heating modes: 1, Thermostat type: mechanical, Tripod mounting: no, Protective grille: no, Remote control: no, Dimensions without packaging: 1200х260х45 mm, Net weight: 4.6 kg, Gas-powered: no, Protection rating: IP20",
+            "ru": "Мощность: 2000 Вт, Тип нагревательного элемента: монолитный инфракрасный, Установка: потолочная или настенная, Рекомендуемая площадь обогрева: 20 м², Длина волны: 5.9 мкм, Высота установки: 4.5 м, Минимальная высота установки: 2.5 м, Количество режимов обогрева: 1, Тип термостата: механический, Установка на штатив: нет, Защитная решетка: нет, Пульт ДУ: нет, Размеры без упаковки: 1200х260х45 мм, Вес нетто: 4.6 кг, Газовый: нет, Степень защиты: IP20"
+          },
+          "description": {
+            "en": "Ballu BIH-APL-2.0-M HC-1454430 is an infrared heater with monolithic heating elements! It is indispensable for local heating of work areas in rooms with high ceilings or poor thermal insulation, where traditional heating methods are ineffective. Convenient mounting is provided by built-in brackets with a kit for ceiling suspension, which allows for easy and quick installation of heaters to the ceiling, on a cable or even on threaded studs.",
+            "ru": "Ballu BIH-APL-2.0-M НС-1454430 - это инфракрасный обогреватель с монолитными нагревательными элементами! Он незаменим для локального обогрева рабочих зон в помещениях с высокими потолками или плохой теплоизоляцией, где применение традиционных способов отопления малоэффективно. Удобный монтаж обеспечивается благодаря встроенным кронштейнам с комплектом для подвеса к потолку что позволяет произвести легкий и быстрый монтаж обогревателей к потолку, на трос или даже на резьбовые шпили."
+          },
+          "additionalInfo": {
+            "en": "Due to the absence of a steel HEATING element shell, heating and reaching operating temperature occurs significantly faster than with heaters with a standard panel. Durable radiating panels with 25 micron anodizing provide high efficiency throughout the entire service life of the device",
+            "ru": "За счет отсутствия стальной оболочки ТЭНа нагрев и выход прибора на рабочую температуру происходит значительно быстрее, чем у обогревателей со стандартной панелью. Долговечные излучающие панели с анодированием 25 мкм, обеспечивают высокую эффективность на всем сроке эксплуатации прибора"
+          },
+          "price": 59.39,
+          "image": [
+            "./image/heating_equipment/Ballu BIH-APL-2.0-M НС-1454430/1.webp",
+            "./image/heating_equipment/Ballu BIH-APL-2.0-M НС-1454430/2.webp",
+            "./image/heating_equipment/Ballu BIH-APL-2.0-M НС-1454430/3.webp",
+            "./image/heating_equipment/Ballu BIH-APL-2.0-M НС-1454430/4.webp",
+            "./image/heating_equipment/Ballu BIH-APL-2.0-M НС-1454430/5.webp",
+            "./image/heating_equipment/Ballu BIH-APL-2.0-M НС-1454430/6.webp"
+          ]
         }
       ]
     },
+
     "sensors": {
-      "title": "Sensors",
+      "title": {
+        "en": "Sensors",
+        "ru": "Датчики"
+      },
       "products": [
         {
-        "id": 13,
-        "name": "Micromechanical temperature & pressure sensor M1",
-        "specifications": "Dimensions: 31.3 х 31.3 х 38.5 mm, Measuring range: 0.01..10 MPa, Accuracy (for pressure, at 25°C): ±0.05…±0.50% FS, Temperature range: -40..+125°C, Accuracy (for temperature): ±1°C (type) / ±3°C (max), Ingress Protection: IP65, Power consumption: 0.3 W, Output signal: SPI",
-        "price": 50.00,
-        "description":"Description",
-        "additionalInfo": "The sensor has built-in temperature compensation.",
-        "image": [
-        "./image/Sensors/MMDD_M1/1.png",
-        "./image/Sensors/MMDD_M1/2.png",
-        "./image/Sensors/MMDD_M1/3.png"
-        ]
+          "id": 13,
+          "name": {
+            "en": "Micromechanical temperature & pressure sensor M1",
+            "ru": "Микромеханический датчик температуры и давления М1"
+          },
+          "specifications": {
+            "en": "Dimensions: 31.3 х 31.3 х 38.5 mm, Measuring range: 0.01..10 MPa, Accuracy (for pressure at 25°C): ±0.05…±0.50% FS, Temperature range: -40..+125°C, Accuracy (for temperature): ±1°C (type) / ±3°C (max), Ingress Protection: IP65, Power consumption: 0.3 W, Output signal: SPI",
+            "ru": "Размеры: 31.3 х 31.3 х 38.5 мм, Диапазон измерений: 0.01..10 МПа, Точность (для давления при 25°C): ±0.05…±0.50% FS, Диапазон температур: -40..+125°C, Точность (для температуры): ±1°C (тип.) / ±3°C (макс.), Степень защиты: IP65, Потребляемая мощность: 0.3 Вт, Выходной сигнал: SPI"
+          },
+          "description": {
+            "en": "The micromechanical sensor MMDD-M1 is designed to measure excess pressure. The unified threaded connection allows the sensor to be installed directly into the route. The possibility of flexible reconfiguration according to the pressure transducer parameters, taking into account customer requirements.",
+            "ru": "Микромеханический датчик ММДД-M1 предназначен для измерения избыточного давления. Унифицированное резьбовое соединение позволяет установить датчик напрямую в трассу. Возможность гибкой перенастройки под параметры преобразователя давления с учетом требования заказчика."
+          },
+          "additionalInfo": {
+            "en": "The sensor has built-in temperature compensation.",
+            "ru": "Датчик имеет встроенную температурную компенсацию."
+          },
+          "image": [
+            "./image/Sensors/MMDD_M1/1.jpg",
+            "./image/Sensors/MMDD_M1/2.jpg",
+            "./image/Sensors/MMDD_M1/3.jpg"
+          ]
         },
         {
-        "id": 14,
-        "name": "Micromechanical temperature & pressure sensor Y1",
-        "specifications": "Dimensions: 40 х 40 х 99 mm, Measuring range (pressure): 0.01..100 MPa, Accuracy (for pressure, at 25°C): ±0.01…±0.39% FS, Temperature range: -40..+125°C, Accuracy (for temperature): ±1°C (type) / ±3°C (max), Ingress Protection: IP68, Power consumption: 0.5 W, Output signal: SPI",
-        "price": 50.00,
-        "description":"The high-tech micromechanical sensor MMDD-Y1 is designed to measure excess pressure of a gaseous medium and temperature. It has high accuracy, low consumption and built-in temperature compensation. The unified threaded connection allows the sensor to be installed directly into the route. The precise electronic interface ensures detection and data transmission in digital form via the SPI interface.",
-        "additionalInfo": "The sensor has built-in temperature compensation.",
-        "image": [
-        "./image/Sensors/MMDD_Y1/1.png",
-        "./image/Sensors/MMDD_Y1/2.png",
-        "./image/Sensors/MMDD_Y1/3.png"
-        ]
+          "id": 14,
+          "name": {
+            "en": "Micromechanical temperature & pressure sensor Y1",
+            "ru": "Микромеханический датчик температуры и давления Y1"
+          },
+          "specifications": {
+            "en": "Dimensions: 40 х 40 х 99 mm, Measuring range (pressure): 0.01..100 MPa, Accuracy (for pressure, at 25°C): ±0.01…±0.39% FS, Temperature range: -40..+125°C, Accuracy (for temperature): ±1°C (type) / ±3°C (max), Ingress Protection: IP68, Power consumption: 0.5 W, Output signal: SPI",
+            "ru": "Размеры: 40 х 40 х 99 мм, Диапазон измерений (давление): 0.01..100 МПа, Точность (для давления при 25°C): ±0.01…±0.39% FS, Диапазон температур: -40..+125°C, Точность (для температуры): ±1°C (тип.) / ±3°C (макс.), Степень защиты: IP68, Потребляемая мощность: 0.5 Вт, Выходной сигнал: SPI"
+          },
+          "description": {
+            "en": "The high-tech micromechanical sensor MMDD-U1 is designed to measure excess pressure of a gaseous medium and temperature. It has high accuracy, low consumption and built-in temperature compensation. The unified threaded connection allows the sensor to be installed directly into the route. The precise electronic interface ensures detection and data transmission in digital form via the SPI interface.",
+            "ru": "Высокотехнологичный микромеханический датчик MMDD-U1 предназначен для измерения избыточного давления газообразной среды и температуры. Обладает высокой точностью, низким потреблением и встроенной температурной компенсацией. Унифицированное резьбовое соединение позволяет установить датчик напрямую в трассу. Прецизионный электронный интерфейс обеспечивает детектирование и передачу данных в цифровом виде по интерфейсу SPI."
+          },
+          "additionalInfo": {
+            "en": "The sensor has built-in temperature compensation.",
+            "ru": "Датчик имеет встроенную температурную компенсацию."
+          },
+          "image": [
+            "./image/Sensors/MMDD_Y1/1.png",
+            "./image/Sensors/MMDD_Y1/2.png",
+            "./image/Sensors/MMDD_Y1/3.png"
+          ]
         }
       ]
     },
     "electronic-modules": {
-      "title": "Electronic Modules",
+      "title": {
+        "en": "Electronic Modules",
+        "ru": "Электронные модули"
+      },
       "products": [
         {
-        "id": 15,
-        "name": "Pressure Sensor Interface and Signal Conditioning IC AMPS-01A",
-        "specifications": "6-bit programable gain for instrumented amplifier, 7-bit programable gain for capacitance to voltage converter, 2 operational modes of temperature sensing, Supply voltage 3.3V, 12-bit bridge offset compensation and capacitance trimming, Output signal: SPI, Operation temperature -40 ~ +85 ᴼC",
-        "price": 50.00,
-        "description":"The AMPS-01A is a highly integrated, low  power IC for capacitive and resistive  Wheatstone bridge pressure sensors, which  features  an  configurated  analog  instrument  programmable  amplifier,  programmable voltage to capacitance  converter, a low pass filter, a digital to analog  12-bit ∑∆-ADC, a digital temperature  calibration DSP and a SPI output interface. The  AMPS-01A can provide an on-chip resistive  bridge offset cancelation and capacitance  offset trimming. The AMPS-01A can provide  temperature compensation with external  temperature sensor",
-        "additionalInfo": [
-          "• Direct sensor interface for high accuracy",
-          "• Low power signal processing",
-          "• Internal diagnostics"
-          ],
-        "image": [
-          "./image/IC/1.jpg",
-          "./image/IC/2.jpg"
-        ]
+          "id": 15,
+          "name": {
+            "en": "Pressure Sensor Interface and Signal Conditioning IC AMPS-01A",
+            "ru": "Интерфейс датчика давления и микросхема обработки сигналов AMPS-01A"
+          },
+          "specifications": {
+            "en": "6-bit programable gain for instrumented amplifier, 7-bit programable gain for capacitance to voltage converter, 2 operational modes of temperature sensing, Supply voltage 3.3V, 12-bit bridge offset compensation and capacitance trimming, Output signal: SPI, Operation temperature -40 ~ +85 ᴼC",
+            "ru": "6-битное программируемое усиление для измерительного усилителя, 7-битное программируемое усиление для преобразователя емкости в напряжение, 2 режима работы измерения температуры, Напряжение питания 3.3В, 12-битная компенсация смещения моста и подстройка емкости, Выходной сигнал: SPI, Рабочая температура -40 ~ +85 ᴼC"
+          },
+          "description": {
+            "en": "The AMPS-01A is a highly integrated, low power IC for capacitive and resistive Wheatstone bridge pressure sensors, which features an configurated analog instrument programmable amplifier, programmable voltage to capacitance converter, a low pass filter, a digital to analog 12-bit ∑∆-ADC, a digital temperature calibration DSP and a SPI output interface. The AMPS-01A can provide an on-chip resistive bridge offset cancelation and capacitance offset trimming. The AMPS-01A can provide temperature compensation with external temperature sensor",
+            "ru": "AMPS-01A - это высокоинтегрированная микросхема с низким энергопотреблением для емкостных и резистивных датчиков давления с мостом Уитстона, которая включает в себя настраиваемый аналоговый программируемый измерительный усилитель, программируемый преобразователь напряжения в емкость, фильтр нижних частот, 12-битный ∑∆-АЦП, цифровой процессор калибровки температуры и выходной интерфейс SPI. AMPS-01A может обеспечивать компенсацию смещения резистивного моста на кристалле и подстройку емкостного смещения. AMPS-01A может обеспечивать температурную компенсацию с внешним датчиком температуры"
+          },
+          "additionalInfo": {
+            "en": "Direct sensor interface for high accuracy, Low power signal processing, Internal diagnostics",
+            "ru": "Прямой интерфейс датчика для высокой точности, Обработка сигналов с низким энергопотреблением, Внутренняя диагностика"
+          },
+          "image": [
+            "./image/IC/1.jpg",
+            "./image/IC/2.jpg"
+          ]
         }
       ]
     }

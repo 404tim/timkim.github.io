@@ -1,0 +1,108 @@
+{
+    "en": {
+      "page.title": "REVIEW",
+      "header.logo": "Green Energy",
+      "header.nav.main": "Main",
+      "header.nav.news": "News",
+      "header.nav.review": "Why us?",
+      "header.nav.products": "Products",
+      "header.nav.calculator": "Calculator",
+      "header.nav.about": "About Us",
+      "header.contact": "Contact us",
+      "products.heating": "Heating Equipment",
+      "products.sensors": "Sensors",
+      "products.modules": "Electronic Modules",
+      
+      "section1.title": "What we do?",
+      "section1.text": "Our company develops and manufactures high-precision sensors for a wide range of applications. We offer both standard solutions ready for implementation and create custom products based on our customers' technical requirements. <br><br> Our devices demonstrate exceptional accuracy and stability, making them ideal for use in both industrial environments and private homes. The sensors are easily integrated into automation systems, including modern \"smart home\" platforms.",
+      
+      "section2.title": "Where are our products used?",
+      "section2.text": "Our products are widely used in modern automation and control systems, providing accurate measurement and control of various parameters. The proposed solutions can be used in both large industrial buildings and private homes. In industry, they control technological processes, monitor equipment conditions, and optimize production. <br><br> For private users, our sensors offer smart climate control, automating heating, ventilation, and air conditioning management at home.",
+      
+      "section3.title": "Why is this necessary?",
+      "section3.text": "Every year, humanity consumes more and more energy. And a huge part of this energy is wasted by ordinary people. How many times have you forgotten to turn off the heater when you leave home? However, thanks to smart systems with the ability to learn, these problems can be solved. <br><br> For instance, when you're at work, the system reduces energy consumption by turning off the heating or underfloor heating to save energy. And half an hour before your return, it smoothly turns the heating back on so you enter a warm home. When it's bedtime, it automatically lowers the temperature for a comfortable sleep and maintains it at an optimal level throughout the night. The system also controls ventilation, keeping heat inside when needed and removing excess humidity to ensure comfort. This automation can significantly reduce your heating and electricity bills. <br><br> Want to know exactly how much you can save? Use our calculator to see how a smart management system can help optimize your costs.",
+      
+      "calculator.heading": "Calculate Your Savings",
+      "calculator.power": "Heating Power (kW):",
+      "calculator.power.placeholder": "For example: 5",
+      "calculator.cost": "Electricity Cost (€/kWh):",
+      "calculator.cost.placeholder": "For example: 0.15",
+      "calculator.area": "House Area (m²):",
+      "calculator.area.placeholder": "For example: 120",
+      "calculator.button": "Calculate",
+      "calculator.save": "You can save",
+      "calculator.period": "in year",
+      
+      "footer.contact.title": "Contact Us",
+      "footer.contact.email": "Email: fbdfbdfb@gmail.com",
+      "footer.contact.phone": "Phone: +123456789",
+      "footer.contact.address": "Address: 9999, England",
+      
+      "footer.links.title": "Quick Links",
+      "footer.links.main": "Main",
+      "footer.links.products": "Products",
+      "footer.links.about": "About Us",
+      "footer.links.contact": "Contact Us",
+      
+      "footer.social.title": "Follow Us",
+      "footer.social.facebook": "Facebook",
+      "footer.social.twitter": "Twitter",
+      "footer.social.linkedin": "LinkedIn",
+      "footer.social.instagram": "Instagram",
+      
+      "alert.fillFields": "Please fill in all fields"
+    },
+    "ru": {
+      "page.title": "ОБЗОР",
+      "header.logo": "Зелёная Энергия",
+      "header.nav.main": "Главная",
+      "header.nav.news": "Новости",
+      "header.nav.review": "Почему мы?",
+      "header.nav.products": "Продукты",
+      "header.nav.calculator": "Калькулятор",
+      "header.nav.about": "О нас",
+      "header.contact": "Связаться с нами",
+      "products.heating": "Отопительное оборудование",
+      "products.sensors": "Датчики",
+      "products.modules": "Электронные модули",
+      
+      "section1.title": "Чем мы занимаемся?",
+      "section1.text": "Наша компания разрабатывает и производит высокоточные датчики для широкого спектра применений. Мы предлагаем как стандартные решения, готовые к внедрению, так и создаём индивидуальные продукты на основе технических требований наших клиентов. <br><br> Наши устройства демонстрируют исключительную точность и стабильность, что делает их идеальными для использования как в промышленных условиях, так и в частных домах. Датчики легко интегрируются в системы автоматизации, включая платформы \"умный дом\".",
+      
+      "section2.title": "Где используются наши продукты?",
+      "section2.text": "Наши продукты широко используются в современных системах автоматизации и управления, обеспечивая точное измерение и контроль различных параметров. Предлагаемые решения могут применяться как в крупных промышленных зданиях, так и в частных домах. В промышленности они контролируют технологические процессы, следят за состоянием оборудования и оптимизируют производство. <br><br> Для частных пользователей наши датчики предлагают интеллектуальное управление климатом, автоматизируя управление отоплением, вентиляцией и кондиционированием воздуха в доме.",
+      
+      "section3.title": "Почему это необходимо?",
+      "section3.text": "С каждым годом человечество потребляет всё больше и больше энергии. И огромная часть этой энергии тратится впустую обычными людьми. Сколько раз вы забывали выключить обогреватель, когда уходили из дома? Однако благодаря умным системам с возможностью обучения эти проблемы можно решить. <br><br> Например, когда вы на работе, система снижает энергопотребление, отключая отопление или тёплый пол для экономии энергии. А за полчаса до вашего возвращения она плавно включает отопление, чтобы вы вошли в тёплый дом. Когда наступает время сна, она автоматически снижает температуру до комфортного значения и поддерживает её на оптимальном уровне всю ночь. Система также может управлять вентиляцией, сохраняя тепло внутри, и удалять избыточную влажность, когда это необходимо. Такой подход может значительно снизить ваши счета за отопление и электроэнергию. <br><br> Хотите точно знать, сколько вы можете сэкономить? Используйте наш калькулятор, чтобы увидеть, как умная система управления может помочь оптимизировать ваши расходы.",
+      
+      "calculator.heading": "Рассчитайте свою экономию",
+      "calculator.power": "Мощность отопления (кВт):",
+      "calculator.power.placeholder": "Например: 5",
+      "calculator.cost": "Стоимость электроэнергии (€/кВтч):",
+      "calculator.cost.placeholder": "Например: 0.15",
+      "calculator.area": "Площадь дома (м²):",
+      "calculator.area.placeholder": "Например: 120",
+      "calculator.button": "Рассчитать",
+      "calculator.save": "Вы можете сэкономить",
+      "calculator.period": "в год",
+      
+      "footer.contact.title": "Связаться с нами",
+      "footer.contact.email": "Email: fbdfbdfb@gmail.com",
+      "footer.contact.phone": "Phone: +123456789",
+      "footer.contact.address": "Address: 9999, England",
+      
+      "footer.links.title": "Быстрые ссылки",
+      "footer.links.main": "Главная",
+      "footer.links.products": "Продукты",
+      "footer.links.about": "О нас",
+      "footer.links.contact": "Связаться с нами",
+      
+      "footer.social.title": "Следите за нами",
+      "footer.social.facebook": "Facebook",
+      "footer.social.twitter": "Twitter",
+      "footer.social.linkedin": "LinkedIn",
+      "footer.social.instagram": "Instagram",
+      
+      "alert.fillFields": "Пожалуйста, заполните все поля"
+    }
+  }

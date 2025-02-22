@@ -1,0 +1,521 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+/*-------------------------------------------------*/
+/* Шапка с изображением */
+.header-image {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.311), rgba(0, 0, 0, 0.311)), 
+                url('./image/review/head_green-gigapixel-standard\ v2-2x.jpg') center/cover;
+    position: relative;
+    animation: headerThrow 2.5s 1s ease-in-out 1; /* первое число - длительность анимации, второе — задержка перед началом анимации, ease-in-out -функция времени 
+    (анимация начинается и заканчивается плавно, с ускорением и замедлением), в конце - количество повторений анимации */
+}
+
+/* Анимация для индикатора */
+@keyframes indicatorFloat {
+    0% { transform: translate(-50%, 0); }    /* Сохраняем X-позицию */
+    50% { transform: translate(-50%, -80px); } /* Двигаем только по Y */
+    100% { transform: translate(-50%, 0); }
+}
+
+/* Анимация для шапки (бросок и падение) */
+@keyframes headerThrow {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-40px); } /* Верхняя точка */
+    100% { transform: translateY(0); }    /* Возврат */
+}
+
+.header-title {
+    position: absolute;
+    top: 25vh;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgb(234, 234, 234);
+    font-family: 'Faustina', serif;
+    font-size: 20vh;
+    letter-spacing: 0.1em; /* Настройка расстояния между буквами */
+    text-align: center;
+    text-shadow: 4px 4px 6px rgba(9, 255, 0, 0.597);
+    z-index: 1;
+}
+
+/* Индикатор прокрутки */
+.scroll-indicator {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 25px;
+    animation: 
+        indicatorFloat 2.5s 1s ease-in-out 1, /* Синхронно с шапкой */
+        pulsate 2s 3.5s infinite;            /* длительность анимации, задержка перед началом анимации, infinite — количество повторений анимации */
+}
+
+.scroll-indicator::after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    width: 6px;
+    height: 6px;
+    background: white;
+    border-radius: 50%;
+    transform: translateX(-50%);
+}
+
+@keyframes pulsate {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+
+/*-----------------------------------------------------*/
+/* Верхняя черная панель */
+header {
+    position: fixed; /* Закрепляем панель сверху */
+    top: 20px; /* Отступ от верхней части экрана */
+    left: 50%; /* Центруем панель */
+    transform: translateX(-50%);
+    width: 90%; /* Ширина панели */
+    max-width: 1200px; /* Максимальная ширина */
+    background-color: black; /* Непрозрачный черный фон */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* отступы сверху (снизу) и слева (справа)*/
+    height: 5vh; /* Установите желаемую высоту панели */
+    border-radius: 15px; /* Закругленные углы */
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.3); /* Тень для визуального эффекта */
+    z-index: 1000; /* Поверх всего остального */
+}
+
+header .logo {
+    font-size: 130%;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li {
+    cursor: pointer;
+    font-size: 100%; /* Шрифт текста вкладок панели */
+}
+
+header .header-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+header .header-buttons button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 100%; /* Шрифт текста внутри кнопок */
+}
+
+header .header-buttons .buy {
+    background-color: green;
+    color: white;
+}
+
+header .header-buttons button:hover {
+    opacity: 0.8;
+}
+
+.nav-link {
+    text-decoration: none; /* Убираем подчеркивание */
+    color: inherit; /* Наследуем цвет текста от родителя */
+    cursor: pointer; /* Меняем курсор на указатель */
+}
+
+.nav-link:hover {
+    color: #c3c3c3; /* Цвет при наведении */
+}
+
+/* Стили для выпадающего списка под Products */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  nav ul li {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  /* Скрытый выпадающий список */
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%; /* Располагаем список ниже родительского элемента */
+    left: 0;
+    background-color: white; /* Фон выпадающего списка */
+    border: 1px solid #ddd; /* Граница */
+    border-radius: 5px; /* Закругленные края */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень */
+    padding: 10px 0;
+    z-index: 10;
+    min-width: 200px; /* Минимальная ширина */
+  }
+  
+  .dropdown-menu li {
+    padding: 10px 20px;
+  }
+  
+  .dropdown-menu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    display: block;
+  }
+  
+  .dropdown-menu li a:hover {
+    background-color: #f0f0f0; /* Изменение фона при наведении */
+  }
+  
+  /* Показ выпадающего списка при наведении на Products */
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+
+  /* Language Selector */
+.lang-dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .lang-btn {
+    padding: 8px 20px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .lang-menu {
+    display: none;
+    position: absolute;
+    right: 0;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 0;
+    margin-top: 5px;
+    min-width: 80px;
+    z-index: 1000;
+    list-style: none; /* Убираем маркеры списка */
+  }
+  
+  .lang-menu.show {
+    display: block;
+  }
+  
+  .lang-menu li {
+    padding: 10px;
+    color: #333;
+    cursor: pointer;
+    transition: background 0.2s;
+    text-align: center;
+  }
+  
+  .lang-menu li:hover {
+    background: #f5f5f5;
+  }
+/* -------------------------------------------------------------*/
+/* Основной контейнер */
+.content-background {
+    background: 
+        linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),
+        url('./image/review/image.webp') center/cover; /* fixed для параллакса */
+    background-size: cover;  /* или 'contain' в зависимости от предпочтений */
+    background-position: top center; /* Выравнивание изображения по верхнему краю */
+    background-repeat: no-repeat;
+    padding-top: 0; /* Убираем отступ сверху для фонового изображения */
+    position: relative; /* Чтобы плитки не перекрывали фоновое изображение */
+    z-index: 0;
+}
+
+.content-background::before {
+    content: ''; /* Обязательное свойство для псевдоэлемента */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.122); /* Затемнение (черный цвет с прозрачностью 50%) */
+    z-index: 1; /* Псевдоэлемент должен быть выше фона, но ниже содержимого */
+}
+
+.container {
+    margin: 0 0 0 2vw;
+    width: 90%; /* задает отступ справа от края*/
+    position: relative; /* Чтобы текст был поверх фона */
+    z-index: 1; /* Поднимаем текст над фоном */
+}
+
+/* Стили для секций */
+.section {
+    display: flex;
+    /*
+    gap: 5vw; /* Отступ между плиткой и изображением */
+    /*align-items: center; /* Центрируем изображение по вертикали относительно плитки */
+}
+
+.text {
+    flex: 1;
+    background: rgba(255, 255, 255, 0.563);
+    border-radius: 20px;
+    padding: 10px 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.488);
+    margin: 0 0 20px 5vw; /* Левый отступ 5vw */
+    color: #000000dc;
+    margin-top: 8vh; /* делает отступ между плитками и отступ верхней плитки от шапки*/
+}
+
+/* Стили для изображения */
+.image_for_text {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center; /* Центрируем изображение по вертикали */
+}
+
+.image_for_text img {
+    width: 30vw; /* Ширина изображения (можно регулировать вручную) */
+    height: auto; /* Высота подстраивается автоматически */
+    object-fit: contain;
+}
+
+.text h2 {
+    margin-bottom: 10px;
+    font-size: 4vh;
+}
+
+.text p {
+    font-size: 2vh
+}
+
+/* Черная линия */
+.line {
+    width: 50vw;
+    height: 4px;
+    background-color: black;
+    margin: 20px 0 10vh 5vw; /* Отступы: сверху 20px, снизу 5vh, слева 5vw */
+}
+
+
+/*---------------------- Калькулятор ----------------------------------------*/
+.calculator-section {
+    padding: 10vh 0;
+    position: relative;
+    width: 100%; /* Занимает всю ширину */
+    z-index: 1;
+}
+
+.calculator-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    margin: 0 auto; /* Центрирование контейнера */
+    display: flex;
+    align-items: center;
+}
+
+.calculator-content {
+    display: flex;
+    justify-content: center; /* Центрирование колонок */
+    align-items: center;
+    gap: 15vw; /* Отступ между колонками 10vw */
+    margin: 0 auto; /* Центрирование */
+    flex-wrap: wrap; /* Запрет переноса колонок */
+}
+
+/* Стили для заголовка КАЛЬКУЛЯТОРА */
+.calculator-heading {
+    text-align: center;
+    margin: 8vh 0 4vh;
+    position: relative;
+    z-index: 2;
+}
+
+.calculator-heading h2 {
+    font-size: 4.5vh;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.input-column {
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 20px;
+    padding: 2vw 5vh;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.234);
+    flex: 0 1 auto; /* Не растягивается */
+}
+
+.input-group {
+    margin-bottom: 25px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 2.2vh;
+    color: #000000;
+}
+
+.input-group input {
+    padding: 12px 20px;
+    border: 2px solid #ddd;
+    border-radius: 25px;
+    font-size: 1.8vh;
+    transition: all 0.3s;
+}
+
+.input-group input:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+.calculate-btn {
+    width: 100%;
+    padding: 5%;
+    background: #41a344;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 2vh;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.calculate-btn:hover {
+    background: #45a049;
+    transform: translateY(-2px);
+}
+
+/* Круг с результатом */
+.result-column {
+    display: flex;
+    justify-content: center;
+    flex: 0 1 auto; /* Не растягивается */
+}
+
+.result-ring {
+    position: relative;
+    width: 40vh;
+    height: 40vh;
+
+}
+
+.result-ring svg {
+    width: 100%;
+    height: 100%;
+    transform: rotate(-90deg);
+}
+
+.result-ring circle {
+    fill: none;
+    stroke-width: 8;
+    stroke-linecap: round;
+}
+
+.ring-bg {
+    stroke: rgba(0, 0, 0, 0.1);
+}
+
+.ring-progress {
+    stroke: #28b331;
+    stroke-dasharray: 283;
+    stroke-dashoffset: 283;
+    transition: stroke-dashoffset 3s ease-out;
+}
+
+.result-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5vh;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+    width: 100%;
+}
+/* Стили для надписи "You can save" */
+.save-label {
+    position: absolute;
+    top: -15%; /* Располагаем над кругом */
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 3vh;
+    color: #000000;
+    font-weight: 500;
+    white-space: nowrap;
+    width: 100%;
+    text-align: center;
+}
+
+.amount {
+    font-size: 5vh;
+    font-weight: bold;
+    line-height: 1;
+}
+
+/* надпись "in year"*/
+.period {
+    position: absolute;
+    top: 60%; /* Располагаем под числом */
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2.5vh;
+    color: #000000;
+    width: 100%;
+    text-align: center;
+}
+
+/* ------------------- Нижняя панель с контактами ---------------------*/
+footer {
+    background-color: #222;
+    color: white;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+footer .footer-section {
+    flex: 1;
+    margin: 10px;
+}
+footer h4 {
+    margin-bottom: 20px;
+}
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+footer ul li {
+    margin: 10px 0;
+}
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+footer p, footer ul li {
+    color: white;
+}

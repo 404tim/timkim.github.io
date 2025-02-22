@@ -1,0 +1,108 @@
+{
+    "en": {
+      "page.title": "Contact Us",
+      "header.logo": "Green Energy",
+      "header.nav.main": "Main",
+      "header.nav.news": "News",
+      "header.nav.review": "Why us?",
+      "header.nav.products": "Products",
+      "products.heating": "Heating Equipment",
+      "products.sensors": "Sensors",
+      "products.modules": "Electronic Modules",
+      "header.nav.calculator": "Calculator",
+      "header.nav.about": "About Us",
+      "header.contact": "Contact us",
+      
+      "contact.title": "Contact Us",
+      "contact.intro": "Have a question or need assistance? Fill out the form below and we'll get back to you soon.",
+      
+      "form.name": "Full Name",
+      "form.email": "Email Address",
+      "form.phone": "Phone Number",
+      "form.phone.hint": "Optional. Example: +1234567890",
+      "form.message": "Your Message",
+      "form.submit": "Send Message",
+      
+      "contact.address.title": "Our Address",
+      "contact.address.value": "Englangn<br>London",
+      "contact.phone.title": "Phone",
+      "contact.phone.value": "+12345678",
+      "contact.email.title": "Email",
+      "contact.email.value": "thsthrtsht@gmail.com",
+      
+      "footer.contact.title": "Contact Us",
+      "footer.contact.email": "Email: hnffhnfn@gmail.com",
+      "footer.contact.phone": "Phone: +12345678",
+      "footer.contact.address": "Address: 9999, England London",
+      
+      "footer.links.title": "Quick Links",
+      "footer.links.main": "Main",
+      "footer.links.products": "Products",
+      "footer.links.about": "About Us",
+      "footer.links.contact": "Contact Us",
+      
+      "footer.social.title": "Follow Us",
+      "footer.social.facebook": "Facebook",
+      "footer.social.twitter": "Twitter",
+      "footer.social.linkedin": "LinkedIn",
+      "footer.social.instagram": "Instagram",
+      
+      "validation.required": "This field is required",
+      "validation.email": "Please enter a valid email address",
+      "validation.phone.pattern": "Invalid phone format. Must start with + and country code",
+      "validation.phone.format": "Invalid format. Example: +1234567890"
+    },
+    "ru": {
+      "page.title": "Свяжитесь с нами",
+      "header.logo": "Зеленая Энергия",
+      "header.nav.main": "Главная",
+      "header.nav.news": "Новости",
+      "header.nav.review": "Почему мы?",
+      "header.nav.products": "Продукты",
+      "products.heating": "Отопительное оборудование",
+      "products.sensors": "Датчики",
+      "products.modules": "Электронные модули",
+      "header.nav.calculator": "Калькулятор",
+      "header.nav.about": "О нас",
+      "header.contact": "Связаться с нами",
+      
+      "contact.title": "Свяжитесь с нами",
+      "contact.intro": "Есть вопросы или нужна помощь? Заполните форму ниже, и мы скоро свяжемся с вами.",
+      
+      "form.name": "Полное имя",
+      "form.email": "Электронная почта",
+      "form.phone": "Номер телефона",
+      "form.phone.hint": "Необязательно. Пример: +1234567890",
+      "form.message": "Ваше сообщение",
+      "form.submit": "Отправить сообщение",
+      
+      "contact.address.title": "Наш адрес",
+      "contact.address.value": "Англия<br>Лондон",
+      "contact.phone.title": "Телефон",
+      "contact.phone.value": "+12345678",
+      "contact.email.title": "Email",
+      "contact.email.value": "thsthrtsht@gmail.com",
+      
+      "footer.contact.title": "Контакты",
+      "footer.contact.email": "Email: hnffhnfn@gmail.com",
+      "footer.contact.phone": "Телефон: +12345678",
+      "footer.contact.address": "Адрес: 9999, Англия, Лондон",
+      
+      "footer.links.title": "Быстрые ссылки",
+      "footer.links.main": "Главная",
+      "footer.links.products": "Продукты",
+      "footer.links.about": "О нас",
+      "footer.links.contact": "Связаться с нами",
+      
+      "footer.social.title": "Подписывайтесь на нас",
+      "footer.social.facebook": "Facebook",
+      "footer.social.twitter": "Twitter",
+      "footer.social.linkedin": "LinkedIn",
+      "footer.social.instagram": "Instagram",
+      
+      "validation.required": "Это поле обязательно",
+      "validation.email": "Пожалуйста, введите действительный email адрес",
+      "validation.phone.pattern": "Неверный формат телефона. Должен начинаться с + и кода страны",
+      "validation.phone.format": "Неверный формат. Пример: +1234567890"
+    }
+  }

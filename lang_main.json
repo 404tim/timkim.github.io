@@ -1,0 +1,250 @@
+{
+  "en": {
+    "header": {
+      "logo": "Green Energy",
+      "nav": {
+        "main": "Main",
+        "news": "News",
+        "review": "Why us?",
+        "products": "Products",
+        "calculator": "Calculator",
+        "about": "About Us"
+      },
+      "contact": "Contact us"
+    },
+    "hero": {
+      "slide1": {
+        "title1": "Perfect control and saving",
+        "title2": "with Green Energy",
+        "text": "Our team is engaged in the development and production of smart sensors and electronic integrated modules that will allow you to not only save energy, but also your money"
+      },
+      "slide2": {
+        "title": "Product Features",
+        "feature1": "1. Possibility of integration into smart home systems",
+        "feature2": "2. Simple and convenient climate control in your home using your smartphone",
+        "feature3": "3. The sensor can be adapted to your preferences",
+        "feature4": "4. Continuous monitoring of system status to prevent accidents"
+      },
+      "slide3": {
+        "title": "Learn more about us"
+      }
+    },
+    "accordion": {
+      "item1": {
+        "title": "What do we produce?",
+        "text": "We develop sensors and embedded electronic modules for adaptive environmental monitoring system."
+      },
+      "item2": {
+        "title": "Why is this necessary?",
+        "text": "Thanks to the intelligent control system, sensors automatically adjust the operation of the equipment to the specific needs of the user, which leads to significant energy savings, and constant monitoring with the anomaly detection function guarantees a timely response to possible security threats."
+      },
+      "item3": {
+        "title": "What capabilities do your sensors have?",
+        "text": "Our sensors combine high measurement accuracy and real-time operation, which is especially important for monitoring environmental changes. Their flexible architecture allows them to be easily integrated into existing systems, from industrial complexes to smart home solutions, ensuring ease of use and reliability."
+      },
+      "item4": {
+        "title": "I want to integrate your IC into my sensors. Do you have a universal solution?",
+        "text": "Yes, we have ready-made universal solutions that can be integrated into any temperature and pressure sensors."
+      },
+      "item5": {
+        "title": "Can I order sensors or integrated circuits from you adapted to my technical requirements?",
+        "text": "For customers who require non-standard solutions, we offer the development and production of sensors and integrated circuits for individual requirements. Regardless of the complexity of the task, our specialists are ready to offer the optimal solution that fully meets your technical requirements."
+      }
+    },
+    "sections": {
+      "who": {
+        "title": "Who We Are",
+        "text": "Our team includes specialists in various fields of physics, electronics and development of special software. We are engaged in the development of our own high-tech sensors and integrated electronic modules. Extensive experience and close cooperation with leading companies helps us create high-quality products for our customers."
+      },
+      "energy": {
+        "title": "Smart Energy Control",
+        "text": "We care about nature and want the energy produced not to be wasted. Thanks to modern technologies, it is possible to significantly reduce consumption without compromising comfort."
+      },
+      "tech": {
+        "title": "Personalized Tech Solutions",
+        "text": "We understand that one-size-fits-all solutions may not be suitable for some specialized tasks, so we offer custom design of the device according to your requirements. From project consultation to final product customization, we work closely with you to make sure the end result fully meets your expectations."
+      }
+    },
+    "products": {
+      "heating": {
+        "title": "Heating Equipment",
+        "text": "Advanced heating technology combining sustainability and performance to minimize energy waste and maximize comfort."
+      },
+      "sensors": {
+        "title": "Temperature & Pressure Sensors",
+        "text": "Advanced sensors for precise temperature and pressure monitoring to optimize energy consumption and save money."
+      },
+      "modules": {
+        "title": "Modules based on integrated technologies",
+        "text": "Highly efficient modules using integrated technologies that provide sensors for intelligent and sustainable energy management."
+      }
+    },
+    "features": {
+      "calculator": {
+        "title": "Power calculator",
+        "text": "Our calculator will allow you to calculate the required power of heating equipment to maintain the required temperature, taking into account the characteristics of the room."
+      },
+      "service": {
+        "title": "Customer service",
+        "text": "Our team is dedicated to providing fast, reliable responses and expert consultations to help you make the best decisions. Find out more about our client services and how to reach out to us!"
+      },
+      "savings": {
+        "title": "Calculate your savings",
+        "text": "Find out how installing automatic control sensors can help reduce your electricity costs. Simply enter your current consumption data and the calculator will calculate potential savings."
+      }
+    },
+    "footer": {
+      "contact": {
+        "title": "Contact Us",
+        "email": "Email: hnffhnfn@gmail.com",
+        "phone": "Phone: +12345678",
+        "address": "Address: 9999, England London"
+      },
+      "links": {
+        "title": "Quick Links",
+        "main": "Main",
+        "products": "Products",
+        "about": "About Us",
+        "contact": "Contact Us"
+      },
+      "social": {
+        "title": "Follow Us",
+        "facebook": "Facebook",
+        "twitter": "Twitter",
+        "linkedin": "LinkedIn",
+        "instagram": "Instagram"
+      }
+    },
+    "common": {
+      "learn_more": "Learn more >",
+      "read_more": "Read more",
+      "contact_us": "Contact us >",
+      "view_solutions": "View solutions >",
+      "calculate": "Calculate"
+    }
+  },
+  "ru": {
+    "header": {
+      "logo": "Зеленая Энергия",
+      "nav": {
+        "main": "Главная",
+        "news": "Новости",
+        "review": "Почему мы?",
+        "products": "Продукция",
+        "calculator": "Калькулятор",
+        "about": "О нас"
+      },
+      "contact": "Связаться с нами"
+    },
+    "hero": {
+      "slide1": {
+        "title1": "Идеальный контроль и экономия",
+        "title2": "с Green Energy",
+        "text": "Наша команда занимается разработкой и производством интеллектуальных датчиков и электронных интегрированных модулей, которые позволят вам экономить не только энергию, но и ваши деньги"
+      },
+      "slide2": {
+        "title": "Особенности продукции",
+        "feature1": "1. Возможность интеграции в системы умного дома",
+        "feature2": "2. Простое и удобное управление климатом в вашем доме через смартфон",
+        "feature3": "3. Датчик может адаптироваться под ваши предпочтения",
+        "feature4": "4. Постоянный мониторинг состояния системы для предотвращения аварий"
+      },
+      "slide3": {
+        "title": "Узнайте больше о нас"
+      }
+    },
+    "accordion": {
+      "item1": {
+        "title": "Что мы производим?",
+        "text": "Мы разрабатываем датчики и встраиваемые электронные модули для адаптивной системы мониторинга окружающей среды."
+      },
+      "item2": {
+        "title": "Зачем это нужно?",
+        "text": "Благодаря интеллектуальной системе управления датчики автоматически подстраивают работу оборудования под конкретные потребности пользователя, что приводит к значительной экономии энергии, а постоянный мониторинг с функцией обнаружения аномалий гарантирует своевременное реагирование на возможные угрозы безопасности."
+      },
+      "item3": {
+        "title": "Какими возможностями обладают ваши датчики?",
+        "text": "Наши датчики сочетают в себе высокую точность измерений и работу в режиме реального времени, что особенно важно для отслеживания изменений окружающей среды. Их можно легко интегрировать в существующие системы, от промышленных комплексов до решений умного дома."
+      },
+      "item4": {
+        "title": "Я хочу интегрировать вашу ИС в свои датчики. Есть ли у вас универсальное решение?",
+        "text": "Да, у нас есть готовые универсальные решения, которые можно интегрировать в любые датчики температуры и давления."
+      },
+      "item5": {
+        "title": "Могу ли я заказать у вас датчики или интегральные схемы, адаптированные под мои технические требования?",
+        "text": "Для клиентов, которым требуются нестандартные решения, мы предлагаем разработку и производство датчиков и интегральных схем по индивидуальным требованиям. Независимо от сложности задачи, наши специалисты готовы предложить оптимальное решение, полностью соответствующее вашим техническим требованиям."
+      }
+    },
+    "sections": {
+      "who": {
+        "title": "Кто мы",
+        "text": "В нашу команду входят специалисты в различных областях физики, электроники и разработки специального программного обеспечения. Мы занимаемся разработкой собственных высокотехнологичных датчиков и интегральных электронных модулей. Большой опыт и тесное сотрудничество с ведущими компаниями помогает нам создавать качественную продукцию для наших клиентов."
+      },
+      "energy": {
+        "title": "Умное управление энергией",
+        "text": "Мы заботимся о природе и хотим, чтобы производимая энергия не тратилась впустую. Благодаря современным технологиям можно значительно снизить потребление без ущерба для комфорта."
+      },
+      "tech": {
+        "title": "Персональные технические решения",
+        "text": "Мы понимаем, что универсальные решения могут не подойти для решения некоторых специализированных задач, поэтому предлагаем индивидуальную разработку устройства по вашим требованиям. От консультаций по проекту до окончательной настройки продукта мы тесно сотрудничаем с вами, чтобы убедиться, что конечный результат полностью соответствует вашим ожиданиям."
+      }
+    },
+    "products": {
+      "heating": {
+        "title": "Отопительное оборудование",
+        "text": "Передовые технологии отопления, сочетающие экологичность и производительность для минимизации потерь энергии и максимального комфорта."
+      },
+      "sensors": {
+        "title": "Датчики температуры и давления",
+        "text": "Передовые датчики для точного контроля температуры и давления, обеспечивающие оптимизацию энергопотребления и экономию затрат."
+      },
+      "modules": {
+        "title": "Модули на основе интегральных технологий",
+        "text": "Высокоэффективные модули с использованием интегральных технологий, обеспечивающие работу датчиков для интеллектуального и экологичного управления энергией."
+      }
+    },
+    "features": {
+      "calculator": {
+        "title": "Калькулятор мощности",
+        "text": "Наш калькулятор позволит рассчитать необходимую мощность отопительного оборудования для поддержания требуемой температуры с учетом характеристик помещения."
+      },
+      "service": {
+        "title": "Обслуживание клиентов",
+        "text": "Наша команда стремится обеспечить быстрые, надежные ответы и экспертные консультации, чтобы помочь вам принять наилучшие решения. Узнайте больше о наших услугах для клиентов и о том, как с нами связаться!"
+      },
+      "savings": {
+        "title": "Рассчитайте свою экономию",
+        "text": "Узнайте, как установка датчиков автоматического контроля поможет снизить ваши расходы на электроэнергию. Просто введите текущие данные потребления, и калькулятор рассчитает потенциальную экономию."
+      }
+    },
+    "footer": {
+      "contact": {
+        "title": "Свяжитесь с нами",
+        "email": "Email: hnffhnfn@gmail.com",
+        "phone": "Телефон: +12345678",
+        "address": "Адрес: 9999, Англия Лондон"
+      },
+      "links": {
+        "title": "Быстрые ссылки",
+        "main": "Главная",
+        "products": "Продукция",
+        "about": "О нас",
+        "contact": "Связаться с нами"
+      },
+      "social": {
+        "title": "Следите за нами",
+        "facebook": "Facebook",
+        "twitter": "Twitter",
+        "linkedin": "LinkedIn",
+        "instagram": "Instagram"
+      }
+    },
+    "common": {
+      "learn_more": "Узнать больше >",
+      "read_more": "Подробнее",
+      "contact_us": "Связаться с нами >",
+      "view_solutions": "Посмотреть решения >",
+      "calculate": "Рассчитать"
+    }
+  }
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review</title>
+    <link rel="stylesheet" href="style_review.css">
+    <link href="https://fonts.googleapis.com/css2?family=Faustina:wght@500&display=swap" rel="stylesheet">
+    <script src="script_review.js"></script>
+</head>
+
+<body>
+    <div class="header-image">
+        <h1 class="header-title" data-lang-key="page.title">REVIEW</h1>
+        <div class="scroll-indicator"></div>
+    </div>
+
+    <!-- Верхняя панель -->
+    <header>
+        <div class="logo" data-lang-key="header.logo">Green Energy</div>
+        <nav>
+            <ul>
+                <li><a href="main.html" class="nav-link" data-lang-key="header.nav.main">Main</a></li>
+                <li><a href="news.html" class="nav-link" data-lang-key="header.nav.news">News</a></li>
+                <li><a href="review.html" class="nav-link" data-lang-key="header.nav.review">Why us?</a></li>
+                <li class="dropdown">
+                    <span data-lang-key="header.nav.products">Products</span>
+                    <ul class="dropdown-menu">
+                        <li><a href="products.html?category=heating-equipment" data-lang-key="products.heating">Heating Equipment</a></li>
+                        <li><a href="products.html?category=sensors" data-lang-key="products.sensors">Sensors</a></li>
+                        <li><a href="products.html?category=electronic-modules" data-lang-key="products.modules">Electronic Modules</a></li>
+                    </ul>
+                </li>
+                <li><a href="calculation.html" class="nav-link" data-lang-key="header.nav.calculator">Calculator</a></li>
+                <li><a href="about_us.html" class="nav-link" data-lang-key="header.nav.about">About Us</a></li>
+            </ul>
+        </nav>
+        <div class="header-buttons">
+            <a href="contact.html" class="button-link"><button data-lang-key="header.contact">Contact us</button></a>
+            <div class="lang-dropdown">
+                <button class="lang-btn">EN</button>
+                <ul class="lang-menu">
+                    <li data-lang="en">EN</li>
+                    <li data-lang="ru">RU</li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="content-background">
+        <div class="container">
+            <div class="section">
+                <div class="text">
+                    <h2 data-lang-key="section1.title">What we do?</h2>
+                    <p data-lang-key="section1.text">Our company develops and manufactures high-precision sensors for a wide range of applications. We offer both standard 
+                        solutions ready for implementation and create custom products based on our customers' technical requirements. <br> <br>
+                        
+                        Our devices demonstrate exceptional accuracy and stability, making them ideal for use in both industrial environments and private homes. The sensors are easily integrated into automation systems, including modern "smart home" platforms.</p>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="text">
+                    <h2 data-lang-key="section2.title">Where are our products used?</h2>
+                    <p data-lang-key="section2.text">Our products are widely used in modern automation and control systems, providing accurate measurement and control of various parameters. The proposed solutions can be used in both large industrial buildings and private homes. In industry, they control technological processes, monitor equipment conditions, and optimize production. <br> <br>
+
+                        For private users, our sensors offer smart climate control, automating heating, ventilation, and air conditioning management at home.</p>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="text">
+                    <h2 data-lang-key="section3.title">Why is this necessary?</h2>
+                    <p data-lang-key="section3.text">Every year, humanity consumes more and more energy. And a huge part of this energy is wasted by ordinary people. How many times have you forgotten to turn off the heater when you 
+                        leave home? However, thanks to smart systems with the ability to learn, these problems can be solved. <br> <br>
+
+                        For instance, when you're at work, the system reduces energy consumption by turning off the heating or underfloor heating to save energy. And half an hour before your return, it 
+                        smoothly turns the heating back on so you enter a warm home. When it's bedtime, it automatically lowers the temperature for a comfortable sleep and maintains it at an optimal level 
+                        throughout the night. The system also controls ventilation, keeping heat inside when needed and removing excess humidity to ensure comfort. This automation can significantly reduce 
+                        your heating and electricity bills. <br> <br>
+                        
+                        Want to know exactly how much you can save? Use our calculator to see how a smart management system can help optimize your costs.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="calculator-heading">
+            <h2 data-lang-key="calculator.heading">Calculate Your Savings</h2>
+        </div>
+
+        <div class="calculator-section">
+            <div class="calculator-container">
+                <div class="calculator-content">
+                    <div class="input-column">
+                        <div class="input-group">
+                            <label data-lang-key="calculator.power">Heating Power (kW):</label>
+                            <input type="number" id="power" step="any" placeholder="For example: 5" data-lang-key="calculator.power.placeholder">
+                        </div>
+                        <div class="input-group">
+                            <label data-lang-key="calculator.cost">Electricity Cost (€/kWh):</label>
+                            <input type="number" id="cost" step="any" placeholder="For example: 0.15" data-lang-key="calculator.cost.placeholder">
+                        </div>
+                        <div class="input-group">
+                            <label data-lang-key="calculator.area">House Area (m²):</label>
+                            <input type="number" id="area" step="any" placeholder="For example: 120" data-lang-key="calculator.area.placeholder">
+                        </div>
+                        <button class="calculate-btn" onclick="calculateSavings()" data-lang-key="calculator.button">Calculate</button>
+                    </div>
+                    
+                    <div class="result-column">
+                        <div class="result-ring">
+                            <div class="save-label" data-lang-key="calculator.save">You can save</div>
+                            <svg viewBox="0 0 100 100">
+                                <circle class="ring-bg" cx="50" cy="50" r="45"/>
+                                <circle class="ring-progress" cx="50" cy="50" r="45"/>
+                            </svg>
+                            <div class="result-text">0€</div>
+                            <div class="period" data-lang-key="calculator.period">in year</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+
+    </div>
+
+    <footer>
+        <div class="footer-section">
+            <h4 data-lang-key="footer.contact.title">Contact Us</h4>
+            <p data-lang-key="footer.contact.email">Email: dfndbfdba@gmail.com</p>
+            <p data-lang-key="footer.contact.phone">Phone: +12345678</p>
+            <p data-lang-key="footer.contact.address">Address: 9999, England</p>
+        </div>
+        <div class="footer-section">
+            <h4 data-lang-key="footer.links.title">Quick Links</h4>
+            <ul>
+                <li><a href="main.html" data-lang-key="footer.links.main">Main</a></li>
+                <li><a href="products.html?category=sensors" data-lang-key="footer.links.products">Products</a></li>
+                <li><a href="about_us.html" data-lang-key="footer.links.about">About Us</a></li>
+                <li><a href="contact.html" data-lang-key="footer.links.contact">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4 data-lang-key="footer.social.title">Follow Us</h4>
+            <ul>
+                <li><a href="#" data-lang-key="footer.social.facebook">Facebook</a></li>
+                <li><a href="#" data-lang-key="footer.social.twitter">Twitter</a></li>
+                <li><a href="#" data-lang-key="footer.social.linkedin">LinkedIn</a></li>
+                <li><a href="#" data-lang-key="footer.social.instagram">Instagram</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

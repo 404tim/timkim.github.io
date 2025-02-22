@@ -4,28 +4,29 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
-
+/*------------------------------------------------------------------------*/
+/* Верхняя черная панель */
 header {
-    position: fixed;
-    top: 20px;
-    left: 50%;
+    position: fixed; /* Закрепляем панель сверху */
+    top: 20px; /* Отступ от верхней части экрана */
+    left: 50%; /* Центруем панель */
     transform: translateX(-50%);
-    width: 90%;
-    max-width: 1200px;
-    background-color: black;
+    width: 90%; /* Ширина панели */
+    max-width: 1200px; /* Максимальная ширина */
+    background-color: black; /* Непрозрачный черный фон */
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
-    height: 50px;
-    border-radius: 15px;
-    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.3);
-    z-index: 1000;
+    padding: 10px 20px; /* отступы сверху (снизу) и слева (справа)*/
+    height: 5vh; /* Установите желаемую высоту панели */
+    border-radius: 15px; /* Закругленные углы */
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.3); /* Тень для визуального эффекта */
+    z-index: 1000; /* Поверх всего остального */
 }
 
 header .logo {
-    font-size: 20px;
+    font-size: 130%;
     font-weight: bold;
 }
 
@@ -37,6 +38,7 @@ header nav ul {
 
 header nav ul li {
     cursor: pointer;
+    font-size: 100%; /* Шрифт текста вкладок панели */
 }
 
 header .header-buttons {
@@ -49,6 +51,7 @@ header .header-buttons button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 100%; /* Шрифт текста внутри кнопок */
 }
 
 header .header-buttons .buy {
@@ -61,95 +64,151 @@ header .header-buttons button:hover {
 }
 
 .nav-link {
-    text-decoration: none;
-    color: inherit;
-    cursor: pointer;
+    text-decoration: none; /* Убираем подчеркивание */
+    color: inherit; /* Наследуем цвет текста от родителя */
+    cursor: pointer; /* Меняем курсор на указатель */
 }
 
 .nav-link:hover {
-    color: #c3c3c3;
+    color: #c3c3c3; /* Цвет при наведении */
 }
 
+/* Стили для выпадающего списка под Products */
 nav ul {
     list-style: none;
     display: flex;
     gap: 20px;
-}
-
-nav ul li {
+  }
+  nav ul li {
     position: relative;
     cursor: pointer;
-}
-
-.dropdown-menu {
+  }
+  
+  /* Скрытый выпадающий список */
+  .dropdown-menu {
     display: none;
     position: absolute;
-    top: 100%;
+    top: 100%; /* Располагаем список ниже родительского элемента */
     left: 0;
-    background-color: white;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white; /* Фон выпадающего списка */
+    border: 1px solid #ddd; /* Граница */
+    border-radius: 5px; /* Закругленные края */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень */
     padding: 10px 0;
     z-index: 10;
-    min-width: 200px;
-}
-
-.dropdown-menu li {
+    min-width: 200px; /* Минимальная ширина */
+  }
+  
+  .dropdown-menu li {
     padding: 10px 20px;
-}
-
-.dropdown-menu li a {
+  }
+  
+  .dropdown-menu li a {
     text-decoration: none;
     color: black;
     font-size: 16px;
     display: block;
-}
-
-.dropdown-menu li a:hover {
-    background-color: #f0f0f0;
-}
-
-.dropdown:hover .dropdown-menu {
+  }
+  
+  .dropdown-menu li a:hover {
+    background-color: #f0f0f0; /* Изменение фона при наведении */
+  }
+  
+  /* Показ выпадающего списка при наведении на Products */
+  .dropdown:hover .dropdown-menu {
     display: block;
-}
+  }
 
+
+ /* Language Selector */
+.lang-dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .lang-btn {
+    padding: 8px 20px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .lang-menu {
+    display: none;
+    position: absolute;
+    right: 0;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 0;
+    margin-top: 5px;
+    min-width: 80px;
+    z-index: 1000;
+    list-style: none; /* Убираем маркеры списка */
+  }
+  
+  .lang-menu.show {
+    display: block;
+  }
+  
+  .lang-menu li {
+    padding: 10px;
+    color: #333;
+    cursor: pointer;
+    transition: background 0.2s;
+    text-align: center;
+  }
+  
+  .lang-menu li:hover {
+    background: #f5f5f5;
+  }
+
+/*---------------------------------------------------------------------------*/
+/* Основной контейнер карусели */
 .achieve-hero {
     position: relative;
-    height: 100vh;
-    overflow: hidden;
-    color: white;
+    height: 100vh; /* Высота равна высоте экрана */
+    overflow: hidden; /* Обрезаем всё, что выходит за границы */
+    color: white; /* Белый цвет текста */
     margin: 0;
     padding: 0;
 }
 
+/* Контейнер для всех слайдов */
 .achieve-carousel {
     height: 100%;
     position: relative;
 }
 
+/* Обертка, содержащая все слайды */
 .achieve-carousel-inner {
-    display: flex;
+    display: flex; /* Слайды располагаются в строку */
     height: 100%;
-    transition: transform 0.5s ease;
+    transition: transform 0.5s ease; /* Плавная анимация при перелистывании */
 }
 
+/* Каждый отдельный слайд */
 .achieve-carousel-slide {
-    flex: 0 0 100%;
+    flex: 0 0 100%; /* Каждый слайд занимает 100% ширины */
     position: relative;
-    background-size: cover;
+    background-size: cover; /* Фоновое изображение покрывает весь слайд */
     background-position: center;
-    display: flex;
-    justify-content: center;
-}
 
+    /* новый способ центрирования заголовка h1*/
+    display: flex; /* Добавляем Flexbox */
+    justify-content: center; /* Центрируем по горизонтали */
+}
 .achieve-carousel-slide h1 {
     position: absolute;
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.548);
     font-family: 'Faustina', serif;
-    font-weight: 500;
+    font-weight: 500; /* Указывает вес шрифта */
 }
 
+/* ======== Стили для первого слайда ======== */
 .custom-heading {
     position: absolute;
     left: 10vh;
@@ -166,7 +225,7 @@ nav ul li {
 }
 
 .custom-heading .line-2 {
-    margin-left: 35vw;
+    margin-left: 30vw;
     font-size: 10vh;
     display: block;
 }
@@ -179,23 +238,25 @@ nav ul li {
     text-align: center;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 }
-
-.slide1-text p {
+.slide1-text p{
     margin-left: 10vh;
     margin-right: 10vh;
     font-size: 3vh;
     text-align: left;
 }
 
-.slide1-text h3 {
+.slide1-text h3{
     left: 10vh;
     font-size: 5vh;
     text-align: center;
 }
 
+/* ============= Слайд 2 ================= */
+/*Заголовок на слайде 2  */
+/* Только h1, который не находится внутри .custom-heading */
 .achieve-carousel-slide:nth-child(2) h1 {
     position: absolute;
-    top: 5%;
+    top: 8%;
     font-size: 9.5vh;
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.548);
     display: flex;
@@ -203,21 +264,23 @@ nav ul li {
     align-items: center;
 }
 
+/* Контейнер для блоков информации на слайде 2 */
 .achieve-info-items-container {
     position: absolute;
-    top: 37vh;
+    top: 35%; /* Отступ от верха */
     width: 100%;
 }
 
+/* Полупрозрачные плитки с информацией на слайде 2 */
 .achieve-info-item {
-    width: 40%;
-    margin-bottom: 1%;
+    width: 40%; /* Ширина 40% от экрана */
+    margin-bottom: 1%; /* Расстояние между плитками по вертикали*/
     padding: 1.5% 2%;
-    background: rgba(0, 0, 0, 0.616);
-    border-radius: 20px;
-    backdrop-filter: blur(5px);
-    transition: transform 0.3s ease;
-    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.371);
+    background: rgba(0, 0, 0, 0.616); /* Полупрозрачный фон */
+    border-radius: 20px; /* Закругление углов */
+    backdrop-filter: blur(5px); /* Эффект размытия фона */
+    transition: transform 0.3s ease; /* Плавная анимация при наведении */
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.371); /* Тень по краям */
 }
 
 .achieve-info-item p {
@@ -226,10 +289,12 @@ nav ul li {
     margin-bottom: 0;
 }
 
+/* Эффект сдвига при наведении */
 .achieve-info-item:hover {
     transform: translateX(10px);
 }
 
+/* Чередование расположения плиток */
 .achieve-info-item:nth-child(odd) {
     margin-left: 10%;
 }
@@ -238,11 +303,16 @@ nav ul li {
     margin-left: auto;
     margin-right: 10%;
 }
-
+/* Убираем отступ у последней ячейки */
 .achieve-info-item:last-child {
     margin-bottom: 0;
 }
 
+
+
+/* ============ 3 слайд ============*/
+
+/* Главный заголовок слайда */
 .achieve-carousel-slide:nth-child(3) h1 {
     position: absolute;
     top: 5%;
@@ -253,15 +323,18 @@ nav ul li {
     align-items: center;
 }
 
+/* Контейнер для accordion-плиток */
 .accordion-container {
     position: absolute;
     width: 70%;
     margin-top: 30vh;
-    display: flex;
-    flex-direction: column;
-    gap: 2vh;
+    /*margin: 25vh 10vw 0; /* Отступы: сверху 15vh, по бокам 10vw */
+    display: flex; /* Используем flex вместо grid */
+    flex-direction: column; /* Плитки друг под другом */
+    gap: 2vh; /* Расстояние между плитками по вертикали */
 }
 
+/* Стили для плитки */
 .accordion-item {
     background: rgba(0, 0, 0, 0.601);
     border-radius: 15px;
@@ -269,16 +342,17 @@ nav ul li {
     box-shadow: 0 4px 15px rgba(255, 255, 255, 0.345);
     cursor: pointer;
     transition: all 0.5s ease;
-    width: 100%;
+    width: 100%; /* Плитка занимает всю ширину контейнера */
 }
 
+/* Заголовок плитки */
 .accordion-header {
     padding: 20px;
-    position: relative;
+    position: relative; /* Для позиционирования стрелки */
 }
 
 .accordion-header::after {
-    content: "▼";
+    content: "▼"; /* Стрелка вниз */
     position: absolute;
     right: 20px;
     top: 50%;
@@ -288,7 +362,7 @@ nav ul li {
 }
 
 .accordion-item.active .accordion-header::after {
-    content: "▲";
+    content: "▲"; /* Стрелка вверх при активном состоянии */
 }
 
 .accordion-header h3 {
@@ -298,6 +372,7 @@ nav ul li {
     transition: color 0.3s ease;
 }
 
+/* Контент плитки */
 .accordion-content {
     max-height: 0;
     overflow: hidden;
@@ -309,20 +384,22 @@ nav ul li {
 .accordion-content p {
     color: white;
     margin: 0;
-    padding: 0 20px 20px;
+    padding: 0 40px 20px;
     font-size: 1.8vh;
     line-height: 1.5;
 }
-
+/* Вид текста, к которому прикреплена ссылка */
 .accordion-content a.inline-link {
-    text-decoration: underline !important;
-    color: inherit !important;
+    text-decoration: underline !important; /* Всегда подчеркнуты */
+    color: inherit !important; /* Наследует цвет текста */
     cursor: pointer;
 }
 
+/* Активное состояние плитки */
 .accordion-item.active {
     background: rgb(0, 0, 0);
     box-shadow: 0 5px 22px rgba(255, 255, 255, 0.756);
+    /*box-shadow: 0 4px 15px rgba(0, 255, 8, 0.584);*/
 }
 
 .accordion-item.active .accordion-header h3 {
@@ -330,15 +407,19 @@ nav ul li {
 }
 
 .accordion-item.active .accordion-content {
-    max-height: 200px;
+    max-height: 200px; /* Максимальная высота контента */
 }
 
+
+/* ======== Стрелки ===========*/
+
+/* Кнопки управления (стрелки) */
 .achieve-carousel-nav {
     position: absolute;
-    top: 45%;
-    width: 80px;
-    height: 15vh;
-    background: rgba(255, 255, 255, 0.084);
+    top: 45%; /* Размещаем по центру высоты */
+    width: 80px; /* Ширина кнопки */
+    height: 15vh; /* Высота 10% от экрана */
+    background: rgba(255, 255, 255, 0.084); /* Полупрозрачный фон */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -348,60 +429,70 @@ nav ul li {
     transition: all 0.3s ease;
 }
 
+/* Эффект при наведении на кнопки */
 .achieve-carousel-nav:hover {
     background: rgba(255, 255, 255, 0.308);
 }
 
+/* Кнопка "назад" */
 .achieve-carousel-prev {
     left: 0;
 }
 
+/* Кнопка "вперёд" */
 .achieve-carousel-next {
     right: 0;
 }
 
+
+/*-----------------------------------------------------------------------*/
+/* Для второго блока, где чередование картинок*/
+
+/* Контейнер для всех секций */
 .container {
-    width: 80%;
+    width: 80%; /* прцент заполнения по ширине страницы*/
     margin: 0 auto;
-    margin-top: 150px;
+    margin-top: 10vh;
 }
 
+/* Базовый стиль секции */
 .section {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    justify-content: space-between;
-    padding: 20px 0;
-    gap: 80px;
+    justify-content: space-between; /* Разделяет блоки на равное расстояние */
+    padding: 20px 0; /* Устанавливает расстояние между секциями сверху и снизу */
+    gap: 80px; /* Задает промежуток между текстовым блоком и изображением */
 }
-
+/* Чередование направления секций */
 .section:nth-child(odd) {
     grid-template-areas: 
         "text image";
 }
-
 .section:nth-child(even) {
     grid-template-areas: 
         "image text";
 }
 
+/* Текстовый блок */
 .text-content {
     grid-area: text;
-    padding: 20px;
-}
+    padding: 20px; /* Внутренние отступы текста */
 
+}
+/* Заголовок текста */
 .text-content h2 {
-    font-size: 37px;
+    font-size: 37px; /* Размер шрифта заголовка */
     color: #007a3e;
 }
-
+/* Текст в блоке*/
 .text-content p {
     margin-top: 10px;
     font-size: 22px;
     color: #555;
     font-family: 'Roboto', sans-serif;
 }
-
+/* Блок с картинкой */
 .image-content {
     grid-area: image;
     position: relative;
@@ -410,53 +501,19 @@ nav ul li {
     overflow: hidden;
     border-radius: 15px;
 }
-
+/* Картинка внутри блока */
 .image-content img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 15px;
+    width: 100%; /* Устанавливает ширину картинки по размеру блока */
+    height: 100%; /* Устанавливает высоту картинки по размеру блока */
+    object-fit: cover; /* Устанавливает обрезку картинки для заполнения блока */
+    border-radius: 15px; /* Скругляет углы картинки */
 }
-
-.image-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-    align-items: center;
-    justify-items: center;
-    background: rgba(0, 0, 0, 0.5);
-    color: white;
-    text-align: center;
-    padding: 20px;
-    border-radius: 15px;
-}
-
-.image-overlay .item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.image-overlay .item h3 {
-    font-size: 20px;
-    margin: 0;
-}
-
-.image-overlay .item p {
-    margin: 5px 0;
-    font-size: 14px;
-    color: #ddd;
-}
-
+/*-----------------------------------------------------------------------*/
+/* Секции с товарами*/
 .products {
     display: flex;
     justify-content: center;
-    gap: 2vw;
+    gap: 2vw; /* Увеличил расстояние между плитками */
     padding: 2vw;
     flex-wrap: wrap;
 }
@@ -472,7 +529,7 @@ nav ul li {
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: relative;
+    position: relative; /* Добавил для гибкого позиционирования */
 }
 
 .product img {
@@ -480,31 +537,31 @@ nav ul li {
     height: 40vh;
     object-fit: contain;
     border-radius: 10px;
-    margin-bottom: 5%;
+    margin-bottom: 5%; /* Отступ снизу изображения */
 }
 
 .product h2 {
-    font-size: 3.5vh;
-    margin: 0 0 15px 0;
+    font-size: 3.5vh; /* Размер заголовка */
+    margin: 0 0 15px 0; /* Отступ снизу заголовка */
     color: #333;
 }
 
 .product p {
-    font-size: 1rem;
+    font-size: 1rem; /* Размер текста */
     color: #666;
     line-height: 1.6;
-    margin: 0 0 auto 0;
-    padding: 0 2%;
+    margin: 0 0 auto 0; /* Автоматический отступ снизу перед кнопкой */
+    padding: 0 2%; /* отступ текста сверху/снизу, слева справа от краев карточки*/
 }
 
 .product a {
-    margin-top: auto;
+    margin-top: auto; /* Прижимаем ссылку с кнопкой к низу */
     width: 100%;
-    padding: 20px 0 0 0;
+    padding: 20px 0 0 0; /* Отступ сверху для кнопки */
 }
 
 .product button {
-    padding: 2% 5%;
+    padding: 2% 5%; /* Отступы текста от краев кнопки */
     background-color: black;
     color: white;
     border: none;
@@ -512,145 +569,162 @@ nav ul li {
     border-radius: 5px;
     font-size: 1rem;
     transition: background 0.3s ease;
-    white-space: nowrap;
-    display: inline-block;
-    width: auto;
-    margin-top: auto;
+    white-space: nowrap; /* Текст не переносится на новую строку */
+    display: inline-block; /* Кнопка подстраивается под размер текста */
+    width: auto; /* Ширина кнопки определяется содержимым */
+    margin-top: auto; /* Прижимаем кнопку к низу */
 }
 
 .product button:hover {
     background: #646464;
 }
 
+/*-----------------------------------------------------------------------*/
+/* Карусель с вкладками*/
 .carousel-container {
-    width: 100%;
-    padding: 3vh 30%;
-    box-sizing: border-box;
-    position: relative;
-    background-color: #e7e7e7;
-    padding-bottom: 3vh;
-    border-radius: 10px;
-    overflow: hidden;
-}
+    width: 100%; /* Ширина секции */
+    padding: 3vh 30%; /* Отступы слева и справа для центрирования плитки */
+    box-sizing: border-box; /* Учитываем паддинги в общей ширине */
+    position: relative; /* Для позиционирования внутренних элементов */
+    background-color: #e7e7e7; /* Светло-серый фон секции */
+    padding-bottom: 3vh; /* Отступ снизу для точек */
+    border-radius: 10px; /* Закругление краев секции */
+    overflow: hidden; /* Скрываем выходящие элементы */
+  }
+  
+  /* Обертка для карусели */
+  .carousel-wrapper {
+    position: relative; /* Для позиционирования стрелок внутри */
+    display: flex; /* Выравниваем плитки по горизонтали */
+    justify-content: center; /* Центрируем плитку */
+    align-items: center; /* Вертикальное выравнивание плитки */
+    height: 75vh; /* Высота блока карусели */
+    overflow: hidden; /* Скрываем элементы за пределами видимой области */
+  }
+  
+  /* Обертка для плиток */
+  .carousel {
+    display: flex; /* Делаем плитки в ряд */
+    transition: transform 0.5s ease-in-out; /* Плавный переход между плитками */
+    transform: translateX(0); /* Начальное положение */
+    width: 300%; /* Общая ширина карусели (3 плитки) */
+  }
+  
+  /* Каждая плитка */
+  .carousel-item {
+    flex: 0 0 100%; /* Плитка занимает 100% ширины контейнера */
+    box-sizing: border-box; /* Учитываем паддинги в размерах */
+    text-align: center; /* Центрируем содержимое */
+    background-color: white; /* Белый фон плитки */
+    border: 1px solid #ddd; /* Серая рамка плитки */
+    border-radius: 10px; /* Закругление углов */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Легкая тень */
+    padding: 20px; /* Внутренний отступ для содержимого */
+  }
+  
+  /* Изображение в плитке */
+  .carousel-item img {
+    width: 100%; /* Изображение занимает всю ширину плитки */
+    height: 40vh; /* Фиксированная высота изображения */
+    object-fit: cover; /* Сохраняем пропорции и обрезаем лишнее */
+    border-radius: 10px 10px 0 0; /* Закругленные верхние края */
+ }
+ 
+ /* Контент плитки */
+ .carousel-content {
+   margin: 20px 0; /* Отступы сверху и снизу контента */
+ }
+ 
+ /* заголовок вунтри плитки в карусели*/
+ .carousel-content h3 {
+   font-size: 24px; /* Размер заголовка */
+   font-weight: bold; /* Полужирный шрифт */
+   color: #333; /* Темно-серый цвет текста */
+ }
+ 
+ .carousel-content p {
+   font-size: 16px; /* Размер шрифта для текста */
+   color: #545454; /* Светло-серый цвет текста */
+   margin: 10px 0; /* Отступ сверху и снизу текста */
+ }
+ 
+ /* Кнопка внизу плитки */
+ .read-more-btn {
+   display: inline-block; /* Делаем кнопку блочным элементом */
+   padding: 10px 20px; /* Внутренние отступы */
+   background-color: #12b626; /* Зеленый фон */
+   color: white; /* Белый текст */
+   text-decoration: none; /* Убираем подчеркивание текста */
+   border-radius: 5px; /* Закругленные края кнопки */
+   font-weight: bold; /* Полужирный текст */
+   transition: background-color 0.3s; /* Плавный переход при наведении */
+   font-size: 22px; /* Размер заголовка */
+ }
+ 
+ .read-more-btn:hover {
+   background-color: #138d13; /* Более насыщенный зеленый при наведении */
+ }
+ 
+ /* Кнопки навигации (стрелки) */
+ .carousel-arrow {
+   position: absolute; /* Для позиционирования внутри плитки */
+   top: 50%; /* Центрируем по вертикали */
+   transform: translateY(-50%); /* Уравновешиваем положение стрелки */
+   width: 50px; /* Размер кнопки */
+   height: 50px; /* Высота кнопки */
+   background-color: #12b626; /* Зеленый фон */
+   color: white; /* Белый цвет стрелки */
+   border: none; /* Без рамок */
+   border-radius: 50%; /* Делаем стрелки круглыми */
+   display: flex; /* Центрируем содержимое */
+   align-items: center; /* Вертикальное выравнивание */
+   justify-content: center; /* Горизонтальное выравнивание */
+   cursor: pointer; /* Указатель при наведении */
+   z-index: 10; /* Выше других элементов */
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Тень для стрелок */
+   transition: transform 0.3s, background-color 0.3s; /* Анимация при наведении */
+   font-size: 2vh;
+ }
+ 
+ /* Стрелка влево */
+ .carousel-arrow.left-arrow {
+   left: 10px; /* Расположение слева от плитки */
+ }
+ 
+ /* Стрелка вправо */
+ .carousel-arrow.right-arrow {
+   right: 10px; /* Расположение справа от плитки */
+ }
+ 
+ /* Эффект при наведении на стрелку */
+ .carousel-arrow:hover {
+    background: linear-gradient(135deg, #2ab049, #32a852); /* Изменение градиента при наведении */
+  }
+ 
+ /* Индикаторы точек */
+ .carousel-indicators {
+   display: flex; /* Горизонтальное выравнивание */
+   justify-content: center; /* Центрируем точки */
+   margin-top: 20px; /* Отступ сверху */
+ }
+ 
+ .indicator {
+   width: 12px; /* Ширина точки */
+   height: 12px; /* Высота точки */
+   margin: 0 5px; /* Расстояние между точками */
+   background-color: #ddd; /* Серый цвет для неактивной точки */
+   border-radius: 50%; /* Делаем точки круглыми */
+   cursor: pointer; /* Указатель при наведении */
+   transition: background-color 0.3s; /* Плавный переход цвета */
+ }
+ 
+ .indicator.active {
+   background-color: #32a852; /* Зеленый цвет активной точки */
+ }
+  
 
-.carousel-wrapper {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 75vh;
-    overflow: hidden;
-}
-
-.carousel {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-    transform: translateX(0);
-    width: 300%;
-}
-
-.carousel-item {
-    flex: 0 0 100%;
-    box-sizing: border-box;
-    text-align: center;
-    background-color: white;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-}
-
-.carousel-item img {
-    width: 100%;
-    height: 40vh;
-    object-fit: cover;
-    border-radius: 10px 10px 0 0;
-}
-
-.carousel-content {
-    margin: 20px 0;
-}
-
-.carousel-content h3 {
-    font-size: 24px;
-    font-weight: bold;
-    color: #333;
-}
-
-.carousel-content p {
-    font-size: 16px;
-    color: #545454;
-    margin: 10px 0;
-}
-
-.read-more-btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #11c741;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: background-color 0.3s;
-    font-size: 22px;
-}
-
-.read-more-btn:hover {
-    background-color: #169734;
-}
-
-.carousel-arrow {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 50px;
-    height: 50px;
-    background: linear-gradient(135deg, #2fcf5a, #56c26b);
-    color: white;
-    border: none;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    z-index: 10;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s, background-color 0.3s;
-    font-size: 2vh;
-}
-
-.carousel-arrow.left-arrow {
-    left: 10px;
-}
-
-.carousel-arrow.right-arrow {
-    right: 10px;
-}
-
-.carousel-arrow:hover {
-    background: linear-gradient(135deg, #2ab049, #32a852);
-}
-
-.carousel-indicators {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-.indicator {
-    width: 12px;
-    height: 12px;
-    margin: 0 5px;
-    background-color: #ddd;
-    border-radius: 50%;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.indicator.active {
-    background-color: #32a852;
-}
-
+/* -------------------------------------------------------------*/
+/* Нижняя панель с контактами*/
 footer {
     background-color: #222;
     color: white;
@@ -659,31 +733,24 @@ footer {
     justify-content: space-between;
     flex-wrap: wrap;
 }
-
 footer .footer-section {
     flex: 1;
     margin: 10px;
 }
-
 footer h4 {
     margin-bottom: 20px;
 }
-
 footer ul {
     list-style: none;
     padding: 0;
 }
-
 footer ul li {
     margin: 10px 0;
 }
-
 footer ul li a {
     color: white;
     text-decoration: none;
 }
-
 footer p, footer ul li {
     color: white;
 }
-

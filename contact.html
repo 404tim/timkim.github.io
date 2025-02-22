@@ -3,56 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
+    <title data-lang-key="page.title">Contact Us</title>
     <link rel="stylesheet" href="style_contact_us.css">
 </head>
 <body>
+    <!-- Верхняя панель -->
     <header>
-        <div class="logo">Green Energy</div>
+        <div class="logo" data-lang-key="header.logo">Green Energy</div>
         <nav>
             <ul>
-                <li><a href="main.html" class="nav-link">Main</a></li>
-                <li><a href="review.html" class="nav-link">Review</a></li>
+                <li><a href="main.html" class="nav-link" data-lang-key="header.nav.main">Main</a></li>
+                <li><a href="news.html" class="nav-link" data-lang-key="header.nav.news">News</a></li>
+                <li><a href="review.html" class="nav-link" data-lang-key="header.nav.review">Why us?</a></li>
                 <li class="dropdown">
-                    Products
+                    <span data-lang-key="header.nav.products">Products</span>
                     <ul class="dropdown-menu">
-                        <li><a href="products.html?category=heating-equipment">Heating Equipment</a></li>
-                        <li><a href="products.html?category=sensors">Sensors</a></li>
-                        <li><a href="products.html?category=electronic-modules">Electronic Modules</a></li>
+                        <li><a href="products.html?category=heating-equipment" data-lang-key="products.heating">Heating Equipment</a></li>
+                        <li><a href="products.html?category=sensors" data-lang-key="products.sensors">Sensors</a></li>
+                        <li><a href="products.html?category=electronic-modules" data-lang-key="products.modules">Electronic Modules</a></li>
                     </ul>
                 </li>
-                <li><a href="calculation.html" class="nav-link">Calculator</a></li>
-                <li><a href="about_us.html" class="nav-link">About us</a></li>
+                <li><a href="calculation.html" class="nav-link" data-lang-key="header.nav.calculator">Calculator</a></li>
+                <li><a href="about_us.html" class="nav-link" data-lang-key="header.nav.about">About Us</a></li>
             </ul>
         </nav>
         <div class="header-buttons">
-            <a href="contact.html" class="button-link"><button>Contact us</button></a>
-            <a href="buy.html" class="button-link"><button class="buy">Buy</button></a>
+            <a href="contact.html" class="button-link"><button data-lang-key="header.contact">Contact us</button></a>
+            <div class="lang-dropdown">
+                <button class="lang-btn">EN</button>
+                <ul class="lang-menu">
+                    <li data-lang="en">EN</li>
+                    <li data-lang="ru">RU</li>
+                </ul>
+            </div>
         </div>
     </header>
 
     <div class="container">
         <div class="contact-info">
-            <h1>Contact Us</h1>
-            <p>Have a question or need assistance? Fill out the form below and we'll get back to you soon.</p>
+            <h1 data-lang-key="contact.title">Contact Us</h1>
+            <p data-lang-key="contact.intro">Have a question or need assistance? Fill out the form below and we'll get back to you soon.</p>
         </div>
 
         <div class="contact-form">
             <div class="form-wrapper">
+                <!-- Модифицированная форма -->
                 <form>
+                    <!-- Обязательное поле -->
                     <div class="form-group">
-                        <label for="name">Full Name</label>
+                        <label for="name" data-lang-key="form.name">Full Name</label>
                         <input type="text" id="name" name="name" required>
                     </div>
                 
+                    <!-- Обязательное поле -->
                     <div class="form-group">
-                        <label for="email">Email Address</label>
+                        <label for="email" data-lang-key="form.email">Email Address</label>
                         <input type="email" id="email" name="email" required 
                                title="Please enter a valid email (e.g., user@example.com)">
                     </div>
                 
+                    <!-- Необязательное поле с валидацией -->
                     <div class="form-group">
-                        <label for="phone">Phone Number</label>
+                        <label for="phone" data-lang-key="form.phone">Phone Number</label>
                         <input type="tel" 
                                id="phone" 
                                name="phone"
@@ -60,40 +72,42 @@
                                title="Phone format: +countrycodenumber (e.g. +4915112345678)"
                                minlength="8"
                                maxlength="15">
-                        <small>Optional. Example: +1234567890</small>
+                        <small data-lang-key="form.phone.hint">Optional. Example: +1234567890</small>
                     </div>
                 
+                    <!-- Обязательное поле -->
                     <div class="form-group">
-                        <label for="message">Your Message</label>
+                        <label for="message" data-lang-key="form.message">Your Message</label>
                         <textarea id="message" name="message" required></textarea>
                     </div>
                 
-                    <button type="submit" class="submit-btn">Send Message</button>
+                    <button type="submit" class="submit-btn" data-lang-key="form.submit">Send Message</button>
                 </form>
+                
             </div>
 
             <div class="contact-details">
                 <div class="detail-item">
                     <i>📍</i>
                     <div>
-                        <h3>Our Office</h3>
-                        <p>123 Business Street<br>New York, NY 10001</p>
+                        <h3 data-lang-key="contact.address.title">Our Address</h3>
+                        <p data-lang-key="contact.address.value">Englangn<br>London</p>
                     </div>
                 </div>
 
                 <div class="detail-item">
                     <i>📞</i>
                     <div>
-                        <h3>Phone</h3>
-                        <p>+1 (555) 123-4567</p>
+                        <h3 data-lang-key="contact.phone.title">Phone</h3>
+                        <p data-lang-key="contact.phone.value">+12345678</p>
                     </div>
                 </div>
 
                 <div class="detail-item">
                     <i>✉️</i>
                     <div>
-                        <h3>Email</h3>
-                        <p>contact@company.com</p>
+                        <h3 data-lang-key="contact.email.title">Email</h3>
+                        <p data-lang-key="contact.email.value">thsthrtsht@gmail.com</p>
                     </div>
                 </div>
             </div>
@@ -102,27 +116,27 @@
 
     <footer>
         <div class="footer-section">
-            <h4>Contact Us</h4>
-            <p>Email: contact@greenenergy.com</p>
-            <p>Phone: +1 234 567 890</p>
-            <p>Address: 123 Green Street, Eco City, Earth</p>
+            <h4 data-lang-key="footer.contact.title">Contact Us</h4>
+            <p data-lang-key="footer.contact.email">Email: hnffhnfn@gmail.com</p>
+            <p data-lang-key="footer.contact.phone">Phone: +12345678</p>
+            <p data-lang-key="footer.contact.address">Address: 9999, England London</p>
         </div>
         <div class="footer-section">
-            <h4>Quick Links</h4>
+            <h4 data-lang-key="footer.links.title">Quick Links</h4>
             <ul>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">Sustainability</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="main.html" data-lang-key="footer.links.main">Main</a></li>
+                <li><a href="products.html?category=sensors" data-lang-key="footer.links.products">Products</a></li>
+                <li><a href="about_us.html" data-lang-key="footer.links.about">About Us</a></li>
+                <li><a href="contact.html" data-lang-key="footer.links.contact">Contact Us</a></li>
             </ul>
         </div>
         <div class="footer-section">
-            <h4>Follow Us</h4>
+            <h4 data-lang-key="footer.social.title">Follow Us</h4>
             <ul>
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">LinkedIn</a></li>
-                <li><a href="#">Instagram</a></li>
+                <li><a href="#" data-lang-key="footer.social.facebook">Facebook</a></li>
+                <li><a href="#" data-lang-key="footer.social.twitter">Twitter</a></li>
+                <li><a href="#" data-lang-key="footer.social.linkedin">LinkedIn</a></li>
+                <li><a href="#" data-lang-key="footer.social.instagram">Instagram</a></li>
             </ul>
         </div>
     </footer>

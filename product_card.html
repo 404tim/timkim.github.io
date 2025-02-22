@@ -3,96 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product | Template</title>
+    <title data-lang-key="page.title">Product card</title>
     <link rel="stylesheet" href="styles_product_card.css">
 </head>
 <body>
+    <!-- Верхняя панель -->
     <header>
-        <div class="logo">Green Energy</div>
+        <div class="logo" data-lang-key="header.logo">Green Energy</div>
         <nav>
             <ul>
-                <li><a href="main.html" class="nav-link">Main</a></li>
-                <li><a href="review.html" class="nav-link">Review</a></li>
+                <li><a href="main.html" class="nav-link" data-lang-key="header.nav.main">Main</a></li>
+                <li><a href="news.html" class="nav-link" data-lang-key="header.nav.news">News</a></li>
+                <li><a href="review.html" class="nav-link" data-lang-key="header.nav.review">Why us?</a></li>
                 <li class="dropdown">
-                    Products
+                    <span data-lang-key="header.nav.products">Products</span>
                     <ul class="dropdown-menu">
-                        <li><a href="products.html?category=heating-equipment">Heating Equipment</a></li>
-                        <li><a href="products.html?category=sensors">Sensors</a></li>
-                        <li><a href="products.html?category=electronic-modules">Electronic Modules</a></li>
+                        <li><a href="products.html?category=heating-equipment" data-lang-key="products.heating">Heating Equipment</a></li>
+                        <li><a href="products.html?category=sensors" data-lang-key="products.sensors">Sensors</a></li>
+                        <li><a href="products.html?category=electronic-modules" data-lang-key="products.modules">Electronic Modules</a></li>
                     </ul>
                 </li>
-                <li><a href="calculation.html" class="nav-link">Calculator</a></li>
-                <li><a href="about_us.html" class="nav-link">About us</a></li>
+                <li><a href="calculation.html" class="nav-link" data-lang-key="header.nav.calculator">Calculator</a></li>
+                <li><a href="about_us.html" class="nav-link" data-lang-key="header.nav.about">About Us</a></li>
             </ul>
         </nav>
         <div class="header-buttons">
-            <a href="contact.html" class="button-link"><button>Contact us</button></a>
-            <a href="buy.html" class="button-link"><button class="buy">Buy</button></a>
+            <a href="contact.html" class="button-link"><button data-lang-key="header.contact">Contact us</button></a>
+            <div class="lang-dropdown">
+                <button class="lang-btn">EN</button>
+                <ul class="lang-menu">
+                    <li data-lang="en">EN</li>
+                    <li data-lang="ru">RU</li>
+                </ul>
+            </div>
         </div>
     </header>
 
+    <!-- Контейнер всей страницы -->
     <div class="main-container">
-        <div class="product-title"><h1 id="productName">Product Name</h1></div>
+        <div class="product-title">
+            <h1 id="productName"></h1>
+        </div>
         
         <div id="productData" style="display: none;" 
             data-category="" 
             data-product-name="">
         </div>
+
+        <!-- Контейнер для карусели и информации -->
         <div class="content-container">
+            <!-- Левая часть - Карусель -->
             <div class="product-carousel">
                 <div class="thumbnails" id="thumbnails"></div>
 
                 <div class="carousel">
                     <button class="arrow left" onclick="prevImage()">&#8592;</button>
-                    <img id="mainImage" src="" alt="Product Image">
+                    <img id="mainImage" src="" alt="Product image">
                     <button class="arrow right" onclick="nextImage()">&#8594;</button>
                 </div>
             </div>
 
+            <!-- Правая часть - Информация о продукте -->
             <div class="product-info">
                 <div class="support-buttons">
-                    <a href="contact.html" class="button-link"><button>SUPPORT</button></a>
-                    <a href="contact.html" class="button-link"><button>CONTACT US</button></a>
+                    <a href="contact.html" class="button-link">
+                        <button data-lang-key="product.support">SUPPORT</button>
+                    </a>
+                    <a href="contact.html" class="button-link">
+                        <button data-lang-key="product.contact">CONTACT US</button>
+                    </a>
                 </div>
 
+                <!-- Контейнер цены -->
                 <div class="price-container">
                     <span id="productPrice" class="product-price"></span>
                 </div>
 
-                <h2>Description</h2>
-                <p id="productDescription">Product Description</p>
+                <h2 data-lang-key="product.description">Description</h2>
+                <p id="productDescription"></p>
 
-                <h2>Specification</h2>
+                <h2 data-lang-key="product.specifications">Specification</h2>
                 <ul id="productSpecifications"></ul>
 
-                <p id="productAdditionalInfo">Additional Information</p>
+                <p id="productAdditionalInfo"></p>
             </div>
         </div>
     </div>
 
+    <!-- Нижняя панель с контактами -->
     <footer>
         <div class="footer-section">
-            <h4>Contact Us</h4>
-            <p>Email: contact@greenenergy.com</p>
-            <p>Phone: +1 234 567 890</p>
-            <p>Address: 123 Green Street, Eco City, Earth</p>
+            <h4 data-lang-key="footer.contact.title">Contact Us</h4>
+            <p data-lang-key="footer.contact.email">Email: hnffhnfn@gmail.com</p>
+            <p data-lang-key="footer.contact.phone">Phone: +12345678</p>
+            <p data-lang-key="footer.contact.address">Address: 9999, England London</p>
         </div>
         <div class="footer-section">
-            <h4>Quick Links</h4>
+            <h4 data-lang-key="footer.links.title">Quick Links</h4>
             <ul>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">Sustainability</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="main.html" data-lang-key="footer.links.main">Main</a></li>
+                <li><a href="products.html?category=sensors" data-lang-key="footer.links.products">Products</a></li>
+                <li><a href="about_us.html" data-lang-key="footer.links.about">About Us</a></li>
+                <li><a href="contact.html" data-lang-key="footer.links.contact">Contact Us</a></li>
             </ul>
         </div>
         <div class="footer-section">
-            <h4>Follow Us</h4>
+            <h4 data-lang-key="footer.social.title">Follow Us</h4>
             <ul>
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">LinkedIn</a></li>
-                <li><a href="#">Instagram</a></li>
+                <li><a href="#" data-lang-key="footer.social.facebook">Facebook</a></li>
+                <li><a href="#" data-lang-key="footer.social.twitter">Twitter</a></li>
+                <li><a href="#" data-lang-key="footer.social.linkedin">LinkedIn</a></li>
+                <li><a href="#" data-lang-key="footer.social.instagram">Instagram</a></li>
             </ul>
         </div>
     </footer>

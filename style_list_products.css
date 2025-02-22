@@ -1,36 +1,41 @@
+/* Основные стили для всей страницы */
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f9f9f9;
+  font-family: Arial, sans-serif; /* Шрифт для всего текста на странице */
+  margin: 0; /* Убираем внешние отступы */
+  padding: 0; /* Убираем внутренние отступы */
+  background-color: #f9f9f9; /* Цвет фона страницы */
 }
 
+/* Основной контейнер для контента */
 main {
   display: flex;
-  padding: 20px 3%;
+  padding: 20px 3%; /* Отступы сверху и снизу 20px, по бокам 3% */
 }
 
+/*--------------------------------------------------------------------------*/
+/* Верхняя черная панель */
+/* Верхняя черная панель */
 header {
-  position: fixed;
-  top: 20px;
-  left: 50%;
+  position: fixed; /* Закрепляем панель сверху */
+  top: 20px; /* Отступ от верхней части экрана */
+  left: 50%; /* Центруем панель */
   transform: translateX(-50%);
-  width: 90%;
-  max-width: 1200px;
-  background-color: black;
+  width: 90%; /* Ширина панели */
+  max-width: 1200px; /* Максимальная ширина */
+  background-color: black; /* Непрозрачный черный фон */
   color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
-  height: 50px;
-  border-radius: 15px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
-  z-index: 1000;
+  padding: 10px 20px; /* отступы сверху (снизу) и слева (справа)*/
+  height: 5vh; /* Установите желаемую высоту панели */
+  border-radius: 15px; /* Закругленные углы */
+  box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.3); /* Тень для визуального эффекта */
+  z-index: 1000; /* Поверх всего остального */
 }
 
 header .logo {
-  font-size: 20px;
+  font-size: 130%;
   font-weight: bold;
 }
 
@@ -42,6 +47,7 @@ header nav ul {
 
 header nav ul li {
   cursor: pointer;
+  font-size: 100%; /* Шрифт текста вкладок панели */
 }
 
 header .header-buttons {
@@ -54,6 +60,7 @@ header .header-buttons button {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  font-size: 100%; /* Шрифт текста внутри кнопок */
 }
 
 header .header-buttons .buy {
@@ -66,38 +73,39 @@ header .header-buttons button:hover {
 }
 
 .nav-link {
-  text-decoration: none;
-  color: inherit;
-  cursor: pointer;
+  text-decoration: none; /* Убираем подчеркивание */
+  color: inherit; /* Наследуем цвет текста от родителя */
+  cursor: pointer; /* Меняем курсор на указатель */
 }
 
 .nav-link:hover {
-  color: #c3c3c3;
+  color: #c3c3c3; /* Цвет при наведении */
 }
 
+/* Стили для выпадающего списка под Products */
 nav ul {
   list-style: none;
   display: flex;
   gap: 20px;
 }
-
 nav ul li {
   position: relative;
   cursor: pointer;
 }
 
+/* Скрытый выпадающий список */
 .dropdown-menu {
   display: none;
   position: absolute;
-  top: 100%;
+  top: 100%; /* Располагаем список ниже родительского элемента */
   left: 0;
-  background-color: white;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: white; /* Фон выпадающего списка */
+  border: 1px solid #ddd; /* Граница */
+  border-radius: 5px; /* Закругленные края */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень */
   padding: 10px 0;
   z-index: 10;
-  min-width: 200px;
+  min-width: 200px; /* Минимальная ширина */
 }
 
 .dropdown-menu li {
@@ -112,211 +120,297 @@ nav ul li {
 }
 
 .dropdown-menu li a:hover {
-  background-color: #f0f0f0;
+  background-color: #f0f0f0; /* Изменение фона при наведении */
 }
 
+/* Показ выпадающего списка при наведении на Products */
 .dropdown:hover .dropdown-menu {
   display: block;
 }
 
-.banner-container {
+/* Language Selector */
+.lang-dropdown {
   position: relative;
+  display: inline-block;
+}
+
+.lang-btn {
+  padding: 8px 20px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.lang-menu {
+  display: none;
+  position: absolute;
+  right: 0;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 0;
+  margin-top: 5px;
+  min-width: 80px;
+  z-index: 1000;
+  list-style: none; /* Убираем маркеры списка */
+}
+
+.lang-menu.show {
+  display: block;
+}
+
+.lang-menu li {
+  padding: 10px;
+  color: #333;
+  cursor: pointer;
+  transition: background 0.2s;
+  text-align: center;
+}
+
+.lang-menu li:hover {
+  background: #f5f5f5;
+}
+
+/*----------------------------------------------------------------------------------*/
+/* Изображение-баннер с надписью*/
+.banner-container {
+  position: relative; /* Делаем контейнер относительным, чтобы текст позиционировался внутри него */
   width: 100%;
   height: 40vh;
-  overflow: hidden;
+  overflow: hidden; /* Чтобы изображение не выходило за пределы блока */
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);
 }
 
 .banner-image {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: cover; /* Изображение будет покрывать весь блок, не искажаясь */
 }
 
 .banner-text {
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  width: auto;
-  max-width: 90%;
-  transform: translateX(-50%);
-  text-align: center;
-  font-size: 3.5em;
-  font-family: 'Merriweather', cursive;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.7);
-  box-shadow: 0 4px 10px rgb(255, 255, 255);
-  padding: 10px 20px;
-  border-radius: 15px;
-  box-sizing: border-box;
+  position: absolute; /* Позиционируем текст абсолютно внутри контейнера */
+  bottom: 20px; /* Отступ текста от нижнего края изображения (можно настроить) */
+  left: 50%; /* Сдвигаем текст на 50% вправо от левого края контейнера */
+  width: auto; /* Ширина прямоугольного фона будет зависеть от содержимого */
+  max-width: 90%; /* Максимальная ширина прямоугольного фона */
+  transform: translateX(-50%); /* Сдвигаем текст назад на 50% его ширины для центрирования */
+  text-align: center; /* Выравнивание текста по центру */
+
+  font-size: 3.5em; /* Размер текста (можно настроить) */
+  font-family: 'Merriweather', cursive; /* Интересный шрифт */
+  /*font-style: italic; /* Наклонный текст */
+
+  color: white; /* Цвет текста */
+  background-color: rgba(0, 0, 0, 0.7); /* Цвет фона текста с прозрачностью */
+  box-shadow: 0 4px 10px rgb(255, 255, 255); /* Тень для текста */
+
+  padding: 10px 20px; /* Отступы внутри прямоугольного фона (можно настроить) */
+  border-radius: 15px; /* Закругленные углы прямоугольного фона */
+  box-sizing: border-box; /* Учитываем padding в общей ширине и высоте */
 }
 
+/*---------------------------------------------------------------------*/
+/* Стили для секции с товарами */
+
+/* Основной контейнер для товаров */
 .products {
-  padding-top: 20px;
-  width: 100%;
+  padding-top: 20px; /* Отступ сверху */
+  /*margin-top: 0px; /* Отступ сверху от черной панели */
+  width: 100%; /* Ширина контейнера */
 }
 
 .products-header {
   text-align: center;
-  margin-left: 15%;
-  margin-right: 15%;
-  width: 70%;
+  margin-left: 15%; /* Совпадает с отступом .product-list */
+  margin-right: 15%; /* Совпадает с отступом .product-list */
+  width: 70%; /* Совпадает с шириной .product-list */
   max-width: 1400px;
-  margin-bottom: 20px;
+  margin-bottom: 20px; /* Отступ между линией и списком товаров*/
+
 }
 
+/*Заголовок категории*/
 .products-header h2 {
   font-size: 58px;
-  font-family: 'Lora', cursive;
   font-weight: bold;
   color: #333;
   text-align: left;
 }
 
+/* Черная линия под заголовком */
 .category-title_line {
-  width: 100%;
-  height: 3px;
-  background-color: #000;
+  width: 100%; /* Ширина линии */
+  height: 3px; /* Толщина линии */
+  background-color: #000; /* Цвет линии */
 }
 
+/* Контейнер для списка товаров */
 .product-list {
   display: flex;
   flex: 1;
-  flex-wrap: wrap;
-  gap: 20px;
-  padding: 20px;
-  margin-left: 15%;
-  margin-right: 15%;
-  width: 70%;
+  flex-wrap: wrap; /* Перенос строк */
+  gap: 20px; /* Расстояние между товарами */
+  padding: 20px; /* Внутренние отступы */
+  margin-left: 15%; /* Отступ слева */
+  margin-right: 15%; /* Отступ справа */
+  width: 70%; /* Ширина контейнера */
 }
 
+/* Карточка товара */
 .product-item {
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #fff; /* Белый фон */
+  border: 1px solid #ddd; /* Граница */
+  border-radius: 8px; /* Закругленные углы */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Тень */
   display: flex;
-  align-items: center;
-  padding: 20px;
-  width: 100%;
+  align-items: center; /* Выравнивание по вертикали */
+  padding: 20px; /* Внутренние отступы */
+  width: 100%; /* Ширина карточки */
 }
 
+/* Контейнер для изображения товара */
 .product-image {
-  flex: 0 0 20%;
-  margin-left: auto;
-  min-width: 150px;
+  flex: 0 0 20%; /* Фиксируем ширину блока с изображением на 20% от ширины карточки */
+  margin-left: auto; /* Отодвигаем изображение вправо */
+  min-width: 150px; /* Минимальная ширина изображения */
 }
 
+/* Изображение товара */
 .product-image img {
-  width: 100%;
-  height: auto;
-  border-radius: 4px;
+  width: 100%; /* Ширина изображения */
+  height: auto; /* Автоматическая высота */
+  border-radius: 4px; /* Закругленные углы */
 }
 
+/*--------------------------------*/
+/* Стили для карусели изображений */
+
+/* Контейнер для карусели */
 .carousel-container {
   position: relative;
-  width: 100%;
-  height: auto;
-  aspect-ratio: 1 / 1;
+  width: 100%; /* Занимает всю ширину контейнера */
+  height: auto; /* Высота подстраивается автоматически */
+  aspect-ratio: 1 / 1; /* Сохраняем соотношение сторон 1:1 (квадрат) */
 }
 
+/* Изображение в карусели */
 .carousel-container img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  border-radius: 4px;
+  width: 100%; /* Занимает всю ширину контейнера */
+  height: 100%; /* Занимает всю высоту контейнера */
+  object-fit: contain; /* Сохранение пропорций */
+  border-radius: 4px; /* Закругленные углы */
 }
 
+/* Стрелки карусели */
 .carousel-arrow {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: rgba(100, 100, 100, 0.5);
+  background: rgba(100, 100, 100, 0.5); /* Полупрозрачный фон */
   color: white;
   border: none;
   padding: 5px 10px;
   cursor: pointer;
   border-radius: 3px;
-  transition: background 0.3s;
+  transition: background 0.3s; /* Плавное изменение фона */
 }
 
+/* Эффект при наведении на стрелки */
 .carousel-arrow:hover {
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.8); /* Темный фон */
 }
 
+/* Стрелка "назад" */
 .carousel-arrow.prev {
   left: 5px;
 }
 
+/* Стрелка "вперед" */
 .carousel-arrow.next {
   right: 5px;
 }
 
+/*--------------------------------------------------------*/
+/* Стили для списка характеристик товара */
+
+/* Контейнер для списка характеристик */
 .product-details ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 10px 0;
+  list-style-type: none; /* Убираем маркеры */
+  padding: 0; /* Убираем внутренние отступы */
+  margin: 10px 0; /* Отступ сверху и снизу */
 }
 
+/* Элементы списка характеристик */
 .product-details ul li {
-  font-size: 14px;
-  margin-bottom: 5px;
-  color: #555;
-  line-height: 1.5;
+  font-size: 14px; /* Размер шрифта */
+  margin-bottom: 5px; /* Расстояние между строками */
+  color: #555; /* Цвет текста */
+  line-height: 1.5; /* Межстрочный интервал */
 }
 
+/* Контейнер для деталей товара */
 .product-details {
-  flex: 1;
-  margin-left: 20px;
+  flex: 1; /* Занимает всё оставшееся пространство */
+  margin-left: 20px; /* Отступ слева */
 }
 
 .product-details h2 {
   cursor: pointer;
-  font-size: 28px;
-  font-weight: bold;
-  margin-bottom: 10px;
+  font-size: 28px; /* Размер шрифта */
+  font-weight: bold; /* Жирный текст */
+  margin-bottom: 10px; /* Отступ снизу */
 }
-
+/* Список характеристик */
 .product-specs {
-  list-style-type: none;
-  padding: 0;
-  margin: 10px 0;
+  list-style-type: none; /* Убираем маркеры */
+  padding: 0; /* Убираем внутренние отступы */
+  margin: 10px 0; /* Отступ сверху и снизу */
 }
 
+/* Элементы списка характеристик */
 .product-specs li {
-  font-size: 14px;
-  margin-bottom: 5px;
+  font-size: 14px; /* Размер шрифта */
+  margin-bottom: 5px; /* Расстояние между строками */
 }
 
+/* Контейнер для цены и кнопки */
 .product-price-and-cart {
   display: flex;
-  flex-direction: column;
-  gap: 10px;
-  margin-left: 20px;
-  margin-right: 20px;
+  flex-direction: column; /* Вертикальное расположение */
+  gap: 10px; /* Отступ между ценой и кнопкой */
+  margin-left: 20px; /* Отступ слева от блока с деталями */
+  margin-right: 20px; /* Отступ слева от блока с деталями */
 }
 
+/* Цена товара */
 .product-price {
   font-size: 30px;
   font-weight: bold;
   color: #000000;
 }
 
+/* Кнопка "Добавить в корзину" */
 .add-to-cart {
   background-color: #e53935;
   color: white;
   border: none;
-  padding: 10px 40px;
+  padding: 10px 40px;/*высота и ширина кнопки*/
   border-radius: 4px;
   cursor: pointer;
-  font-size: 25px;
-  width: 100%;
+  font-size: 25px; /* Размер шрифта */
+  width: 100%; /* Занимает всю ширину контейнера */
 }
 
+/* Эффект при наведении на кнопку */
 .add-to-cart:hover {
-  background-color: #d32f2f;
+  background-color: #d32f2f; /* Темно-красный фон */
 }
 
+/*----------------------------------------------------------------------------*/
+/* Нижняя черная панель с контактами*/ 
 footer {
   background-color: #222;
   color: white;
@@ -325,35 +419,33 @@ footer {
   justify-content: space-between;
   flex-wrap: wrap;
 }
-
 footer .footer-section {
   flex: 1;
   margin: 10px;
 }
-
 footer h4 {
   margin-bottom: 20px;
 }
-
 footer ul {
   list-style: none;
   padding: 0;
 }
-
 footer ul li {
   margin: 10px 0;
 }
-
 footer ul li a {
   color: white;
   text-decoration: none;
 }
-
 footer p, footer ul li {
   color: white;
 }
 
+/* --------------------------------------------*/
+/* Адаптация под мобильные устройства*/
+
 @media (max-width: 768px) {
+  /* Верхняя панель */
   header {
     top: 10px;
     height: 40px;
@@ -370,12 +462,13 @@ footer p, footer ul li {
   }
   
   .header-buttons {
-    display: none;
+    display: none; /* Скрываем кнопки на мобильных */
   }
 
+  /* Баннер */
   .banner-container {
     height: 25vh;
-    margin-top: 60px;
+    margin-top: 60px; /* Добавляем отступ для фиксированного хедера */
   }
   
   .banner-text {
@@ -384,6 +477,7 @@ footer p, footer ul li {
     padding: 8px 15px;
   }
 
+  /* Секция товаров */
   .products-header h2 {
     font-size: 32px;
     text-align: center;
@@ -404,7 +498,7 @@ footer p, footer ul li {
   .product-image {
     width: 100%;
     margin: 0;
-    order: -1;
+    order: -1; /* Изображение сверху */
   }
   
   .carousel-container {
@@ -414,10 +508,53 @@ footer p, footer ul li {
   }
   
   .product-details {
-    margin-left: 0;
+    margin: 15px 0 0 0;
+    width: 100%;
   }
   
   .product-price-and-cart {
+    margin: 15px 0 0 0;
+    align-items: center;
+  }
+  
+  .add-to-cart {
+    font-size: 20px;
+    padding: 8px 20px;
+  }
+
+  /* Нижняя панель */
+  footer {
+    flex-direction: column;
+    padding: 30px 20px;
+    text-align: center;
+  }
+  
+  .footer-section {
     margin: 20px 0;
+  }
+  
+  /* Скрываем выпадающее меню */
+  .dropdown-menu {
+    display: none !important;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Дополнительные правки для маленьких экранов */
+  nav ul {
+    font-size: 14px;
+  }
+  
+  .banner-text {
+    font-size: 1.2em;
+    width: 95%;
+  }
+  
+  .product-price {
+    font-size: 24px;
+  }
+  
+  .product-details ul li {
+    font-size: 12px;
   }
 }

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-lang-key="page.title">News</title>
+    <link rel="stylesheet" href="style_news.css">
+    <link href="https://fonts.googleapis.com/css2?family=Faustina:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Верхняя панель -->
+    <header>
+        <div class="logo" data-lang-key="header.logo">Green Energy</div>
+        <nav>
+            <ul>
+                <li><a href="main.html" class="nav-link" data-lang-key="header.nav.main">Main</a></li>
+                <li><a href="news.html" class="nav-link" data-lang-key="header.nav.news">News</a></li>
+                <li><a href="review.html" class="nav-link" data-lang-key="header.nav.review">Why us?</a></li>
+                <li class="dropdown">
+                    <span data-lang-key="header.nav.products">Products</span>
+                    <ul class="dropdown-menu">
+                        <li><a href="products.html?category=heating-equipment" data-lang-key="products.heating">Heating Equipment</a></li>
+                        <li><a href="products.html?category=sensors" data-lang-key="products.sensors">Sensors</a></li>
+                        <li><a href="products.html?category=electronic-modules" data-lang-key="products.modules">Electronic Modules</a></li>
+                    </ul>
+                </li>
+                <li><a href="calculation.html" class="nav-link" data-lang-key="header.nav.calculator">Calculator</a></li>
+                <li><a href="about_us.html" class="nav-link" data-lang-key="header.nav.about">About Us</a></li>
+            </ul>
+        </nav>
+        <div class="header-buttons">
+            <a href="contact.html" class="button-link"><button data-lang-key="header.contact">Contact us</button></a>
+            <div class="lang-dropdown">
+                <button class="lang-btn">EN</button>
+                <ul class="lang-menu">
+                    <li data-lang="en">EN</li>
+                    <li data-lang="ru">RU</li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- Основной контент -->
+    <section class="single-slide-page">
+        <div class="achieve-carousel-slide">
+            <h1 data-lang-key="news.title">NEWS</h1>
+
+            <!-- Контейнер для плиток с accordion -->
+            <div class="accordion-container">
+                <!-- Плитка 1 -->
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3 data-lang-key="news.item1.title">Анализ технических решений</h3>
+                    </div>
+                    <div class="accordion-content">
+                        <h4 data-lang-key="news.tasks">Tasks of the stage: </h4>
+                            <p data-lang-key="news.item1.description">На данном этапе проводится детальный анализ архитектурных решений по разработке датчиков температуры и давления, включая оценку
+                                различных типов чувствительных элементов. Изучаются варианты построения системной модели датчика, включающей механическую и электрическую части. Оцениваются возможности
+                                использования цифровых алгоритмов для коррекции нелинейности и температурной зависимости характеристик. Также рассматриваются подходы к реализации энергоэффективных
+                                режимов работы приборов. Результаты анализа помогут определить ключевые параметры будущих решений. </p>
+                        <h4 data-lang-key="news.status">Status: </h4>
+                            <p data-lang-key="news.completed">Completed</p>
+                        <h4 data-lang-key="news.date">Date: </h4>
+                            <p>07.2021 - 12.2021</p>
+                    </div>
+                </div>
+
+                <!-- Плитка 2 -->
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3 data-lang-key="news.item2.title">Разработка технических решений</h3>
+                    </div>
+                    <div class="accordion-content">
+                        <h4 data-lang-key="news.tasks">Tasks of the stage: </h4>
+                            <p data-lang-key="news.item2.description">На данном этапе разрабатываются модели чувствительных элементов и создается архитектура аналоговых и цифровых блоков микросхем. 
+                                Проводится сравнительный анализ предложенных решений. Разрабатываются методы повышения точности измерений путем оптимизации параметров чувствительных элементов и интегральной схемы. 
+                                Разрабатываются алгоритмы коррекции, учитывающие влияние внешних факторов таких как температура и вибрация. Полученные результаты будут использованы для создания прототипа прибора. </p>
+                        <h4 data-lang-key="news.status">Status: </h4>
+                            <p data-lang-key="news.completed">Completed</p>
+                        <h4 data-lang-key="news.date">Date: </h4>
+                            <p>01.2022 - 01.2023</p>
+                    </div>
+                </div>
+
+                <!-- Плитка 3 -->
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3 data-lang-key="news.item3.title">Оптимизация и тестирование</h3>
+                    </div>
+                    <div class="accordion-content">
+                        <h4 data-lang-key="news.tasks">Tasks of the stage: </h4>
+                            <p data-lang-key="news.item3.description">На данном этапе проводится оптимизация и детальная проверка всех компонентов системы на соответствие техническим требованиям и требованиям по изготовлению. Модели проходят тестирование
+                                в различных условиях и режимах работы для выявления возможных проблем.</p>
+                        <h4 data-lang-key="news.status">Status: </h4>
+                            <p data-lang-key="news.completed">Completed</p>
+                        <h4 data-lang-key="news.date">Date: </h4>
+                            <p>01.2023 - 05.2023</p>
+                    </div>
+                </div>
+
+                <!-- Плитка 4 -->
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3 data-lang-key="news.item4.title">Изготовление предсерийного образца</h3>
+                    </div>
+                    <div class="accordion-content">
+                        <h4 data-lang-key="news.tasks">Tasks of the stage: </h4>
+                            <p data-lang-key="news.item4.description">На данном этапе все материалы переданы на фабрику для изготовления первых тестовых образцов.</p>
+                        <h4 data-lang-key="news.status">Status: </h4>
+                            <p data-lang-key="news.completed">Completed</p>
+                        <h4 data-lang-key="news.date">Date: </h4>
+                            <p>05.2023 - 07.2024</p>
+                    </div>
+                </div>
+
+                <!-- Плитка 5 -->
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3 data-lang-key="news.item5.title">Тестирование первых образцов</h3>
+                    </div>
+                    <div class="accordion-content">
+                        <h4 data-lang-key="news.tasks">Tasks of the stage: </h4>
+                            <p data-lang-key="news.item5.description">Завершено изготовление первых тестовых образцов датчиков, далее они были переданы на этап испытаний для проверки их функциональности и надежности. 
+                                Проводится оценка точности измерений, стабильности характеристик и уровня помехозащищенности. Выполняется анализ данных для выявления возможных отклонений 
+                                от ожидаемых параметров. Результаты тестирования будут использованы для доработки конструкции перед запуском в серийное производство. </p>
+                        <h4 data-lang-key="news.status">Status: </h4>
+                            <p data-lang-key="news.in_proccess">In the process</p>
+                        <h4 data-lang-key="news.date">Date: </h4>
+                            <p>07.2024 - ... </p>
+                    </div>
+                </div>
+
+                <!-- Плитка 6 -->
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3 data-lang-key="news.item6.title">Доработка конструкции</h3>
+                    </div>
+                    <div class="accordion-content">
+                        <h4 data-lang-key="news.tasks">Tasks of the stage: </h4>
+                            <p data-lang-key="news.item6.description">По результатам тестирования проводится доработка конструкции чувствительного элемента для компенсации выявленных технологических погрешностей. 
+                                Выполняется оптимизация блоков интегральной схемы для повышения стабильности работы и устранения паразитных параметров. Вносятся изменения в защитные 
+                                механизмы для снижения влияния внешних воздействий, таких как вибрации и электростатические разряды. После завершения доработок выполняется финальная 
+                                проверка соответствия техническим требованиям.
+                            </p>
+                        <h4 data-lang-key="news.status">Status: </h4>
+                            <p data-lang-key="news.in_proccess">In the process</p>
+                        <h4 data-lang-key="news.date">Date: </h4>
+                            <p>07.2024 - ... </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Подвал -->
+    <footer>
+        <div class="footer-section">
+            <h4 data-lang-key="footer.contact">Contact Us</h4>
+            <p data-lang-key="footer.email">Email: dfbfdbb@gmail.com</p>
+            <p data-lang-key="footer.phone">Phone: +1234565789</p>
+            <p data-lang-key="footer.address">Address: 9999, England</p>
+        </div>
+        <div class="footer-section">
+            <h4 data-lang-key="footer.links">Quick Links</h4>
+            <ul>
+                <li><a href="main.html" data-lang-key="header.nav.main">Main</a></li>
+                <li><a href="products.html?category=sensors" data-lang-key="header.nav.products">Products</a></li>
+                <li><a href="about_us.html" data-lang-key="header.nav.about">About Us</a></li>
+                <li><a href="contact.html" data-lang-key="header.contact">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4 data-lang-key="footer.social">Follow Us</h4>
+            <ul>
+                <li><a href="#" data-lang-key="footer.facebook">Facebook</a></li>
+                <li><a href="#" data-lang-key="footer.twitter">Twitter</a></li>
+                <li><a href="#" data-lang-key="footer.linkedin">LinkedIn</a></li>
+                <li><a href="#" data-lang-key="footer.instagram">Instagram</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="script_news.js"></script>
+</body>
+</html>
