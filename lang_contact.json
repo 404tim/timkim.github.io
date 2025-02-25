@@ -41,12 +41,6 @@
       "footer.links.about": "About Us",
       "footer.links.contact": "Contact Us",
       
-      "footer.social.title": "Follow Us",
-      "footer.social.facebook": "Facebook",
-      "footer.social.twitter": "Twitter",
-      "footer.social.linkedin": "LinkedIn",
-      "footer.social.instagram": "Instagram",
-      
       "validation.required": "This field is required",
       "validation.email": "Please enter a valid email address",
       "validation.phone.pattern": "Invalid phone format. Must start with + and country code",
@@ -94,15 +88,56 @@
       "footer.links.about": "О нас",
       "footer.links.contact": "Связаться с нами",
       
-      "footer.social.title": "Подписывайтесь на нас",
-      "footer.social.facebook": "Facebook",
-      "footer.social.twitter": "Twitter",
-      "footer.social.linkedin": "LinkedIn",
-      "footer.social.instagram": "Instagram",
-      
       "validation.required": "Это поле обязательно",
       "validation.email": "Пожалуйста, введите действительный email адрес",
       "validation.phone.pattern": "Неверный формат телефона. Должен начинаться с + и кода страны",
       "validation.phone.format": "Неверный формат. Пример: +1234567890"
+    },
+    "hy": {
+    "page.title": "Կապ մեզ հետ",
+    "header.logo": "Կանաչ Էներգիա",
+    "header.nav.main": "Գլխավոր",
+    "header.nav.news": "Նորություններ",
+    "header.nav.review": "Ինչու՞ մենք",
+    "header.nav.products": "Ապրանքներ",
+    "products.heating": "Ջեռուցման սարքավորումներ",
+    "products.sensors": "Սենսորներ",
+    "products.modules": "Էլեկտրոնային մոդուլներ",
+    "header.nav.calculator": "Հաշվիչ",
+    "header.nav.about": "Մեր մասին",
+    "header.contact": "Կապ մեզ հետ",
+    
+    "contact.title": "Կապ մեզ հետ",
+    "contact.intro": "Հարցե՞ր ունեք կամ օգնության կարիք ունե՞ք: Լրացրեք ստորև բերված ձևը, և մենք շուտով կկապվենք ձեզ հետ:",
+    
+    "form.name": "Լրիվ անուն",
+    "form.email": "Էլ. փոստի հասցե",
+    "form.phone": "Հեռախոսահամար",
+    "form.phone.hint": "Ոչ պարտադիր: Օրինակ՝ +1234567890",
+    "form.message": "Ձեր հաղորդագրությունը",
+    "form.submit": "Ուղարկել հաղորդագրություն",
+    
+    "contact.address.title": "Մեր հասցեն",
+    "contact.address.value": "Անգլիա<br>Լոնդոն",
+    "contact.phone.title": "Հեռախոս",
+    "contact.phone.value": "+12345678",
+    "contact.email.title": "Էլ. փոստ",
+    "contact.email.value": "thsthrtsht@gmail.com",
+    
+    "footer.contact.title": "Կապ մեզ հետ",
+    "footer.contact.email": "Էլ. փոստ: hnffhnfn@gmail.com",
+    "footer.contact.phone": "Հեռախոս: +12345678",
+    "footer.contact.address": "Հասցե: 9999, Անգլիա, Լոնդոն",
+    
+    "footer.links.title": "Արագ հղումներ",
+    "footer.links.main": "Գլխավոր",
+    "footer.links.products": "Ապրանքներ",
+    "footer.links.about": "Մեր մասին",
+    "footer.links.contact": "Կապ մեզ հետ",
+    
+    "validation.required": "Այս դաշտը պարտադիր է",
+    "validation.email": "Խնդրում ենք մուտքագրել վավեր էլ. փոստի հասցե",
+    "validation.phone.pattern": "Հեռախոսի ոչ վավեր ձևաչափ: Պետք է սկսվի + նշանով և երկրի կոդով",
+    "validation.phone.format": "Ոչ վավեր ձևաչափ: Օրինակ՝ +1234567890"
     }
-  }
+}

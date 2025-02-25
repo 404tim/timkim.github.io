@@ -31,13 +31,7 @@
       "footer.quick_links.main": "Main",
       "footer.quick_links.products": "Products",
       "footer.quick_links.about": "About Us",
-      "footer.quick_links.contact": "Contact Us",
-      
-      "footer.social.title": "Follow Us",
-      "footer.social.facebook": "Facebook",
-      "footer.social.twitter": "Twitter",
-      "footer.social.linkedin": "LinkedIn",
-      "footer.social.instagram": "Instagram"
+      "footer.quick_links.contact": "Contact Us"
     },
     "ru": {
       "about.title": "О нас",
@@ -71,12 +65,40 @@
       "footer.quick_links.main": "Главная",
       "footer.quick_links.products": "Продукты",
       "footer.quick_links.about": "О нас",
-      "footer.quick_links.contact": "Связаться с нами",
-      
-      "footer.social.title": "Мы в соцсетях",
-      "footer.social.facebook": "Facebook",
-      "footer.social.twitter": "Twitter",
-      "footer.social.linkedin": "LinkedIn",
-      "footer.social.instagram": "Instagram"
-    }
+      "footer.quick_links.contact": "Связаться с нами"
+    },
+    "hy": {
+    "about.title": "Մեր մասին",
+    "header.logo": "Կանաչ էներգիա",
+    "header.nav.main": "Գլխավոր",
+    "header.nav.news": "Նորություններ",
+    "header.nav.review": "Ինչու՞ մենք",
+    "header.nav.products": "Արտադրանք",
+    "header.nav.calculator": "Հաշվիչ",
+    "header.nav.about": "Մեր մասին",
+    "header.contact": "Կապ մեզ հետ",
+    "products.heating": "Ջեռուցման սարքավորումներ",
+    "products.sensors": "Սենսորներ",
+    "products.modules": "Էլեկտրոնային մոդուլներ",
+    
+    "about.who_we_are.heading": "Ո՞վ ենք մենք",
+    "about.who_we_are.text": "ALSTROEMERIA-ն դինամիկ ստարտափ է տեխնոլոգիայի և նորարարության խաչմերուկում: Հիմնադրվելով էնտուզիաստների թիմի կողմից՝ մեր ընկերությունը ունի հետևյալ նպատակները՝ լուծել էներգիայի ավելորդ սպառման հրատապ խնդիրները: Մեր թիմը միավորում է էլեկտրոնիկայի, ստուգման ծրագրային ապահովման մշակման և ֆիզիկայի փորձը, ինչը թույլ է տալիս մեզ մոտենալ խնդիրներին տարբեր տեսանկյուններից: Որպես ստարտափ՝ մենք կարևորում ենք ճկունությունը, կրեատիվությունը և բարդ խնդիրների լուծման գործնական մոտեցումը:",
+    
+    "about.statistics.heading": "Վիճակագրություն",
+    "about.statistics.text": "Միջին հաշվով, աշխարհում սպառվող ողջ էներգիայի 30-40%-ը ծախսվում է տարբեր տարածքների և բնակելի շենքերի ջեռուցման վրա։ Միաժամանակ մոտ 40%-ը վատնում է ոչ արդյունավետ կառավարման և ավտոմատացման համակարգերի պատճառով։ Սա ոչ միայն էական ազդեցություն է ունենում շրջակա միջավայրի վրա, այլև մեծացնում է ծախսերը հենց սպառողների համար:",
+    
+    "about.what_we_do.heading": "Այն, ինչ մենք անում ենք",
+    "about.what_we_do.text": "Մենք կենտրոնանում ենք առաջադեմ սենսորների և բարձր տեխնոլոգիական էլեկտրոնային մոդուլների ստեղծման վրա, որոնք իրական ժամանակում վերահսկում են ջերմաստիճանը և ճնշումը: Այս լուծումները նախատեսված են ջեռուցվող տարածքներում էներգիայի ավելորդ սպառումը նվազեցնելու համար՝ ապահովելով համակարգերի արդյունավետ և կայուն շահագործումը: Այս կերպ դուք ոչ միայն կօգնեք բնությանը, այլեւ կխնայեք ձեր սեփական գումարը։",
+    
+    "footer.contact.title": "Կոնտակտային տվյալներ",
+    "footer.contact.email": "Էլ․փոստ: eivheiopvbh@gmail.com",
+    "footer.contact.phone": "Հեռախոս: +123456789",
+    "footer.contact.address": "Հասցե: 9999, England",
+    
+    "footer.quick_links.title": "Արագ հղումներ",
+    "footer.quick_links.main": "Գլխավոր",
+    "footer.quick_links.products": "Արտադրանք",
+    "footer.quick_links.about": "Մեր մասին",
+    "footer.quick_links.contact": "Կապ մեզ հետ"
   }
+}

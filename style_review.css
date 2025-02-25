@@ -11,7 +11,7 @@ body {
     width: 100%;
     height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.311), rgba(0, 0, 0, 0.311)), 
-                url('./image/review/head_green-gigapixel-standard\ v2-2x.jpg') center/cover;
+                url('./image/review/head.jpg') center/cover;
     position: relative;
     animation: headerThrow 2.5s 1s ease-in-out 1; /* первое число - длительность анимации, второе — задержка перед началом анимации, ease-in-out -функция времени 
     (анимация начинается и заканчивается плавно, с ускорением и замедлением), в конце - количество повторений анимации */
@@ -43,6 +43,7 @@ body {
     text-align: center;
     text-shadow: 4px 4px 6px rgba(9, 255, 0, 0.597);
     z-index: 1;
+    width: 100%;
 }
 
 /* Индикатор прокрутки */
@@ -243,7 +244,7 @@ nav ul {
 .content-background {
     background: 
         linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),
-        url('./image/review/image.webp') center/cover; /* fixed для параллакса */
+        url('./image/review/fon.webp') center/cover; /* fixed для параллакса */
     background-size: cover;  /* или 'contain' в зависимости от предпочтений */
     background-position: top center; /* Выравнивание изображения по верхнему краю */
     background-repeat: no-repeat;

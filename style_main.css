@@ -54,11 +54,6 @@ header .header-buttons button {
     font-size: 100%; /* Шрифт текста внутри кнопок */
 }
 
-header .header-buttons .buy {
-    background-color: green;
-    color: white;
-}
-
 header .header-buttons button:hover {
     opacity: 0.8;
 }
@@ -201,6 +196,7 @@ nav ul {
     display: flex; /* Добавляем Flexbox */
     justify-content: center; /* Центрируем по горизонтали */
 }
+
 .achieve-carousel-slide h1 {
     position: absolute;
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.548);
@@ -399,7 +395,6 @@ nav ul {
 .accordion-item.active {
     background: rgb(0, 0, 0);
     box-shadow: 0 5px 22px rgba(255, 255, 255, 0.756);
-    /*box-shadow: 0 4px 15px rgba(0, 255, 8, 0.584);*/
 }
 
 .accordion-item.active .accordion-header h3 {
@@ -582,25 +577,30 @@ nav ul {
 /*-----------------------------------------------------------------------*/
 /* Карусель с вкладками*/
 .carousel-container {
-    width: 100%; /* Ширина секции */
-    padding: 3vh 30%; /* Отступы слева и справа для центрирования плитки */
-    box-sizing: border-box; /* Учитываем паддинги в общей ширине */
-    position: relative; /* Для позиционирования внутренних элементов */
-    background-color: #e7e7e7; /* Светло-серый фон секции */
-    padding-bottom: 3vh; /* Отступ снизу для точек */
-    border-radius: 10px; /* Закругление краев секции */
-    overflow: hidden; /* Скрываем выходящие элементы */
-  }
-  
-  /* Обертка для карусели */
-  .carousel-wrapper {
-    position: relative; /* Для позиционирования стрелок внутри */
-    display: flex; /* Выравниваем плитки по горизонтали */
-    justify-content: center; /* Центрируем плитку */
-    align-items: center; /* Вертикальное выравнивание плитки */
-    height: 75vh; /* Высота блока карусели */
-    overflow: hidden; /* Скрываем элементы за пределами видимой области */
-  }
+    width: 100%;
+    padding: 3vh 0; /* Убираем боковые отступы */
+    box-sizing: border-box;
+    position: relative;
+    background-color: #e7e7e7;
+    padding-bottom: 3vh;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex; /* Добавляем flex для центрирования */
+    flex-direction: column; /* Располагаем элементы вертикально */
+    align-items: center; /* Центрируем по горизонтали */
+}
+
+.carousel-wrapper {
+    width: 100%;
+    max-width: 40%;
+    margin: 0 auto; /* Центрирование */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    overflow: hidden;
+}
   
   /* Обертка для плиток */
   .carousel {
@@ -633,6 +633,7 @@ nav ul {
  /* Контент плитки */
  .carousel-content {
    margin: 20px 0; /* Отступы сверху и снизу контента */
+   padding: 0 20px; /* Отступы слева/справа для всего контента */
  }
  
  /* заголовок вунтри плитки в карусели*/
@@ -646,6 +647,10 @@ nav ul {
    font-size: 16px; /* Размер шрифта для текста */
    color: #545454; /* Светло-серый цвет текста */
    margin: 10px 0; /* Отступ сверху и снизу текста */
+   max-width: 100%;
+   overflow-wrap: break-word; /* Современный аналог word-wrap */
+   word-wrap: break-word; /* Перенос длинных слов */
+   padding: 0 15px; /* Дополнительные внутренние отступы */
  }
  
  /* Кнопка внизу плитки */
@@ -754,3 +759,47 @@ footer ul li a {
 footer p, footer ul li {
     color: white;
 }
+
+
+/* При ширине экрана меньше 1400px */
+@media screen and (max-width: 1400px) {
+    .carousel-wrapper {
+        max-width: 50%; /* Увеличиваем максимальную ширину */
+    }
+}
+
+/* При ширине экрана меньше 1200px */
+@media screen and (max-width: 1200px) {
+    .carousel-wrapper {
+        max-width: 60%;
+    }
+}
+
+/* При ширине экрана меньше 992px */
+@media screen and (max-width: 992px) {
+    .carousel-wrapper {
+        max-width: 70%;
+    }
+}
+
+/* При ширине экрана меньше 768px */
+@media screen and (max-width: 768px) {
+    .carousel-wrapper {
+        max-width: 80%;
+    }
+}
+
+/* При ширине экрана меньше 576px */
+@media screen and (max-width: 576px) {
+    .carousel-wrapper {
+        max-width: 90%;
+    }
+}
+
+/* При очень маленьких экранах */
+@media screen and (max-width: 400px) {
+    .carousel-wrapper {
+        max-width: 100%;
+    }
+}
+

@@ -61,12 +61,7 @@
       "footer.links.main": "Main",
       "footer.links.products": "Products",
       "footer.links.about": "About Us",
-      "footer.links.contact": "Contact Us",
-      "footer.social.title": "Follow Us",
-      "footer.social.facebook": "Facebook",
-      "footer.social.twitter": "Twitter",
-      "footer.social.linkedin": "LinkedIn",
-      "footer.social.instagram": "Instagram"
+      "footer.links.contact": "Contact Us"
     },
     "ru": {
       "page.title": "Калькулятор мощности отопления",
@@ -130,11 +125,73 @@
       "footer.links.main": "Главная",
       "footer.links.products": "Продукция",
       "footer.links.about": "О нас",
-      "footer.links.contact": "Связаться с нами",
-      "footer.social.title": "Следите за нами",
-      "footer.social.facebook": "Facebook",
-      "footer.social.twitter": "Twitter",
-      "footer.social.linkedin": "LinkedIn",
-      "footer.social.instagram": "Instagram"
-    }
+      "footer.links.contact": "Связаться с нами"
+    },
+    
+      "hy": {
+        "page.title": "Ջեռուցման Հզորության Հաշվիչ",
+        "header.logo": "Կանաչ Էներգիա",
+        "header.nav.main": "Գլխավոր",
+        "header.nav.news": "Նորություններ",
+        "header.nav.review": "Ինչու՞ մենք",
+        "header.nav.products": "Ապրանքներ",
+        "products.heating": "Ջեռուցման սարքավորումներ",
+        "products.sensors": "Սենսորներ",
+        "products.modules": "Էլեկտրոնային մոդուլներ",
+        "header.nav.calculator": "Հաշվիչ",
+        "header.nav.about": "Մեր մասին",
+        "header.contact": "Կապ մեզ հետ",
+        
+        "calculator.title": "Ջեռուցման Հզորության Հաշվիչ",
+        "calculator.description": "Օպտիմալացրեք ձեր ջեռուցման ծախսերը մեր հեշտ օգտագործվող հաշվիչի միջոցով: Վերլուծելով ձեր տարածքի առանձնահատկությունները՝ մենք օգնում ենք ձեզ ընտրել սարքավորման իդեալական հզորությունը՝ առանց ավելորդ ծախսերի: Ստացեք անհատականացված արդյունք վայրկյանների ընթացքում:",
+        
+        "calculator.dimensions.title": "Սենյակի չափերը",
+        "calculator.dimensions.area": "Սենյակի մակերեսը (մ²):",
+        "calculator.dimensions.area.placeholder": "Մուտքագրեք մակերեսը",
+        "calculator.dimensions.height": "Սենյակի բարձրությունը (մ):",
+        "calculator.dimensions.height.placeholder": "Մուտքագրեք բարձրությունը",
+        "calculator.dimensions.windowArea": "Ապակեպատման տարածք (մ²):",
+        "calculator.dimensions.windowArea.placeholder": "Մուտքագրեք պատուհանների մակերեսը",
+        
+        "calculator.temperature.title": "Ջերմաստիճանի պարամետրեր",
+        "calculator.temperature.outside": "Արտաքին ջերմաստիճանը (°C):",
+        "calculator.temperature.outside.placeholder": "Մուտքագրեք ջերմաստիճանը",
+        "calculator.temperature.inside": "Պահանջվող ներքին ջերմաստիճանը (°C):",
+        "calculator.temperature.inside.placeholder": "Մուտքագրեք ջերմաստիճանը",
+        
+        "calculator.additional.title": "Լրացուցիչ ընտրանքներ",
+        "calculator.additional.windowLayers": "Պատուհանների ապակիների քանակը.",
+        "calculator.additional.windowLayers.single": "Միաշերտ ապակեպատում",
+        "calculator.additional.windowLayers.double": "Կրկնակի ապակեպատում",
+        "calculator.additional.windowLayers.triple": "Եռակի ապակեպատում",
+        "calculator.additional.wallType": "Պատի տեսակը․",
+        "calculator.additional.wallType.brick1800": "Աղյուս (1800 կգ/մ³)",
+        "calculator.additional.wallType.brick1600": "Աղյուս (1600 կգ/մ³)",
+        "calculator.additional.wallType.brick1200": "Աղյուս (1200 կգ/մ³)",
+        "calculator.additional.wallType.concrete": "Երկաթբետոն",
+        "calculator.additional.wallType.ceramsite1800": "Ընդլայնված կավե բետոն (1800 կգ/մ³)",
+        "calculator.additional.wallType.ceramsite500": "Ընդլայնված կավե բետոն (500 կգ/մ³)",
+        "calculator.additional.wallsCount": "Արտաքին պատերի քանակը.",
+        "calculator.additional.floorType": "Հատակի տեսակը․",
+        "calculator.additional.floorType.concrete": "Բետոնե հատակ",
+        "calculator.additional.floorType.pine": "Փայտե հատակ (սոճի)",
+        "calculator.additional.floorType.oak": "Փայտե հատակ (կաղնի)",
+        "calculator.additional.floorType.insulated": "Մեկուսացված բետոնե հատակ",
+        
+        "calculator.button": "Հաշվարկել",
+        "calculator.result.label": "Պահանջվող հզորությունը",
+        "calculator.result.unit": "Վտ",
+        
+        "footer.contact.title": "Կապ մեզ հետ",
+        "footer.contact.email": "Էլ․ փոստ: hnffhnfn@gmail.com",
+        "footer.contact.phone": "Հեռախոս: +12345678",
+        "footer.contact.address": "Հասցե: 9999, Անգլիա, Լոնդոն",
+        "footer.links.title": "Արագ հղումներ",
+        "footer.links.main": "Գլխավոր",
+        "footer.links.products": "Ապրանքներ",
+        "footer.links.about": "Մեր մասին",
+        "footer.links.contact": "Կապ մեզ հետ"
+      }
+     
+
 }
