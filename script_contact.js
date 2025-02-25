@@ -63,8 +63,8 @@ document.addEventListener('DOMContentLoaded', function() {
         
         if (phoneInput) {
             phoneInput.title = currentLang === 'en'
-                ? 'Phone format: +countrycodenumber (e.g. +4915112345678)'
-                : 'Формат телефона: +кодстраныномер (например, +4915112345678)';
+                ? 'Phone format: +12345678901'
+                : 'Формат телефона: +12345678901';
         }
     }
 

@@ -100,7 +100,6 @@ document.addEventListener('DOMContentLoaded', () => {
       floorType,
       safetyFactor = 1.2
     }) {
-      const volume = area * height;
       const deltaT = insideTemp - outsideTemp;
   
       // Определение коэффициента теплопередачи для окон

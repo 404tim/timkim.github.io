@@ -39,6 +39,7 @@ header nav ul {
 header nav ul li {
     cursor: pointer;
     font-size: 100%; /* Шрифт текста вкладок панели */
+    position: relative;
 }
 
 header .header-buttons {
@@ -54,12 +55,27 @@ header .header-buttons button {
     font-size: 100%; /* Шрифт текста внутри кнопок */
 }
 
-header .header-buttons .buy {
-    background-color: green;
-    color: white;
+header .header-buttons button:hover {
+    opacity: 0.8;
 }
 
-header .header-buttons button:hover {
+/* стили для кнопки contact us*/
+.button-link {
+    text-decoration: none; /* Remove underline from the anchor */
+    display: inline-block; /* Proper display for the link */
+}
+
+.header-buttons .button-link button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 100%;
+    background-color: #ffffff; /* Match the green color of the language button */
+    color: rgb(0, 0, 0);
+}
+
+.header-buttons .button-link button:hover {
     opacity: 0.8;
 }
 
@@ -73,16 +89,6 @@ header .header-buttons button:hover {
     color: #c3c3c3; /* Цвет при наведении */
 }
 
-/* Стили для выпадающего списка под Products */
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-  }
-  nav ul li {
-    position: relative;
-    cursor: pointer;
-  }
   
   /* Скрытый выпадающий список */
   .dropdown-menu {

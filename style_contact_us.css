@@ -1,13 +1,12 @@
 /* Основные стили для всей страницы */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Шрифт для всего текста на странице */
-    margin: 0; /* Убираем внешние отступы */
-    padding: 0; /* Убираем внутренние отступы */
+    margin: 0; 
+    padding: 0; 
     background-color: #f8f9fa; /* Цвет фона страницы */
   }
 
 
-/* Верхняя черная панель */
 /* Верхняя черная панель */
 header {
     position: fixed; /* Закрепляем панель сверху */
@@ -43,11 +42,7 @@ header nav ul {
 header nav ul li {
     cursor: pointer;
     font-size: 100%; /* Шрифт текста вкладок панели */
-}
-
-header .header-buttons {
-    display: flex;
-    gap: 10px;
+    position: relative;
 }
 
 header .header-buttons button {
@@ -58,12 +53,27 @@ header .header-buttons button {
     font-size: 100%; /* Шрифт текста внутри кнопок */
 }
 
-header .header-buttons .buy {
-    background-color: green;
-    color: white;
+header .header-buttons button:hover {
+    opacity: 0.8;
 }
 
-header .header-buttons button:hover {
+/* стили для кнопки contact us*/
+.button-link {
+    text-decoration: none; /* Remove underline from the anchor */
+    display: inline-block; /* Proper display for the link */
+}
+
+.header-buttons .button-link button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 100%;
+    background-color: #ffffff; /* Match the green color of the language button */
+    color: rgb(0, 0, 0);
+}
+
+.header-buttons .button-link button:hover {
     opacity: 0.8;
 }
 
@@ -76,17 +86,6 @@ header .header-buttons button:hover {
 .nav-link:hover {
     color: #c3c3c3; /* Цвет при наведении */
 }
-
-/* Стили для выпадающего списка под Products */
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-  }
-  nav ul li {
-    position: relative;
-    cursor: pointer;
-  }
   
   /* Скрытый выпадающий список */
   .dropdown-menu {
